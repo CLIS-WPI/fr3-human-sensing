@@ -11,8 +11,8 @@ transient arm motion (within 0.3 dB), while a fixed-gain regime or a single-poin
 human model makes FR3 look far more expensive.
 
 ## Paper
-Title: *When Human Motion Models Change FR3 Sensing Decisions: Lessons from a
-Ray-Traced Cross-Band ISAC Study.* Submitted to IEEE Communications Magazine.
+Title: *Human-Motion Sensing in FR3: How Target, Antenna, and Detector Choices Shape
+Cross-Band Comparisons.* Submitted to IEEE Communications Magazine.
 Citation to be added.
 
 ## Definitions
@@ -22,28 +22,30 @@ Citation to be added.
   gain grows with carrier.
 - **R0 / R1-P / R1-A:** 3GPP-style single-point human / aggregate-RCS-matched point
   target / aggregate-RCS-matched articulated target (torso plus one moving forearm).
-- **D0 / D1:** fixed 36-template bank / carrier-adapted 64-template bank.
-- **Required EIRP:** the transmit power at which the miss rate of transient arm
-  motion reaches 0.10. The quoted value is the 90th percentile of per-onset required
-  EIRP over the placements whose forearm is in view (95% cluster-bootstrap interval
-  over placements).
+- **D0 / Dfix / D1:** baseline 36-template bank / shared redesigned 64-template bank
+  (designed once at 12 GHz, applied unchanged at every carrier) / per-carrier
+  redesigned 64-template bank.
+- **Required EIRP:** the transmit power at which the mean visible-onset deadline-miss
+  rate reaches 0.10 (200 noise realisations per onset; 95% bootstrap interval over
+  placements, 2000 resamples). Values are quoted in dBm; the F2 rows use the
+  receive-gain shift.
 
 ## Results
 
-### Required EIRP (dBm), 90th percentile over onsets with the forearm in view
-| carrier | F1 D0 | F1 D1 | F2 D0 | F2 D1 |
-| --- | --- | --- | --- | --- |
-| 3.5 GHz | -52.5 | -53.3 | -52.2 | -53.1 |
-| 12 GHz | -38.5 | -42.8 | -49.0 | -53.3 |
-| 15 GHz | -35.5 | -40.3 | -47.9 | -52.8 |
-| 28 GHz | -27.0 | -34.4 | -41.5 | -49.0 |
+### Required EIRP (dBm), operational mean-miss <= 0.10 over onsets with the forearm in view
+| carrier | F1 D0 | F1 Dfix | F1 D1 | F2 D0 | F2 Dfix | F2 D1 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 3.5 GHz | -53.3 | -53.1 | -53.0 | -53.1 | -52.9 | -52.8 |
+| 12 GHz | -39.2 | -42.5 | -42.5 | -49.7 | -53.0 | -53.0 |
+| 15 GHz | -35.9 | -40.2 | -40.3 | -48.3 | -52.7 | -52.7 |
+| 28 GHz | -27.5 | -35.2 | -34.5 | -42.1 | -49.8 | -49.1 |
 
-Extra EIRP relative to 3.5 GHz (dB), for the four design choices:
-| carrier | F1 D0 | F1 D1 | F2 D0 | F2 D1 |
+Extra EIRP relative to 3.5 GHz (dB), for the four design choices (paired over placements):
+| carrier | F1 D0 | F1 Dfix | F2 D0 | F2 Dfix |
 | --- | --- | --- | --- | --- |
-| 12 GHz | 13.9 | 10.5 | 3.2 | -0.2 |
-| 15 GHz | 16.9 | 13.0 | 4.3 | 0.3 |
-| 28 GHz | 25.5 | 18.9 | 10.7 | 4.1 |
+| 12 GHz | 14.1 | 10.6 | 3.4 | -0.1 |
+| 15 GHz | 17.4 | 12.9 | 4.7 | 0.3 |
+| 28 GHz | 25.7 | 17.9 | 11.0 | 3.1 |
 
 8% of onsets have the forearm occluded by the scene (identical at every carrier);
 they are excluded from the visible estimate above and reported separately in
