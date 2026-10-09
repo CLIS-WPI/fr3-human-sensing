@@ -1,0 +1,3576 @@
+{
+  "gate_G11": {
+    "status": "skipped"
+  },
+  "numbers": {
+    "antennas": {
+      "noise_figure_db": 7.0,
+      "note": "F1 fixes receive gain at 20 dB; F2 receive gain follows the aperture.",
+      "receive_gain_db": {
+        "F1": {
+          "12": 20.0,
+          "15": 20.0,
+          "28": 20.0,
+          "3.5": 20.0
+        },
+        "F2": {
+          "12": 30.497605517624756,
+          "15": 32.4355888962248,
+          "28": 34.57457987982031,
+          "3.5": 19.786369483844744
+        }
+      },
+      "transmit_gain_db": {
+        "F1": {
+          "12": 10.211892990699381,
+          "15": 10.211892990699381,
+          "28": 10.211892990699381,
+          "3.5": 10.211892990699381
+        },
+        "F2": {
+          "12": 30.497605517624756,
+          "15": 32.4355888962248,
+          "28": 34.57457987982031,
+          "3.5": 19.786369483844744
+        }
+      }
+    },
+    "d1_minus_d0_eirp_db": [
+      {
+        "ci95_high": 19.938466288391993,
+        "ci95_low": -1.185027495835823,
+        "fc_hz": 3500000000.0,
+        "interval_type": "paired_cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "point": 0.5280355178859963,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": 19.71858141589578,
+        "ci95_low": -1.4049123683320104,
+        "fc_hz": 3500000000.0,
+        "interval_type": "paired_cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "point": 0.3081506453897873,
+        "regime": "F2"
+      },
+      {
+        "ci95_high": 23.09209480714783,
+        "ci95_low": -10.177306576489705,
+        "fc_hz": 12000000000.0,
+        "interval_type": "paired_cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "point": -3.6409748553744024,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": 23.116840710987567,
+        "ci95_low": -10.152560672649841,
+        "fc_hz": 12000000000.0,
+        "interval_type": "paired_cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "point": -3.6162289515345165,
+        "regime": "F2"
+      },
+      {
+        "ci95_high": 21.758161894870888,
+        "ci95_low": -10.61415898593296,
+        "fc_hz": 15000000000.0,
+        "interval_type": "paired_cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "point": -4.968744734450134,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": 21.731424728183114,
+        "ci95_low": -10.640896152620677,
+        "fc_hz": 15000000000.0,
+        "interval_type": "paired_cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "point": -4.995481901137829,
+        "regime": "F2"
+      },
+      {
+        "ci95_high": 23.013703467136214,
+        "ci95_low": -13.29462385956684,
+        "fc_hz": 28000000000.0,
+        "interval_type": "paired_cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "point": -7.861248091217941,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": 23.235880924230226,
+        "ci95_low": -13.072446402472792,
+        "fc_hz": 28000000000.0,
+        "interval_type": "paired_cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "point": -7.639070634123907,
+        "regime": "F2"
+      }
+    ],
+    "d1_minus_d0_eirp_db_visible": [
+      {
+        "ci95_high": 0.006609879137670305,
+        "ci95_low": -1.547898347755721,
+        "fc_hz": 3500000000.0,
+        "interval_type": "paired_cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "point": -0.854451058477288,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -0.21327499335853872,
+        "ci95_low": -1.7677832202519295,
+        "fc_hz": 3500000000.0,
+        "interval_type": "paired_cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "point": -1.0743359309734757,
+        "regime": "F2"
+      },
+      {
+        "ci95_high": -2.6943184034307333,
+        "ci95_low": -4.881080426214207,
+        "fc_hz": 12000000000.0,
+        "interval_type": "paired_cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "point": -4.251557444480291,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -2.669572499590848,
+        "ci95_low": -4.856334522374334,
+        "fc_hz": 12000000000.0,
+        "interval_type": "paired_cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "point": -4.226811540640419,
+        "regime": "F2"
+      },
+      {
+        "ci95_high": -2.7118241011281015,
+        "ci95_low": -5.642386687021428,
+        "fc_hz": 15000000000.0,
+        "interval_type": "paired_cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "point": -4.820690670488048,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -2.7385612678158315,
+        "ci95_low": -5.669123853709124,
+        "fc_hz": 15000000000.0,
+        "interval_type": "paired_cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "point": -4.847427837175758,
+        "regime": "F2"
+      },
+      {
+        "ci95_high": -6.232832046216963,
+        "ci95_low": -8.659499366248442,
+        "fc_hz": 28000000000.0,
+        "interval_type": "paired_cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "point": -7.436461931828337,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -6.010654589122922,
+        "ci95_low": -8.437321909154367,
+        "fc_hz": 28000000000.0,
+        "interval_type": "paired_cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "point": -7.214284474734278,
+        "regime": "F2"
+      }
+    ],
+    "detection_threshold_db": [
+      {
+        "carrier_hz": 3500000000.0,
+        "detection_threshold_db": 10.010942009054558,
+        "detector": "D0",
+        "regime": "F1",
+        "threshold_linear": 10.025226672775519
+      },
+      {
+        "carrier_hz": 3500000000.0,
+        "detection_threshold_db": 8.367250737864357,
+        "detector": "D1",
+        "regime": "F1",
+        "threshold_linear": 6.866336351603621
+      },
+      {
+        "carrier_hz": 3500000000.0,
+        "detection_threshold_db": 10.05842651901233,
+        "detector": "D0",
+        "regime": "F2",
+        "threshold_linear": 10.135441046905726
+      },
+      {
+        "carrier_hz": 3500000000.0,
+        "detection_threshold_db": 8.194850375325938,
+        "detector": "D1",
+        "regime": "F2",
+        "threshold_linear": 6.599104984015488
+      },
+      {
+        "carrier_hz": 12000000000.0,
+        "detection_threshold_db": 10.201839328840443,
+        "detector": "D0",
+        "regime": "F1",
+        "threshold_linear": 10.475721230281748
+      },
+      {
+        "carrier_hz": 12000000000.0,
+        "detection_threshold_db": 8.65835049809809,
+        "detector": "D1",
+        "regime": "F1",
+        "threshold_linear": 7.342349440594107
+      },
+      {
+        "carrier_hz": 12000000000.0,
+        "detection_threshold_db": 10.346989516890021,
+        "detector": "D0",
+        "regime": "F2",
+        "threshold_linear": 10.831758077842842
+      },
+      {
+        "carrier_hz": 12000000000.0,
+        "detection_threshold_db": 8.828246589987547,
+        "detector": "D1",
+        "regime": "F2",
+        "threshold_linear": 7.635274566160064
+      },
+      {
+        "carrier_hz": 15000000000.0,
+        "detection_threshold_db": 10.035834090472484,
+        "detector": "D0",
+        "regime": "F1",
+        "threshold_linear": 10.082852384319672
+      },
+      {
+        "carrier_hz": 15000000000.0,
+        "detection_threshold_db": 8.952989958538048,
+        "detector": "D1",
+        "regime": "F1",
+        "threshold_linear": 7.857764267380404
+      },
+      {
+        "carrier_hz": 15000000000.0,
+        "detection_threshold_db": 10.162722520971991,
+        "detector": "D0",
+        "regime": "F2",
+        "threshold_linear": 10.381790292959007
+      },
+      {
+        "carrier_hz": 15000000000.0,
+        "detection_threshold_db": 9.053141222349847,
+        "detector": "D1",
+        "regime": "F2",
+        "threshold_linear": 8.041075173804956
+      },
+      {
+        "carrier_hz": 28000000000.0,
+        "detection_threshold_db": 10.00324880676664,
+        "detector": "D0",
+        "regime": "F1",
+        "threshold_linear": 10.007483452737949
+      },
+      {
+        "carrier_hz": 28000000000.0,
+        "detection_threshold_db": 8.506608952588927,
+        "detector": "D1",
+        "regime": "F1",
+        "threshold_linear": 7.090239334590377
+      },
+      {
+        "carrier_hz": 28000000000.0,
+        "detection_threshold_db": 10.479384394561574,
+        "detector": "D0",
+        "regime": "F2",
+        "threshold_linear": 11.167049454325198
+      },
+      {
+        "carrier_hz": 28000000000.0,
+        "detection_threshold_db": 9.204921997477912,
+        "detector": "D1",
+        "regime": "F2",
+        "threshold_linear": 8.327069698138365
+      }
+    ],
+    "detector_capture_loss_db": [
+      {
+        "carrier_hz": 3500000000.0,
+        "detector": "D0",
+        "mean_capture_loss_db": -1.9408780372277983,
+        "n": 100,
+        "p10_capture_loss_db": -2.9367899501342474,
+        "regime": "F1"
+      },
+      {
+        "carrier_hz": 3500000000.0,
+        "detector": "D1",
+        "mean_capture_loss_db": -3.0287867235651116,
+        "n": 100,
+        "p10_capture_loss_db": -3.8288906122253223,
+        "regime": "F1"
+      },
+      {
+        "carrier_hz": 3500000000.0,
+        "detector": "D0",
+        "mean_capture_loss_db": -1.9408780372277983,
+        "n": 100,
+        "p10_capture_loss_db": -2.9367899501342483,
+        "regime": "F2"
+      },
+      {
+        "carrier_hz": 3500000000.0,
+        "detector": "D1",
+        "mean_capture_loss_db": -3.028786723565111,
+        "n": 100,
+        "p10_capture_loss_db": -3.8288906122253215,
+        "regime": "F2"
+      },
+      {
+        "carrier_hz": 12000000000.0,
+        "detector": "D0",
+        "mean_capture_loss_db": -5.249864498457584,
+        "n": 100,
+        "p10_capture_loss_db": -8.168217418450388,
+        "regime": "F1"
+      },
+      {
+        "carrier_hz": 12000000000.0,
+        "detector": "D1",
+        "mean_capture_loss_db": -3.446832118808199,
+        "n": 100,
+        "p10_capture_loss_db": -3.3593683050657215,
+        "regime": "F1"
+      },
+      {
+        "carrier_hz": 12000000000.0,
+        "detector": "D0",
+        "mean_capture_loss_db": -5.249864498457583,
+        "n": 100,
+        "p10_capture_loss_db": -8.168217418450386,
+        "regime": "F2"
+      },
+      {
+        "carrier_hz": 12000000000.0,
+        "detector": "D1",
+        "mean_capture_loss_db": -3.4468321188081954,
+        "n": 100,
+        "p10_capture_loss_db": -3.359368305065719,
+        "regime": "F2"
+      },
+      {
+        "carrier_hz": 15000000000.0,
+        "detector": "D0",
+        "mean_capture_loss_db": -5.9285245707374,
+        "n": 100,
+        "p10_capture_loss_db": -8.94594175066337,
+        "regime": "F1"
+      },
+      {
+        "carrier_hz": 15000000000.0,
+        "detector": "D1",
+        "mean_capture_loss_db": -3.5538896912506925,
+        "n": 100,
+        "p10_capture_loss_db": -3.4043896328170464,
+        "regime": "F1"
+      },
+      {
+        "carrier_hz": 15000000000.0,
+        "detector": "D0",
+        "mean_capture_loss_db": -5.9285245707374,
+        "n": 100,
+        "p10_capture_loss_db": -8.945941750663371,
+        "regime": "F2"
+      },
+      {
+        "carrier_hz": 15000000000.0,
+        "detector": "D1",
+        "mean_capture_loss_db": -3.5538896912506903,
+        "n": 100,
+        "p10_capture_loss_db": -3.4043896328170486,
+        "regime": "F2"
+      },
+      {
+        "carrier_hz": 28000000000.0,
+        "detector": "D0",
+        "mean_capture_loss_db": -9.020188073908365,
+        "n": 100,
+        "p10_capture_loss_db": -13.270126815432596,
+        "regime": "F1"
+      },
+      {
+        "carrier_hz": 28000000000.0,
+        "detector": "D1",
+        "mean_capture_loss_db": -4.696951930109397,
+        "n": 100,
+        "p10_capture_loss_db": -4.44690320068205,
+        "regime": "F1"
+      },
+      {
+        "carrier_hz": 28000000000.0,
+        "detector": "D0",
+        "mean_capture_loss_db": -9.020188073908365,
+        "n": 100,
+        "p10_capture_loss_db": -13.270126815432597,
+        "regime": "F2"
+      },
+      {
+        "carrier_hz": 28000000000.0,
+        "detector": "D1",
+        "mean_capture_loss_db": -4.696951930109395,
+        "n": 100,
+        "p10_capture_loss_db": -4.446903200682051,
+        "regime": "F2"
+      }
+    ],
+    "detector_savings_db": [
+      {
+        "carrier_ghz": 3.5,
+        "ci95_db": [
+          -0.6149314020923958,
+          0.1043019955713688
+        ],
+        "comparison": "D1-D0",
+        "fc_hz": 3500000000.0,
+        "note": "positive = second detector needs less EIRP",
+        "regime": "F1",
+        "saving_db": -0.28685164309244726
+      },
+      {
+        "carrier_ghz": 3.5,
+        "ci95_db": [
+          -0.6149314020923958,
+          0.1043019955713688
+        ],
+        "comparison": "D1-D0",
+        "fc_hz": 3500000000.0,
+        "note": "positive = second detector needs less EIRP",
+        "regime": "F2",
+        "saving_db": -0.28685164309244726
+      },
+      {
+        "carrier_ghz": 3.5,
+        "ci95_db": [
+          -0.5328172035285178,
+          0.21775266776699448
+        ],
+        "comparison": "Dfix-D0",
+        "fc_hz": 3500000000.0,
+        "note": "positive = second detector needs less EIRP",
+        "regime": "F1",
+        "saving_db": -0.13637122309221184
+      },
+      {
+        "carrier_ghz": 3.5,
+        "ci95_db": [
+          -0.5328172035285178,
+          0.21775266776699448
+        ],
+        "comparison": "Dfix-D0",
+        "fc_hz": 3500000000.0,
+        "note": "positive = second detector needs less EIRP",
+        "regime": "F2",
+        "saving_db": -0.13637122309221184
+      },
+      {
+        "carrier_ghz": 12.0,
+        "ci95_db": [
+          2.7428572846555,
+          3.981448616273923
+        ],
+        "comparison": "D1-D0",
+        "fc_hz": 12000000000.0,
+        "note": "positive = second detector needs less EIRP",
+        "regime": "F1",
+        "saving_db": 3.351200895743645
+      },
+      {
+        "carrier_ghz": 12.0,
+        "ci95_db": [
+          2.7428572846555,
+          3.981448616273923
+        ],
+        "comparison": "D1-D0",
+        "fc_hz": 12000000000.0,
+        "note": "positive = second detector needs less EIRP",
+        "regime": "F2",
+        "saving_db": 3.351200895743645
+      },
+      {
+        "carrier_ghz": 12.0,
+        "ci95_db": [
+          2.7428572846555,
+          3.981850192990926
+        ],
+        "comparison": "Dfix-D0",
+        "fc_hz": 12000000000.0,
+        "note": "positive = second detector needs less EIRP",
+        "regime": "F1",
+        "saving_db": 3.351411982053314
+      },
+      {
+        "carrier_ghz": 12.0,
+        "ci95_db": [
+          2.7428572846555,
+          3.981850192990926
+        ],
+        "comparison": "Dfix-D0",
+        "fc_hz": 12000000000.0,
+        "note": "positive = second detector needs less EIRP",
+        "regime": "F2",
+        "saving_db": 3.351411982053314
+      },
+      {
+        "carrier_ghz": 15.0,
+        "ci95_db": [
+          3.679286856432636,
+          4.949939151825933
+        ],
+        "comparison": "D1-D0",
+        "fc_hz": 15000000000.0,
+        "note": "positive = second detector needs less EIRP",
+        "regime": "F1",
+        "saving_db": 4.334594403639052
+      },
+      {
+        "carrier_ghz": 15.0,
+        "ci95_db": [
+          3.679286856432636,
+          4.949939151825933
+        ],
+        "comparison": "D1-D0",
+        "fc_hz": 15000000000.0,
+        "note": "positive = second detector needs less EIRP",
+        "regime": "F2",
+        "saving_db": 4.334594403639052
+      },
+      {
+        "carrier_ghz": 15.0,
+        "ci95_db": [
+          3.6332312192822784,
+          4.900695781489006
+        ],
+        "comparison": "Dfix-D0",
+        "fc_hz": 15000000000.0,
+        "note": "positive = second detector needs less EIRP",
+        "regime": "F1",
+        "saving_db": 4.284313847945409
+      },
+      {
+        "carrier_ghz": 15.0,
+        "ci95_db": [
+          3.6332312192822784,
+          4.900695781489006
+        ],
+        "comparison": "Dfix-D0",
+        "fc_hz": 15000000000.0,
+        "note": "positive = second detector needs less EIRP",
+        "regime": "F2",
+        "saving_db": 4.284313847945409
+      },
+      {
+        "carrier_ghz": 28.0,
+        "ci95_db": [
+          6.28892503296664,
+          7.676460255432684
+        ],
+        "comparison": "D1-D0",
+        "fc_hz": 28000000000.0,
+        "note": "positive = second detector needs less EIRP",
+        "regime": "F1",
+        "saving_db": 6.961416368424564
+      },
+      {
+        "carrier_ghz": 28.0,
+        "ci95_db": [
+          6.28892503296664,
+          7.676460255432684
+        ],
+        "comparison": "D1-D0",
+        "fc_hz": 28000000000.0,
+        "note": "positive = second detector needs less EIRP",
+        "regime": "F2",
+        "saving_db": 6.961416368424564
+      },
+      {
+        "carrier_ghz": 28.0,
+        "ci95_db": [
+          7.029178684873788,
+          8.376860831941796
+        ],
+        "comparison": "Dfix-D0",
+        "fc_hz": 28000000000.0,
+        "note": "positive = second detector needs less EIRP",
+        "regime": "F1",
+        "saving_db": 7.657633812972406
+      },
+      {
+        "carrier_ghz": 28.0,
+        "ci95_db": [
+          7.029178684873788,
+          8.376860831941796
+        ],
+        "comparison": "Dfix-D0",
+        "fc_hz": 28000000000.0,
+        "note": "positive = second detector needs less EIRP",
+        "regime": "F2",
+        "saving_db": 7.657633812972406
+      }
+    ],
+    "hand_calculation_summary": {
+      "cell": {
+        "fc_hz": 12000000000.0,
+        "motion_amplitude_m": 0.18,
+        "motion_omega_hz": 0.9,
+        "regime": "F1",
+        "scenario_root": [
+          2.0,
+          1.5,
+          1.4
+        ]
+      },
+      "components_db": {
+        "analytic_vs_matched": 1.964176065414705,
+        "capture_bank_vs_projection_remainder": 2.786804502001932,
+        "combined_capture_bank_db": -6.047779925835341,
+        "exact_geometric_capture_db": -3.338528957576484,
+        "template_capture_loss": 6.047779925835341,
+        "viewing_geometry_projection": 3.2609754238334094
+      },
+      "note": "1.96 + 3.26 + 2.79 = 8.01 dB",
+      "residual_db": 8.011955991250048
+    },
+    "hidden_forearm": {
+      "note": "forearm occluded by the glass partition (root LoS eligibility)",
+      "of_100_onsets": 8,
+      "onsets": 8,
+      "placements": 4
+    },
+    "inr": [
+      {
+        "detector": "D0",
+        "fc_hz": 3500000000.0,
+        "interference_off": true,
+        "interval_type": "analytic_1to1_db_shift_from_primary",
+        "max_tolerable_inr_db": 92.45240410266459,
+        "regime": "F1",
+        "required_eirp_dbm_by_inr": {
+          "inr_0db": -49.442104148493904,
+          "inr_10db": -42.03847725355146,
+          "inr_20db": -32.40919036730729,
+          "inr_30db": -22.448063330340528,
+          "inr_5db": -46.25909362447277
+        }
+      },
+      {
+        "detector": "D1",
+        "fc_hz": 3500000000.0,
+        "interference_off": true,
+        "interval_type": "analytic_1to1_db_shift_from_primary",
+        "max_tolerable_inr_db": 93.30685516158286,
+        "regime": "F1",
+        "required_eirp_dbm_by_inr": {
+          "inr_0db": -50.29655520697119,
+          "inr_10db": -42.89292831202876,
+          "inr_20db": -33.26364142578458,
+          "inr_30db": -23.302514388817816,
+          "inr_5db": -47.11354468295006
+        }
+      },
+      {
+        "detector": "D0",
+        "fc_hz": 3500000000.0,
+        "interference_off": true,
+        "interval_type": "analytic_1to1_db_shift_from_primary",
+        "max_tolerable_inr_db": 102.02514307255075,
+        "regime": "F2",
+        "required_eirp_dbm_by_inr": {
+          "inr_0db": -49.22847363233865,
+          "inr_10db": -41.824846737396214,
+          "inr_20db": -32.195559851152034,
+          "inr_30db": -22.234432814185272,
+          "inr_5db": -46.04546310831751
+        }
+      },
+      {
+        "detector": "D1",
+        "fc_hz": 3500000000.0,
+        "interference_off": true,
+        "interval_type": "analytic_1to1_db_shift_from_primary",
+        "max_tolerable_inr_db": 102.87959413107671,
+        "regime": "F2",
+        "required_eirp_dbm_by_inr": {
+          "inr_0db": -50.082924690815936,
+          "inr_10db": -42.679297795873495,
+          "inr_20db": -33.05001090962932,
+          "inr_30db": -23.08888387266256,
+          "inr_5db": -46.8999141667948
+        }
+      },
+      {
+        "detector": "D0",
+        "fc_hz": 12000000000.0,
+        "interference_off": true,
+        "interval_type": "analytic_1to1_db_shift_from_primary",
+        "max_tolerable_inr_db": 78.53553796400215,
+        "regime": "F1",
+        "required_eirp_dbm_by_inr": {
+          "inr_0db": -35.52523806820812,
+          "inr_10db": -28.12161117326568,
+          "inr_20db": -18.492324287021503,
+          "inr_30db": -8.531197250054742,
+          "inr_5db": -32.34222754418698
+        }
+      },
+      {
+        "detector": "D1",
+        "fc_hz": 12000000000.0,
+        "interference_off": true,
+        "interval_type": "analytic_1to1_db_shift_from_primary",
+        "max_tolerable_inr_db": 82.7870954464683,
+        "regime": "F1",
+        "required_eirp_dbm_by_inr": {
+          "inr_0db": -39.77679551268841,
+          "inr_10db": -32.373168617745975,
+          "inr_20db": -22.743881731501794,
+          "inr_30db": -12.782754694535033,
+          "inr_5db": -36.593784988667274
+        }
+      },
+      {
+        "detector": "D0",
+        "fc_hz": 12000000000.0,
+        "interference_off": true,
+        "interval_type": "analytic_1to1_db_shift_from_primary",
+        "max_tolerable_inr_db": 109.53074906004903,
+        "regime": "F2",
+        "required_eirp_dbm_by_inr": {
+          "inr_0db": -46.022843585832874,
+          "inr_10db": -38.61921669089044,
+          "inr_20db": -28.98992980464626,
+          "inr_30db": -19.028802767679498,
+          "inr_5db": -42.83983306181174
+        }
+      },
+      {
+        "detector": "D1",
+        "fc_hz": 12000000000.0,
+        "interference_off": true,
+        "interval_type": "analytic_1to1_db_shift_from_primary",
+        "max_tolerable_inr_db": 113.78230650455956,
+        "regime": "F2",
+        "required_eirp_dbm_by_inr": {
+          "inr_0db": -50.274401030313165,
+          "inr_10db": -42.87077413537072,
+          "inr_20db": -33.24148724912655,
+          "inr_30db": -23.28036021215979,
+          "inr_5db": -47.09139050629203
+        }
+      },
+      {
+        "detector": "D0",
+        "fc_hz": 15000000000.0,
+        "interference_off": true,
+        "interval_type": "analytic_1to1_db_shift_from_primary",
+        "max_tolerable_inr_db": 75.5088530049031,
+        "regime": "F1",
+        "required_eirp_dbm_by_inr": {
+          "inr_0db": -32.49855317041486,
+          "inr_10db": -25.09492627547242,
+          "inr_20db": -15.465639389228244,
+          "inr_30db": -5.504512352261482,
+          "inr_5db": -29.315542646393723
+        }
+      },
+      {
+        "detector": "D1",
+        "fc_hz": 15000000000.0,
+        "interference_off": true,
+        "interval_type": "analytic_1to1_db_shift_from_primary",
+        "max_tolerable_inr_db": 80.32954375728679,
+        "regime": "F1",
+        "required_eirp_dbm_by_inr": {
+          "inr_0db": -37.31924384090291,
+          "inr_10db": -29.91561694596047,
+          "inr_20db": -20.286330059716292,
+          "inr_30db": -10.32520302274953,
+          "inr_5db": -34.13623331688177
+        }
+      },
+      {
+        "detector": "D0",
+        "fc_hz": 15000000000.0,
+        "interference_off": true,
+        "interval_type": "analytic_1to1_db_shift_from_primary",
+        "max_tolerable_inr_db": 110.38003091946447,
+        "regime": "F2",
+        "required_eirp_dbm_by_inr": {
+          "inr_0db": -44.93414206663966,
+          "inr_10db": -37.53051517169722,
+          "inr_20db": -27.901228285453044,
+          "inr_30db": -17.940101248486283,
+          "inr_5db": -41.75113154261852
+        }
+      },
+      {
+        "detector": "D1",
+        "fc_hz": 15000000000.0,
+        "interference_off": true,
+        "interval_type": "analytic_1to1_db_shift_from_primary",
+        "max_tolerable_inr_db": 115.20072158997921,
+        "regime": "F2",
+        "required_eirp_dbm_by_inr": {
+          "inr_0db": -49.75483273712771,
+          "inr_10db": -42.351205842185266,
+          "inr_20db": -32.72191895594109,
+          "inr_30db": -22.76079191897433,
+          "inr_5db": -46.57182221310657
+        }
+      },
+      {
+        "detector": "D0",
+        "fc_hz": 28000000000.0,
+        "interference_off": true,
+        "interval_type": "analytic_1to1_db_shift_from_primary",
+        "max_tolerable_inr_db": 66.96126319550177,
+        "regime": "F1",
+        "required_eirp_dbm_by_inr": {
+          "inr_0db": -23.95096411315686,
+          "inr_10db": -16.547337218214423,
+          "inr_20db": -6.918050331970246,
+          "inr_30db": 3.0430767049965155,
+          "inr_5db": -20.76795358913573
+        }
+      },
+      {
+        "detector": "D1",
+        "fc_hz": 28000000000.0,
+        "interference_off": true,
+        "interval_type": "analytic_1to1_db_shift_from_primary",
+        "max_tolerable_inr_db": 74.39772584385963,
+        "regime": "F1",
+        "required_eirp_dbm_by_inr": {
+          "inr_0db": -31.387426044985197,
+          "inr_10db": -23.98379915004276,
+          "inr_20db": -14.354512263798583,
+          "inr_30db": -4.393385226831821,
+          "inr_5db": -28.204415520964062
+        }
+      },
+      {
+        "detector": "D0",
+        "fc_hz": 28000000000.0,
+        "interference_off": true,
+        "interval_type": "analytic_1to1_db_shift_from_primary",
+        "max_tolerable_inr_db": 106.11042382933094,
+        "regime": "F2",
+        "required_eirp_dbm_by_inr": {
+          "inr_0db": -38.52554399297718,
+          "inr_10db": -31.12191709803474,
+          "inr_20db": -21.492630211790562,
+          "inr_30db": -11.5315031748238,
+          "inr_5db": -35.34253346895604
+        }
+      },
+      {
+        "detector": "D1",
+        "fc_hz": 28000000000.0,
+        "interference_off": true,
+        "interval_type": "analytic_1to1_db_shift_from_primary",
+        "max_tolerable_inr_db": 113.54688576124644,
+        "regime": "F2",
+        "required_eirp_dbm_by_inr": {
+          "inr_0db": -45.96200592480551,
+          "inr_10db": -38.558379029863076,
+          "inr_20db": -28.929092143618895,
+          "inr_30db": -18.967965106652134,
+          "inr_5db": -42.778995400784375
+        }
+      }
+    ],
+    "nonfinite_status_counts": {
+      "above_search_limit": 10,
+      "finite": 1586,
+      "no_modeled_motion_return": 4
+    },
+    "occlusion_floor": [
+      {
+        "carrier_hz": 3500000000.0,
+        "n_forearm_blocked": 8,
+        "n_onsets": 100,
+        "occlusion_floor": 0.08,
+        "placements_involved": [
+          [
+            6.0,
+            2.5,
+            1.4
+          ],
+          [
+            6.5,
+            3.0,
+            1.4
+          ],
+          [
+            7.0,
+            3.0,
+            1.4
+          ],
+          [
+            7.5,
+            3.5,
+            1.4
+          ]
+        ],
+        "regime": "F1"
+      },
+      {
+        "carrier_hz": 3500000000.0,
+        "n_forearm_blocked": 8,
+        "n_onsets": 100,
+        "occlusion_floor": 0.08,
+        "placements_involved": [
+          [
+            6.0,
+            2.5,
+            1.4
+          ],
+          [
+            6.5,
+            3.0,
+            1.4
+          ],
+          [
+            7.0,
+            3.0,
+            1.4
+          ],
+          [
+            7.5,
+            3.5,
+            1.4
+          ]
+        ],
+        "regime": "F2"
+      },
+      {
+        "carrier_hz": 12000000000.0,
+        "n_forearm_blocked": 8,
+        "n_onsets": 100,
+        "occlusion_floor": 0.08,
+        "placements_involved": [
+          [
+            6.0,
+            2.5,
+            1.4
+          ],
+          [
+            6.5,
+            3.0,
+            1.4
+          ],
+          [
+            7.0,
+            3.0,
+            1.4
+          ],
+          [
+            7.5,
+            3.5,
+            1.4
+          ]
+        ],
+        "regime": "F1"
+      },
+      {
+        "carrier_hz": 12000000000.0,
+        "n_forearm_blocked": 8,
+        "n_onsets": 100,
+        "occlusion_floor": 0.08,
+        "placements_involved": [
+          [
+            6.0,
+            2.5,
+            1.4
+          ],
+          [
+            6.5,
+            3.0,
+            1.4
+          ],
+          [
+            7.0,
+            3.0,
+            1.4
+          ],
+          [
+            7.5,
+            3.5,
+            1.4
+          ]
+        ],
+        "regime": "F2"
+      },
+      {
+        "carrier_hz": 15000000000.0,
+        "n_forearm_blocked": 8,
+        "n_onsets": 100,
+        "occlusion_floor": 0.08,
+        "placements_involved": [
+          [
+            6.0,
+            2.5,
+            1.4
+          ],
+          [
+            6.5,
+            3.0,
+            1.4
+          ],
+          [
+            7.0,
+            3.0,
+            1.4
+          ],
+          [
+            7.5,
+            3.5,
+            1.4
+          ]
+        ],
+        "regime": "F1"
+      },
+      {
+        "carrier_hz": 15000000000.0,
+        "n_forearm_blocked": 8,
+        "n_onsets": 100,
+        "occlusion_floor": 0.08,
+        "placements_involved": [
+          [
+            6.0,
+            2.5,
+            1.4
+          ],
+          [
+            6.5,
+            3.0,
+            1.4
+          ],
+          [
+            7.0,
+            3.0,
+            1.4
+          ],
+          [
+            7.5,
+            3.5,
+            1.4
+          ]
+        ],
+        "regime": "F2"
+      },
+      {
+        "carrier_hz": 28000000000.0,
+        "n_forearm_blocked": 8,
+        "n_onsets": 100,
+        "occlusion_floor": 0.08,
+        "placements_involved": [
+          [
+            6.0,
+            2.5,
+            1.4
+          ],
+          [
+            6.5,
+            3.0,
+            1.4
+          ],
+          [
+            7.0,
+            3.0,
+            1.4
+          ],
+          [
+            7.5,
+            3.5,
+            1.4
+          ]
+        ],
+        "regime": "F1"
+      },
+      {
+        "carrier_hz": 28000000000.0,
+        "n_forearm_blocked": 8,
+        "n_onsets": 100,
+        "occlusion_floor": 0.08,
+        "placements_involved": [
+          [
+            6.0,
+            2.5,
+            1.4
+          ],
+          [
+            6.5,
+            3.0,
+            1.4
+          ],
+          [
+            7.0,
+            3.0,
+            1.4
+          ],
+          [
+            7.5,
+            3.5,
+            1.4
+          ]
+        ],
+        "regime": "F2"
+      }
+    ],
+    "placements": {
+      "exclusion_reasons": {
+        "blocked_by:partition": 42
+      },
+      "n_eligible_grid": 90,
+      "n_excluded": 42,
+      "n_selected": 50,
+      "onset_events_per_cell": 2
+    },
+    "provenance": {
+      "analytic_shifts": {
+        "inr": "analytic 1:1 dB shift",
+        "rcs_exponent_required_eirp_dbm": "analytic 1:1 dB shift"
+      },
+      "estimand_units": {
+        "d1_minus_d0_eirp_db": "dB (difference of two dBm values)",
+        "detection_threshold_db": "dB",
+        "max_tolerable_inr_db": "dB",
+        "rcs_exponent_required_eirp_dbm": "dBm",
+        "required_eirp_dbm": "dBm (primary: pooled-miss 90th pct of per-onset req)",
+        "required_eirp_dbm_per_placement_median": "dBm (secondary: median over placements)"
+      },
+      "interval_type_default": "cluster_bootstrap_over_placements",
+      "note": "D1-D0 differences are in dB, not dBm. Three required-EIRP estimands: (1) required_eirp_dbm = pre-specified unconditional pooled P90; (2) required_eirp_dbm_visible = pooled P90 over forearm-visible onsets; (3) required_eirp_dbm_per_placement_median = per-placement median.",
+      "pfa": 0.001,
+      "primary_estimand": "pre-specified unconditional pooled miss <= 0.10: 90th percentile of per-onset required EIRP pooled over placements",
+      "primary_miss_target": 0.1,
+      "rcs_anchor_hz": 3500000000.0,
+      "rcs_anchor_previous_hz": 12000000000.0,
+      "secondary_estimand": "median over placements of per-placement 10th-percentile requirement",
+      "visible_estimand": "pooled miss <= 0.10 over forearm-visible onsets only (forearm_visible from geometry, never from statistics)",
+      "false_alarm_calibration": "results/commag/audit_calibration.json; thresholds recalibrated to 1e-3 with 10000000 windows/cell, validated on 1000000 fresh windows/cell; git 0d5f7f9"
+    },
+    "r0_r1p_miss_at_max_power": [
+      {
+        "fc_hz": 3500000000.0,
+        "max_tested_eirp_dbm": 70.0,
+        "miss_at_max_power": 1.0,
+        "model": "R0",
+        "note": "no independent limb motion"
+      },
+      {
+        "fc_hz": 3500000000.0,
+        "max_tested_eirp_dbm": 70.0,
+        "miss_at_max_power": 1.0,
+        "model": "R1-P",
+        "note": "no independent limb motion"
+      },
+      {
+        "fc_hz": 12000000000.0,
+        "max_tested_eirp_dbm": 70.0,
+        "miss_at_max_power": 1.0,
+        "model": "R0",
+        "note": "no independent limb motion"
+      },
+      {
+        "fc_hz": 12000000000.0,
+        "max_tested_eirp_dbm": 70.0,
+        "miss_at_max_power": 1.0,
+        "model": "R1-P",
+        "note": "no independent limb motion"
+      },
+      {
+        "fc_hz": 15000000000.0,
+        "max_tested_eirp_dbm": 70.0,
+        "miss_at_max_power": 1.0,
+        "model": "R0",
+        "note": "no independent limb motion"
+      },
+      {
+        "fc_hz": 15000000000.0,
+        "max_tested_eirp_dbm": 70.0,
+        "miss_at_max_power": 1.0,
+        "model": "R1-P",
+        "note": "no independent limb motion"
+      },
+      {
+        "fc_hz": 28000000000.0,
+        "max_tested_eirp_dbm": 70.0,
+        "miss_at_max_power": 1.0,
+        "model": "R0",
+        "note": "no independent limb motion"
+      },
+      {
+        "fc_hz": 28000000000.0,
+        "max_tested_eirp_dbm": 70.0,
+        "miss_at_max_power": 1.0,
+        "model": "R1-P",
+        "note": "no independent limb motion"
+      }
+    ],
+    "rcs_exponent_required_eirp_dbm": [
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 3500000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": -1,
+        "regime": "F1",
+        "required_eirp_dbm": -52.452404105133716
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 3500000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 0,
+        "regime": "F1",
+        "required_eirp_dbm": -52.452404105133716
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 3500000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 1,
+        "regime": "F1",
+        "required_eirp_dbm": -52.452404105133716
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 3500000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": -1,
+        "regime": "F1",
+        "required_eirp_dbm": -53.306855163611004
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 3500000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 0,
+        "regime": "F1",
+        "required_eirp_dbm": -53.306855163611004
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 3500000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 1,
+        "regime": "F1",
+        "required_eirp_dbm": -53.306855163611004
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 3500000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": -1,
+        "regime": "F2",
+        "required_eirp_dbm": -52.23877358897846
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 3500000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 0,
+        "regime": "F2",
+        "required_eirp_dbm": -52.23877358897846
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 3500000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 1,
+        "regime": "F2",
+        "required_eirp_dbm": -52.23877358897846
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 3500000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": -1,
+        "regime": "F2",
+        "required_eirp_dbm": -53.09322464745575
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 3500000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 0,
+        "regime": "F2",
+        "required_eirp_dbm": -53.09322464745575
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 3500000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 1,
+        "regime": "F2",
+        "required_eirp_dbm": -53.09322464745575
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 12000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": -1,
+        "regime": "F1",
+        "required_eirp_dbm": -33.18440600787444
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 12000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 0,
+        "regime": "F1",
+        "required_eirp_dbm": -38.53553802484793
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 12000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 1,
+        "regime": "F1",
+        "required_eirp_dbm": -43.88667004182142
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 12000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": -1,
+        "regime": "F1",
+        "required_eirp_dbm": -37.43596345235473
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 12000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 0,
+        "regime": "F1",
+        "required_eirp_dbm": -42.78709546932822
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 12000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 1,
+        "regime": "F1",
+        "required_eirp_dbm": -48.138227486301716
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 12000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": -1,
+        "regime": "F2",
+        "required_eirp_dbm": -43.68201152549919
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 12000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 0,
+        "regime": "F2",
+        "required_eirp_dbm": -49.033143542472686
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 12000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 1,
+        "regime": "F2",
+        "required_eirp_dbm": -54.38427555944618
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 12000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": -1,
+        "regime": "F2",
+        "required_eirp_dbm": -47.93356896997949
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 12000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 0,
+        "regime": "F2",
+        "required_eirp_dbm": -53.28470098695298
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 12000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 1,
+        "regime": "F2",
+        "required_eirp_dbm": -58.635833003926464
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 15000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": -1,
+        "regime": "F1",
+        "required_eirp_dbm": -29.188620980000614
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 15000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 0,
+        "regime": "F1",
+        "required_eirp_dbm": -35.50885312705467
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 15000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 1,
+        "regime": "F1",
+        "required_eirp_dbm": -41.82908527410873
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 15000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": -1,
+        "regime": "F1",
+        "required_eirp_dbm": -34.00931165048866
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 15000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 0,
+        "regime": "F1",
+        "required_eirp_dbm": -40.32954379754272
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 15000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 1,
+        "regime": "F1",
+        "required_eirp_dbm": -46.649775944596776
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 15000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": -1,
+        "regime": "F2",
+        "required_eirp_dbm": -41.624209876225414
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 15000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 0,
+        "regime": "F2",
+        "required_eirp_dbm": -47.94444202327947
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 15000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 1,
+        "regime": "F2",
+        "required_eirp_dbm": -54.26467417033353
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 15000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": -1,
+        "regime": "F2",
+        "required_eirp_dbm": -46.44490054671346
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 15000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 0,
+        "regime": "F2",
+        "required_eirp_dbm": -52.76513269376752
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 15000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 1,
+        "regime": "F2",
+        "required_eirp_dbm": -59.085364840821576
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 28000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": -1,
+        "regime": "F1",
+        "required_eirp_dbm": -17.93036419987724
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 28000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 0,
+        "regime": "F1",
+        "required_eirp_dbm": -26.961264069796673
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 28000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 1,
+        "regime": "F1",
+        "required_eirp_dbm": -35.99216393971611
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 28000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": -1,
+        "regime": "F1",
+        "required_eirp_dbm": -25.366826131705572
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 28000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 0,
+        "regime": "F1",
+        "required_eirp_dbm": -34.39772600162501
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 28000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 1,
+        "regime": "F1",
+        "required_eirp_dbm": -43.42862587154445
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 28000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": -1,
+        "regime": "F2",
+        "required_eirp_dbm": -32.50494407969755
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 28000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 0,
+        "regime": "F2",
+        "required_eirp_dbm": -41.53584394961699
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D0",
+        "fc_hz": 28000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 1,
+        "regime": "F2",
+        "required_eirp_dbm": -50.56674381953643
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 28000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": -1,
+        "regime": "F2",
+        "required_eirp_dbm": -39.941406011525885
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 28000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 0,
+        "regime": "F2",
+        "required_eirp_dbm": -48.97230588144532
+      },
+      {
+        "anchor_hz": 3500000000.0,
+        "detector": "D1",
+        "fc_hz": 28000000000.0,
+        "interval_type": "analytic_1to1_db_shift",
+        "model": "R1-A",
+        "rcs_exponent": 1,
+        "regime": "F2",
+        "required_eirp_dbm": -58.00320575136476
+      }
+    ],
+    "rcs_source": {
+      "forearm_sigma_m2": 0.3,
+      "rationale": "preregistered aggregate scattering budget",
+      "split": "DEFAULT_SEGMENT_WEIGHTS {torso:0.7, right_forearm:0.3}",
+      "torso_sigma_m2": 0.7
+    },
+    "required_eirp_dbm": [
+      {
+        "ci95_high": 32.51079419700087,
+        "ci95_low": -52.768582035874424,
+        "detector": "D0",
+        "estimand": "pooled_miss_<=0.10 (90th pct of per-onset req)",
+        "fc_hz": 3500000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "onset_count": 100,
+        "point": -51.49636926692874,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": 31.942476067997827,
+        "ci95_low": -53.58905137114118,
+        "detector": "D1",
+        "estimand": "pooled_miss_<=0.10 (90th pct of per-onset req)",
+        "fc_hz": 3500000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "onset_count": 100,
+        "point": -50.96833374904274,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": 32.724424713156125,
+        "ci95_low": -52.55495151971917,
+        "detector": "D0",
+        "estimand": "pooled_miss_<=0.10 (90th pct of per-onset req)",
+        "fc_hz": 3500000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "onset_count": 100,
+        "point": -51.28273875077348,
+        "regime": "F2",
+        "rx_gain_correction_db": 0.21363051615525563
+      },
+      {
+        "ci95_high": 32.15610658415308,
+        "ci95_low": -53.375420854985926,
+        "detector": "D1",
+        "estimand": "pooled_miss_<=0.10 (90th pct of per-onset req)",
+        "fc_hz": 3500000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "onset_count": 100,
+        "point": -50.754703232887486,
+        "regime": "F2",
+        "rx_gain_correction_db": 0.21363051615525563
+      },
+      {
+        "ci95_high": 40.675959095719655,
+        "ci95_low": -39.467653793890335,
+        "detector": "D0",
+        "estimand": "pooled_miss_<=0.10 (90th pct of per-onset req)",
+        "fc_hz": 12000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "onset_count": 100,
+        "point": -37.54178347975141,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": 30.49865251922995,
+        "ci95_low": -43.01655338568389,
+        "detector": "D1",
+        "estimand": "pooled_miss_<=0.10 (90th pct of per-onset req)",
+        "fc_hz": 12000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "onset_count": 100,
+        "point": -41.18275833512581,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": 30.1783535780949,
+        "ci95_low": -49.96525931151509,
+        "detector": "D0",
+        "estimand": "pooled_miss_<=0.10 (90th pct of per-onset req)",
+        "fc_hz": 12000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "onset_count": 100,
+        "point": -48.039388997376165,
+        "regime": "F2",
+        "rx_gain_correction_db": -10.497605517624756
+      },
+      {
+        "ci95_high": 20.001047001605194,
+        "ci95_low": -53.51415890330865,
+        "detector": "D1",
+        "estimand": "pooled_miss_<=0.10 (90th pct of per-onset req)",
+        "fc_hz": 12000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "onset_count": 100,
+        "point": -51.68036385275057,
+        "regime": "F2",
+        "rx_gain_correction_db": -10.497605517624756
+      },
+      {
+        "ci95_high": 41.55753598460954,
+        "ci95_low": -36.512920093650884,
+        "detector": "D0",
+        "estimand": "pooled_miss_<=0.10 (90th pct of per-onset req)",
+        "fc_hz": 15000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "onset_count": 100,
+        "point": -33.90410204236719,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": 30.94337699867658,
+        "ci95_low": -40.42710835806148,
+        "detector": "D1",
+        "estimand": "pooled_miss_<=0.10 (90th pct of per-onset req)",
+        "fc_hz": 15000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "onset_count": 100,
+        "point": -38.872846776817326,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": 29.121947088384736,
+        "ci95_low": -48.948508989875684,
+        "detector": "D0",
+        "estimand": "pooled_miss_<=0.10 (90th pct of per-onset req)",
+        "fc_hz": 15000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "onset_count": 100,
+        "point": -46.33969093859199,
+        "regime": "F2",
+        "rx_gain_correction_db": -12.4355888962248
+      },
+      {
+        "ci95_high": 18.50778810245178,
+        "ci95_low": -52.86269725428628,
+        "detector": "D1",
+        "estimand": "pooled_miss_<=0.10 (90th pct of per-onset req)",
+        "fc_hz": 15000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "onset_count": 100,
+        "point": -51.308435673042126,
+        "regime": "F2",
+        "rx_gain_correction_db": -12.4355888962248
+      },
+      {
+        "ci95_high": 44.834767901542676,
+        "ci95_low": -27.39760295012379,
+        "detector": "D0",
+        "estimand": "pooled_miss_<=0.10 (90th pct of per-onset req)",
+        "fc_hz": 28000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "onset_count": 100,
+        "point": -25.110802162082845,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": 31.54014404197584,
+        "ci95_low": -34.57133680946313,
+        "detector": "D1",
+        "estimand": "pooled_miss_<=0.10 (90th pct of per-onset req)",
+        "fc_hz": 28000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "onset_count": 100,
+        "point": -32.972050253300786,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": 30.260188021722364,
+        "ci95_low": -41.9721828299441,
+        "detector": "D0",
+        "estimand": "pooled_miss_<=0.10 (90th pct of per-onset req)",
+        "fc_hz": 28000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "onset_count": 100,
+        "point": -39.68538204190315,
+        "regime": "F2",
+        "rx_gain_correction_db": -14.574579879820313
+      },
+      {
+        "ci95_high": 16.965564162155527,
+        "ci95_low": -49.145916689283446,
+        "detector": "D1",
+        "estimand": "pooled_miss_<=0.10 (90th pct of per-onset req)",
+        "fc_hz": 28000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "onset_count": 100,
+        "point": -47.5466301331211,
+        "regime": "F2",
+        "rx_gain_correction_db": -14.574579879820313
+      }
+    ],
+    "required_eirp_dbm_operational": [
+      {
+        "carrier_ghz": 3.5,
+        "ci95_db": [
+          -55.054591101340286,
+          -52.0225238395917
+        ],
+        "detector": "D0",
+        "estimand": "min EIRP with mean visible-onset miss <= 0.10 (200 noise trials/onset, placement bootstrap)",
+        "fc_hz": 3500000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -53.273246596508045
+      },
+      {
+        "carrier_ghz": 3.5,
+        "ci95_db": [
+          -54.84096058518503,
+          -51.80889332343644
+        ],
+        "detector": "D0",
+        "estimand": "F2 = F1 + (20 - G_rx,F2); spot-checked at 12 GHz",
+        "fc_hz": 3500000000.0,
+        "regime": "F2",
+        "required_eirp_dbm": -53.05961608035279,
+        "rx_gain_correction_db": 0.21363051615525563
+      },
+      {
+        "carrier_ghz": 3.5,
+        "ci95_db": [
+          -54.87254326926389,
+          -51.715747144042055
+        ],
+        "detector": "D1",
+        "estimand": "min EIRP with mean visible-onset miss <= 0.10 (200 noise trials/onset, placement bootstrap)",
+        "fc_hz": 3500000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -52.986341776683844
+      },
+      {
+        "carrier_ghz": 3.5,
+        "ci95_db": [
+          -54.65891275310864,
+          -51.5021166278868
+        ],
+        "detector": "D1",
+        "estimand": "F2 = F1 + (20 - G_rx,F2); spot-checked at 12 GHz",
+        "fc_hz": 3500000000.0,
+        "regime": "F2",
+        "required_eirp_dbm": -52.77271126052859,
+        "rx_gain_correction_db": 0.21363051615525563
+      },
+      {
+        "carrier_ghz": 3.5,
+        "ci95_db": [
+          -54.81799144991197,
+          -51.92628504706211
+        ],
+        "detector": "Dfix",
+        "estimand": "min EIRP with mean visible-onset miss <= 0.10 (200 noise trials/onset, placement bootstrap)",
+        "fc_hz": 3500000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -53.12855240036249
+      },
+      {
+        "carrier_ghz": 3.5,
+        "ci95_db": [
+          -54.604360933756716,
+          -51.71265453090685
+        ],
+        "detector": "Dfix",
+        "estimand": "F2 = F1 + (20 - G_rx,F2); spot-checked at 12 GHz",
+        "fc_hz": 3500000000.0,
+        "regime": "F2",
+        "required_eirp_dbm": -52.91492188420723,
+        "rx_gain_correction_db": 0.21363051615525563
+      },
+      {
+        "carrier_ghz": 12.0,
+        "ci95_db": [
+          -40.68859129245724,
+          -37.96513067770867
+        ],
+        "detector": "D0",
+        "estimand": "min EIRP with mean visible-onset miss <= 0.10 (200 noise trials/onset, placement bootstrap)",
+        "fc_hz": 12000000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -39.169960482819235
+      },
+      {
+        "carrier_ghz": 12.0,
+        "ci95_db": [
+          -51.186196810081995,
+          -48.46273619533343
+        ],
+        "detector": "D0",
+        "estimand": "F2 = F1 + (20 - G_rx,F2); spot-checked at 12 GHz",
+        "fc_hz": 12000000000.0,
+        "regime": "F2",
+        "required_eirp_dbm": -49.66756600044399,
+        "rx_gain_correction_db": -10.497605517624756
+      },
+      {
+        "carrier_ghz": 12.0,
+        "ci95_db": [
+          -44.2340116468404,
+          -41.1431520847836
+        ],
+        "detector": "D1",
+        "estimand": "min EIRP with mean visible-onset miss <= 0.10 (200 noise trials/onset, placement bootstrap)",
+        "fc_hz": 12000000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -42.541461961801026
+      },
+      {
+        "carrier_ghz": 12.0,
+        "ci95_db": [
+          -54.731617164465156,
+          -51.64075760240836
+        ],
+        "detector": "D1",
+        "estimand": "F2 = F1 + (20 - G_rx,F2); spot-checked at 12 GHz",
+        "fc_hz": 12000000000.0,
+        "regime": "F2",
+        "required_eirp_dbm": -53.03906747942578,
+        "rx_gain_correction_db": -10.497605517624756
+      },
+      {
+        "carrier_ghz": 12.0,
+        "ci95_db": [
+          -44.234039461832424,
+          -41.1431520847836
+        ],
+        "detector": "Dfix",
+        "estimand": "min EIRP with mean visible-onset miss <= 0.10 (200 noise trials/onset, placement bootstrap)",
+        "fc_hz": 12000000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -42.541461961801026
+      },
+      {
+        "carrier_ghz": 12.0,
+        "ci95_db": [
+          -54.73164497945718,
+          -51.64075760240836
+        ],
+        "detector": "Dfix",
+        "estimand": "F2 = F1 + (20 - G_rx,F2); spot-checked at 12 GHz",
+        "fc_hz": 12000000000.0,
+        "regime": "F2",
+        "required_eirp_dbm": -53.03906747942578,
+        "rx_gain_correction_db": -10.497605517624756
+      },
+      {
+        "carrier_ghz": 15.0,
+        "ci95_db": [
+          -37.354083318397855,
+          -34.82962736751785
+        ],
+        "detector": "D0",
+        "estimand": "min EIRP with mean visible-onset miss <= 0.10 (200 noise trials/onset, placement bootstrap)",
+        "fc_hz": 15000000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -35.90394796335366
+      },
+      {
+        "carrier_ghz": 15.0,
+        "ci95_db": [
+          -49.789672214622655,
+          -47.26521626374265
+        ],
+        "detector": "D0",
+        "estimand": "F2 = F1 + (20 - G_rx,F2); spot-checked at 12 GHz",
+        "fc_hz": 15000000000.0,
+        "regime": "F2",
+        "required_eirp_dbm": -48.33953685957846,
+        "rx_gain_correction_db": -12.4355888962248
+      },
+      {
+        "carrier_ghz": 15.0,
+        "ci95_db": [
+          -41.723312784073784,
+          -39.12850171393506
+        ],
+        "detector": "D1",
+        "estimand": "min EIRP with mean visible-onset miss <= 0.10 (200 noise trials/onset, placement bootstrap)",
+        "fc_hz": 15000000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -40.25886213803466
+      },
+      {
+        "carrier_ghz": 15.0,
+        "ci95_db": [
+          -54.158901680298584,
+          -51.56409061015986
+        ],
+        "detector": "D1",
+        "estimand": "F2 = F1 + (20 - G_rx,F2); spot-checked at 12 GHz",
+        "fc_hz": 15000000000.0,
+        "regime": "F2",
+        "required_eirp_dbm": -52.69445103425946,
+        "rx_gain_correction_db": -12.4355888962248
+      },
+      {
+        "carrier_ghz": 15.0,
+        "ci95_db": [
+          -41.632500362823606,
+          -39.06746235302415
+        ],
+        "detector": "Dfix",
+        "estimand": "min EIRP with mean visible-onset miss <= 0.10 (200 noise trials/onset, placement bootstrap)",
+        "fc_hz": 15000000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -40.22048640786696
+      },
+      {
+        "carrier_ghz": 15.0,
+        "ci95_db": [
+          -54.068089259048406,
+          -51.50305124924895
+        ],
+        "detector": "Dfix",
+        "estimand": "F2 = F1 + (20 - G_rx,F2); spot-checked at 12 GHz",
+        "fc_hz": 15000000000.0,
+        "regime": "F2",
+        "required_eirp_dbm": -52.65607530409176,
+        "rx_gain_correction_db": -12.4355888962248
+      },
+      {
+        "carrier_ghz": 28.0,
+        "ci95_db": [
+          -28.945938702260463,
+          -26.52688878700955
+        ],
+        "detector": "D0",
+        "estimand": "min EIRP with mean visible-onset miss <= 0.10 (200 noise trials/onset, placement bootstrap)",
+        "fc_hz": 28000000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -27.53211557557807
+      },
+      {
+        "carrier_ghz": 28.0,
+        "ci95_db": [
+          -43.520518582080776,
+          -41.10146866682986
+        ],
+        "detector": "D0",
+        "estimand": "F2 = F1 + (20 - G_rx,F2); spot-checked at 12 GHz",
+        "fc_hz": 28000000000.0,
+        "regime": "F2",
+        "required_eirp_dbm": -42.10669545539838,
+        "rx_gain_correction_db": -14.574579879820313
+      },
+      {
+        "carrier_ghz": 28.0,
+        "ci95_db": [
+          -36.070709882125136,
+          -33.154319030810555
+        ],
+        "detector": "D1",
+        "estimand": "min EIRP with mean visible-onset miss <= 0.10 (200 noise trials/onset, placement bootstrap)",
+        "fc_hz": 28000000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -34.515939698208165
+      },
+      {
+        "carrier_ghz": 28.0,
+        "ci95_db": [
+          -50.64528976194545,
+          -47.72889891063087
+        ],
+        "detector": "D1",
+        "estimand": "F2 = F1 + (20 - G_rx,F2); spot-checked at 12 GHz",
+        "fc_hz": 28000000000.0,
+        "regime": "F2",
+        "required_eirp_dbm": -49.09051957802848,
+        "rx_gain_correction_db": -14.574579879820313
+      },
+      {
+        "carrier_ghz": 28.0,
+        "ci95_db": [
+          -36.829438696957794,
+          -33.87596882825308
+        ],
+        "detector": "Dfix",
+        "estimand": "min EIRP with mean visible-onset miss <= 0.10 (200 noise trials/onset, placement bootstrap)",
+        "fc_hz": 28000000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -35.20422036192867
+      },
+      {
+        "carrier_ghz": 28.0,
+        "ci95_db": [
+          -51.40401857677811,
+          -48.45054870807339
+        ],
+        "detector": "Dfix",
+        "estimand": "F2 = F1 + (20 - G_rx,F2); spot-checked at 12 GHz",
+        "fc_hz": 28000000000.0,
+        "regime": "F2",
+        "required_eirp_dbm": -49.77880024174898,
+        "rx_gain_correction_db": -14.574579879820313
+      }
+    ],
+    "required_eirp_dbm_per_placement_median": [
+      {
+        "ci95_high": -55.69098957147504,
+        "ci95_low": -60.240438352550406,
+        "detector": "D0",
+        "estimand": "median_over_placements_of_10th_pct_requirement",
+        "fc_hz": 3500000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "point": -58.41227746339413,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -56.82572553054556,
+        "ci95_low": -61.449674871730664,
+        "detector": "D1",
+        "estimand": "median_over_placements_of_10th_pct_requirement",
+        "fc_hz": 3500000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "point": -60.05390624357336,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -55.47735905531979,
+        "ci95_low": -60.02680783639515,
+        "detector": "D0",
+        "estimand": "median_over_placements_of_10th_pct_requirement",
+        "fc_hz": 3500000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "point": -58.19864694723888,
+        "regime": "F2",
+        "rx_gain_correction_db": 0.21363051615525563
+      },
+      {
+        "ci95_high": -56.612095014390306,
+        "ci95_low": -61.23604435557541,
+        "detector": "D1",
+        "estimand": "median_over_placements_of_10th_pct_requirement",
+        "fc_hz": 3500000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "point": -59.8402757274181,
+        "regime": "F2",
+        "rx_gain_correction_db": 0.21363051615525563
+      },
+      {
+        "ci95_high": -40.933729611878306,
+        "ci95_low": -47.01114207751303,
+        "detector": "D0",
+        "estimand": "median_over_placements_of_10th_pct_requirement",
+        "fc_hz": 12000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "point": -44.35483034527121,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -46.330737593658256,
+        "ci95_low": -50.58747869122426,
+        "detector": "D1",
+        "estimand": "median_over_placements_of_10th_pct_requirement",
+        "fc_hz": 12000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "point": -47.210105450715695,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -51.43133512950306,
+        "ci95_low": -57.508747595137784,
+        "detector": "D0",
+        "estimand": "median_over_placements_of_10th_pct_requirement",
+        "fc_hz": 12000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "point": -54.852435862895966,
+        "regime": "F2",
+        "rx_gain_correction_db": -10.497605517624756
+      },
+      {
+        "ci95_high": -56.82834311128301,
+        "ci95_low": -61.08508420884902,
+        "detector": "D1",
+        "estimand": "median_over_placements_of_10th_pct_requirement",
+        "fc_hz": 12000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "point": -57.70771096834045,
+        "regime": "F2",
+        "rx_gain_correction_db": -10.497605517624756
+      },
+      {
+        "ci95_high": -38.4075037949733,
+        "ci95_low": -43.630374023142686,
+        "detector": "D0",
+        "estimand": "median_over_placements_of_10th_pct_requirement",
+        "fc_hz": 15000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "point": -40.322402643789175,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -43.67199374239709,
+        "ci95_low": -47.921041511952865,
+        "detector": "D1",
+        "estimand": "median_over_placements_of_10th_pct_requirement",
+        "fc_hz": 15000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "point": -44.48857449197347,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -50.8430926911981,
+        "ci95_low": -56.065962919367486,
+        "detector": "D0",
+        "estimand": "median_over_placements_of_10th_pct_requirement",
+        "fc_hz": 15000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "point": -52.757991540013975,
+        "regime": "F2",
+        "rx_gain_correction_db": -12.4355888962248
+      },
+      {
+        "ci95_high": -56.10758263862189,
+        "ci95_low": -60.356630408177665,
+        "detector": "D1",
+        "estimand": "median_over_placements_of_10th_pct_requirement",
+        "fc_hz": 15000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "point": -56.924163388198274,
+        "regime": "F2",
+        "rx_gain_correction_db": -12.4355888962248
+      },
+      {
+        "ci95_high": -29.572311614616694,
+        "ci95_low": -34.596035556947136,
+        "detector": "D0",
+        "estimand": "median_over_placements_of_10th_pct_requirement",
+        "fc_hz": 28000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "point": -32.26320806635939,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -38.04079669934403,
+        "ci95_low": -42.24501866465709,
+        "detector": "D1",
+        "estimand": "median_over_placements_of_10th_pct_requirement",
+        "fc_hz": 28000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "point": -38.7939748292199,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -44.14689149443701,
+        "ci95_low": -49.17061543676745,
+        "detector": "D0",
+        "estimand": "median_over_placements_of_10th_pct_requirement",
+        "fc_hz": 28000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "point": -46.8377879461797,
+        "regime": "F2",
+        "rx_gain_correction_db": -14.574579879820313
+      },
+      {
+        "ci95_high": -52.61537657916434,
+        "ci95_low": -56.8195985444774,
+        "detector": "D1",
+        "estimand": "median_over_placements_of_10th_pct_requirement",
+        "fc_hz": 28000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 50,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "point": -53.36855470904021,
+        "regime": "F2",
+        "rx_gain_correction_db": -14.574579879820313
+      }
+    ],
+    "required_eirp_dbm_visible": [
+      {
+        "ci95_high": -51.297337743253266,
+        "ci95_low": -54.247996970695404,
+        "detector": "D0",
+        "estimand": "pooled_miss_<=0.10 over forearm-visible onsets",
+        "fc_hz": 3500000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "onset_count": 92,
+        "point": -52.452404105133716,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -51.81720328628843,
+        "ci95_low": -55.78491363970036,
+        "detector": "D1",
+        "estimand": "pooled_miss_<=0.10 over forearm-visible onsets",
+        "fc_hz": 3500000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "onset_count": 92,
+        "point": -53.306855163611004,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -51.08370722709801,
+        "ci95_low": -54.03436645454015,
+        "detector": "D0",
+        "estimand": "pooled_miss_<=0.10 over forearm-visible onsets",
+        "fc_hz": 3500000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "onset_count": 92,
+        "point": -52.23877358897846,
+        "regime": "F2",
+        "rx_gain_correction_db": 0.21363051615525563
+      },
+      {
+        "ci95_high": -51.60357277013318,
+        "ci95_low": -55.57128312354511,
+        "detector": "D1",
+        "estimand": "pooled_miss_<=0.10 over forearm-visible onsets",
+        "fc_hz": 3500000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "onset_count": 92,
+        "point": -53.09322464745575,
+        "regime": "F2",
+        "rx_gain_correction_db": 0.21363051615525563
+      },
+      {
+        "ci95_high": -37.105411903647735,
+        "ci95_low": -40.422041724045386,
+        "detector": "D0",
+        "estimand": "pooled_miss_<=0.10 over forearm-visible onsets",
+        "fc_hz": 12000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "onset_count": 92,
+        "point": -38.53553802484793,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -41.71464468972575,
+        "ci95_low": -43.77680320052322,
+        "detector": "D1",
+        "estimand": "pooled_miss_<=0.10 over forearm-visible onsets",
+        "fc_hz": 12000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "onset_count": 92,
+        "point": -42.78709546932822,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -47.60301742127249,
+        "ci95_low": -50.91964724167014,
+        "detector": "D0",
+        "estimand": "pooled_miss_<=0.10 over forearm-visible onsets",
+        "fc_hz": 12000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "onset_count": 92,
+        "point": -49.033143542472686,
+        "regime": "F2",
+        "rx_gain_correction_db": -10.497605517624756
+      },
+      {
+        "ci95_high": -52.21225020735051,
+        "ci95_low": -54.274408718147974,
+        "detector": "D1",
+        "estimand": "pooled_miss_<=0.10 over forearm-visible onsets",
+        "fc_hz": 12000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "onset_count": 92,
+        "point": -53.28470098695298,
+        "regime": "F2",
+        "rx_gain_correction_db": -10.497605517624756
+      },
+      {
+        "ci95_high": -34.39780305751047,
+        "ci95_low": -37.76064304032192,
+        "detector": "D0",
+        "estimand": "pooled_miss_<=0.10 over forearm-visible onsets",
+        "fc_hz": 15000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "onset_count": 92,
+        "point": -35.50885312705467,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -39.209330679933785,
+        "ci95_low": -40.85060524409172,
+        "detector": "D1",
+        "estimand": "pooled_miss_<=0.10 over forearm-visible onsets",
+        "fc_hz": 15000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "onset_count": 92,
+        "point": -40.32954379754272,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -46.83339195373527,
+        "ci95_low": -50.196231936546724,
+        "detector": "D0",
+        "estimand": "pooled_miss_<=0.10 over forearm-visible onsets",
+        "fc_hz": 15000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "onset_count": 92,
+        "point": -47.94444202327947,
+        "regime": "F2",
+        "rx_gain_correction_db": -12.4355888962248
+      },
+      {
+        "ci95_high": -51.644919576158586,
+        "ci95_low": -53.28619414031652,
+        "detector": "D1",
+        "estimand": "pooled_miss_<=0.10 over forearm-visible onsets",
+        "fc_hz": 15000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "onset_count": 92,
+        "point": -52.76513269376752,
+        "regime": "F2",
+        "rx_gain_correction_db": -12.4355888962248
+      },
+      {
+        "ci95_high": -25.71101650293545,
+        "ci95_low": -27.830373129610976,
+        "detector": "D0",
+        "estimand": "pooled_miss_<=0.10 over forearm-visible onsets",
+        "fc_hz": 28000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "onset_count": 92,
+        "point": -26.961264069796673,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -33.33254948625832,
+        "ci95_low": -35.53416812646606,
+        "detector": "D1",
+        "estimand": "pooled_miss_<=0.10 over forearm-visible onsets",
+        "fc_hz": 28000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "onset_count": 92,
+        "point": -34.39772600162501,
+        "regime": "F1"
+      },
+      {
+        "ci95_high": -40.28559638275576,
+        "ci95_low": -42.40495300943129,
+        "detector": "D0",
+        "estimand": "pooled_miss_<=0.10 over forearm-visible onsets",
+        "fc_hz": 28000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "onset_count": 92,
+        "point": -41.53584394961699,
+        "regime": "F2",
+        "rx_gain_correction_db": -14.574579879820313
+      },
+      {
+        "ci95_high": -47.907129366078635,
+        "ci95_low": -50.10874800628637,
+        "detector": "D1",
+        "estimand": "pooled_miss_<=0.10 over forearm-visible onsets",
+        "fc_hz": 28000000000.0,
+        "interval_type": "cluster_bootstrap_over_placements",
+        "model": "R1-A",
+        "n_scenarios": 46,
+        "note": "F2 = F1 + (20 - G_rx,F2); regime-independent threshold",
+        "onset_count": 92,
+        "point": -48.97230588144532,
+        "regime": "F2",
+        "rx_gain_correction_db": -14.574579879820313
+      }
+    ],
+    "required_eirp_dbm_visible_secondary": [
+      {
+        "detector": "D1",
+        "estimand": "noise-free threshold-crossing P90 (secondary)",
+        "fc_hz": 3500000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -52.676041248663324
+      },
+      {
+        "detector": "Dfix",
+        "estimand": "noise-free threshold-crossing P90 (secondary)",
+        "fc_hz": 3500000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -52.676041248663324
+      },
+      {
+        "detector": "D1",
+        "estimand": "noise-free threshold-crossing P90 (secondary)",
+        "fc_hz": 12000000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -38.58264627869531
+      },
+      {
+        "detector": "Dfix",
+        "estimand": "noise-free threshold-crossing P90 (secondary)",
+        "fc_hz": 12000000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -38.58264627869531
+      },
+      {
+        "detector": "D1",
+        "estimand": "noise-free threshold-crossing P90 (secondary)",
+        "fc_hz": 15000000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -35.39487614734202
+      },
+      {
+        "detector": "Dfix",
+        "estimand": "noise-free threshold-crossing P90 (secondary)",
+        "fc_hz": 15000000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -35.39487614734202
+      },
+      {
+        "detector": "D1",
+        "estimand": "noise-free threshold-crossing P90 (secondary)",
+        "fc_hz": 28000000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -26.5625756948768
+      },
+      {
+        "detector": "Dfix",
+        "estimand": "noise-free threshold-crossing P90 (secondary)",
+        "fc_hz": 28000000000.0,
+        "regime": "F1",
+        "required_eirp_dbm": -26.5625756948768
+      }
+    ],
+    "validation": {
+      "frac_cells": 0.05,
+      "max_nmse": 3.1880633833290013e-07,
+      "mean_nmse": 1.2154359917533507e-07,
+      "method": "articulated_fast_vs_direct_rt",
+      "n": 19,
+      "pass": true
+    },
+    "false_alarm_calibration": {
+      "target_pfa": 0.001,
+      "calibration_N": 10000000,
+      "validation_N": 1000000,
+      "acceptance_rule": "95% Wilson interval of the fresh-set empirical Pfa contains 1e-3; fixed before validation",
+      "cells": [
+        {
+          "carrier_ghz": 3.5,
+          "bank": "D0",
+          "threshold_old_4000": 9.52205063453377,
+          "threshold_new": 9.930558852702173,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 987,
+          "empirical_pfa": 0.000987,
+          "wilson_ci95": [
+            0.000927342279102289,
+            0.001050491581951074
+          ],
+          "target_pfa": 0.001,
+          "accept": true
+        },
+        {
+          "carrier_ghz": 3.5,
+          "bank": "Dfix",
+          "threshold_old_4000": 7.287183273606688,
+          "threshold_new": 7.108787398948031,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 1002,
+          "empirical_pfa": 0.001002,
+          "wilson_ci95": [
+            0.0009418770104889831,
+            0.001065956735321058
+          ],
+          "target_pfa": 0.001,
+          "accept": true
+        },
+        {
+          "carrier_ghz": 3.5,
+          "bank": "D1",
+          "threshold_old_4000": 7.576724267963643,
+          "threshold_new": 7.037004071018282,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 942,
+          "empirical_pfa": 0.000942,
+          "wilson_ci95": [
+            0.0008837597527644957,
+            0.001004074454018833
+          ],
+          "target_pfa": 0.001,
+          "accept": true
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "D0",
+          "threshold_old_4000": 10.362704342254059,
+          "threshold_new": 10.35951850899733,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 1013,
+          "empirical_pfa": 0.001013,
+          "wilson_ci95": [
+            0.0009525380273125854,
+            0.0010772956339856862
+          ],
+          "target_pfa": 0.001,
+          "accept": true
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "Dfix",
+          "threshold_old_4000": 7.287183273606688,
+          "threshold_new": 7.108787398948031,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 1002,
+          "empirical_pfa": 0.001002,
+          "wilson_ci95": [
+            0.0009418770104889831,
+            0.001065956735321058
+          ],
+          "target_pfa": 0.001,
+          "accept": true
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "D1",
+          "threshold_old_4000": 7.287183273606688,
+          "threshold_new": 7.106245968347516,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 1005,
+          "empirical_pfa": 0.001005,
+          "wilson_ci95": [
+            0.0009447843764209126,
+            0.001069049346340464
+          ],
+          "target_pfa": 0.001,
+          "accept": true
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "D0",
+          "threshold_old_4000": 10.350971361822458,
+          "threshold_new": 10.395224525836078,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 1015,
+          "empirical_pfa": 0.001015,
+          "wilson_ci95": [
+            0.0009544765924775854,
+            0.00107935705345491
+          ],
+          "target_pfa": 0.001,
+          "accept": true
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "Dfix",
+          "threshold_old_4000": 7.287183273606688,
+          "threshold_new": 7.108787398948031,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 1002,
+          "empirical_pfa": 0.001002,
+          "wilson_ci95": [
+            0.0009418770104889831,
+            0.001065956735321058
+          ],
+          "target_pfa": 0.001,
+          "accept": true
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "D1",
+          "threshold_old_4000": 7.782751965718615,
+          "threshold_new": 7.631014175764737,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 955,
+          "empirical_pfa": 0.000955,
+          "wilson_ci95": [
+            0.0008963468406252463,
+            0.0010174872662805368
+          ],
+          "target_pfa": 0.001,
+          "accept": true
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "D0",
+          "threshold_old_4000": 10.969673921531049,
+          "threshold_new": 10.451669690607911,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 1016,
+          "empirical_pfa": 0.001016,
+          "wilson_ci95": [
+            0.0009554458978026268,
+            0.0010803877404469806
+          ],
+          "target_pfa": 0.001,
+          "accept": true
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "Dfix",
+          "threshold_old_4000": 7.287183273606688,
+          "threshold_new": 7.108787398948031,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 1002,
+          "empirical_pfa": 0.001002,
+          "wilson_ci95": [
+            0.0009418770104889831,
+            0.001065956735321058
+          ],
+          "target_pfa": 0.001,
+          "accept": true
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "D1",
+          "threshold_old_4000": 8.1046952353445,
+          "threshold_new": 7.892086157140627,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 958,
+          "empirical_pfa": 0.000958,
+          "wilson_ci95": [
+            0.0008992519537480811,
+            0.0010205821301090376
+          ],
+          "target_pfa": 0.001,
+          "accept": true
+        }
+      ],
+      "all_accept": true
+    },
+    "reference_averaging": {
+      "note": "reference averaged over K noisy frames; change variance sigma^2 (1 + 1/K); Pfa = P(single-noise statistic > thr / (1 + 1/K)) at the recalibrated thresholds",
+      "rows": [
+        {
+          "carrier_ghz": 3.5,
+          "bank": "D0",
+          "K_reference_frames": 1,
+          "variance_factor": 2.0,
+          "pfa": 0.108013,
+          "wilson_ci95": [
+            0.1074061384941572,
+            0.10862287309811139
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 3.5,
+          "bank": "D0",
+          "K_reference_frames": 16,
+          "variance_factor": 1.0625,
+          "pfa": 0.001769,
+          "wilson_ci95": [
+            0.001688529726584455,
+            0.001853298126450392
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 3.5,
+          "bank": "D0",
+          "K_reference_frames": 64,
+          "variance_factor": 1.015625,
+          "pfa": 0.001189,
+          "wilson_ci95": [
+            0.0011233460582832895,
+            0.0012584862508266716
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 3.5,
+          "bank": "Dfix",
+          "K_reference_frames": 1,
+          "variance_factor": 2.0,
+          "pfa": 0.033215,
+          "wilson_ci95": [
+            0.03286556847152262,
+            0.03356801778541217
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 3.5,
+          "bank": "Dfix",
+          "K_reference_frames": 16,
+          "variance_factor": 1.0625,
+          "pfa": 0.001531,
+          "wilson_ci95": [
+            0.001456260334833664,
+            0.0016095693467285575
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 3.5,
+          "bank": "Dfix",
+          "K_reference_frames": 64,
+          "variance_factor": 1.015625,
+          "pfa": 0.001175,
+          "wilson_ci95": [
+            0.0011097443017387015,
+            0.0012440881149316937
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 3.5,
+          "bank": "D1",
+          "K_reference_frames": 1,
+          "variance_factor": 2.0,
+          "pfa": 0.03288,
+          "wilson_ci95": [
+            0.032532284848838994,
+            0.03323130398186332
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 3.5,
+          "bank": "D1",
+          "K_reference_frames": 16,
+          "variance_factor": 1.0625,
+          "pfa": 0.001506,
+          "wilson_ci95": [
+            0.0014318875127526949,
+            0.0015839423608817297
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 3.5,
+          "bank": "D1",
+          "K_reference_frames": 64,
+          "variance_factor": 1.015625,
+          "pfa": 0.001137,
+          "wilson_ci95": [
+            0.0010728373999089463,
+            0.0012049953087111974
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "D0",
+          "K_reference_frames": 1,
+          "variance_factor": 2.0,
+          "pfa": 0.149244,
+          "wilson_ci95": [
+            0.14854695579595664,
+            0.14994373902315156
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "D0",
+          "K_reference_frames": 16,
+          "variance_factor": 1.0625,
+          "pfa": 0.001795,
+          "wilson_ci95": [
+            0.0017139278181903896,
+            0.0018798998350893661
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "D0",
+          "K_reference_frames": 64,
+          "variance_factor": 1.015625,
+          "pfa": 0.00117,
+          "wilson_ci95": [
+            0.0011048871075270785,
+            0.0012389453475577573
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "Dfix",
+          "K_reference_frames": 1,
+          "variance_factor": 2.0,
+          "pfa": 0.033215,
+          "wilson_ci95": [
+            0.03286556847152262,
+            0.03356801778541217
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "Dfix",
+          "K_reference_frames": 16,
+          "variance_factor": 1.0625,
+          "pfa": 0.001531,
+          "wilson_ci95": [
+            0.001456260334833664,
+            0.0016095693467285575
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "Dfix",
+          "K_reference_frames": 64,
+          "variance_factor": 1.015625,
+          "pfa": 0.001175,
+          "wilson_ci95": [
+            0.0011097443017387015,
+            0.0012440881149316937
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "D1",
+          "K_reference_frames": 1,
+          "variance_factor": 2.0,
+          "pfa": 0.033177,
+          "wilson_ci95": [
+            0.03282776268195931,
+            0.03352982386692522
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "D1",
+          "K_reference_frames": 16,
+          "variance_factor": 1.0625,
+          "pfa": 0.001535,
+          "wilson_ci95": [
+            0.0014601604647054235,
+            0.0016136691861252455
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "D1",
+          "K_reference_frames": 64,
+          "variance_factor": 1.015625,
+          "pfa": 0.001177,
+          "wilson_ci95": [
+            0.0011116872647367424,
+            0.0012461451365678765
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "D0",
+          "K_reference_frames": 1,
+          "variance_factor": 2.0,
+          "pfa": 0.154083,
+          "wilson_ci95": [
+            0.1533767264784492,
+            0.1547919311631634
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "D0",
+          "K_reference_frames": 16,
+          "variance_factor": 1.0625,
+          "pfa": 0.001853,
+          "wilson_ci95": [
+            0.001770600688376979,
+            0.0019392265192952657
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "D0",
+          "K_reference_frames": 64,
+          "variance_factor": 1.015625,
+          "pfa": 0.00121,
+          "wilson_ci95": [
+            0.0011437530751371616,
+            0.0012800790726321487
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "Dfix",
+          "K_reference_frames": 1,
+          "variance_factor": 2.0,
+          "pfa": 0.033215,
+          "wilson_ci95": [
+            0.03286556847152262,
+            0.03356801778541217
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "Dfix",
+          "K_reference_frames": 16,
+          "variance_factor": 1.0625,
+          "pfa": 0.001531,
+          "wilson_ci95": [
+            0.001456260334833664,
+            0.0016095693467285575
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "Dfix",
+          "K_reference_frames": 64,
+          "variance_factor": 1.015625,
+          "pfa": 0.001175,
+          "wilson_ci95": [
+            0.0011097443017387015,
+            0.0012440881149316937
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "D1",
+          "K_reference_frames": 1,
+          "variance_factor": 2.0,
+          "pfa": 0.039913,
+          "wilson_ci95": [
+            0.03953109165322382,
+            0.04029844314372628
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "D1",
+          "K_reference_frames": 16,
+          "variance_factor": 1.0625,
+          "pfa": 0.001614,
+          "wilson_ci95": [
+            0.0015372141460396743,
+            0.0016946148978428327
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "D1",
+          "K_reference_frames": 64,
+          "variance_factor": 1.015625,
+          "pfa": 0.001162,
+          "wilson_ci95": [
+            0.0010971162346117148,
+            0.0012307162819362259
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "D0",
+          "K_reference_frames": 1,
+          "variance_factor": 2.0,
+          "pfa": 0.163269,
+          "wilson_ci95": [
+            0.162545869674498,
+            0.16399471739210422
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "D0",
+          "K_reference_frames": 16,
+          "variance_factor": 1.0625,
+          "pfa": 0.001896,
+          "wilson_ci95": [
+            0.0018126302052013834,
+            0.0019831966721066715
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "D0",
+          "K_reference_frames": 64,
+          "variance_factor": 1.015625,
+          "pfa": 0.001221,
+          "wilson_ci95": [
+            0.001154444523707815,
+            0.0012913875395497263
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "Dfix",
+          "K_reference_frames": 1,
+          "variance_factor": 2.0,
+          "pfa": 0.033215,
+          "wilson_ci95": [
+            0.03286556847152262,
+            0.03356801778541217
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "Dfix",
+          "K_reference_frames": 16,
+          "variance_factor": 1.0625,
+          "pfa": 0.001531,
+          "wilson_ci95": [
+            0.001456260334833664,
+            0.0016095693467285575
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "Dfix",
+          "K_reference_frames": 64,
+          "variance_factor": 1.015625,
+          "pfa": 0.001175,
+          "wilson_ci95": [
+            0.0011097443017387015,
+            0.0012440881149316937
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "D1",
+          "K_reference_frames": 1,
+          "variance_factor": 2.0,
+          "pfa": 0.045224,
+          "wilson_ci95": [
+            0.04481847318467155,
+            0.045633020808459705
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "D1",
+          "K_reference_frames": 16,
+          "variance_factor": 1.0625,
+          "pfa": 0.001594,
+          "wilson_ci95": [
+            0.0015177022784682206,
+            0.0016741269190720487
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "D1",
+          "K_reference_frames": 64,
+          "variance_factor": 1.015625,
+          "pfa": 0.001102,
+          "wilson_ci95": [
+            0.0010388605188377865,
+            0.0011689724586834416
+          ],
+          "target_pfa": 0.001,
+          "accept": false
+        }
+      ]
+    },
+    "extra_eirp_vs_3p5_db": [
+      {
+        "regime": "F1",
+        "detector": "D0",
+        "fc_hz": 12000000000.0,
+        "extra_eirp_db": 14.10328611368881,
+        "ci95_db": [
+          13.301494260619998,
+          15.022149212956409
+        ],
+        "note": "paired over placements (same resample across carriers)"
+      },
+      {
+        "regime": "F1",
+        "detector": "D0",
+        "fc_hz": 15000000000.0,
+        "extra_eirp_db": 17.369298633154386,
+        "ci95_db": [
+          16.430119249158707,
+          18.43319646251017
+        ],
+        "note": "paired over placements (same resample across carriers)"
+      },
+      {
+        "regime": "F1",
+        "detector": "D0",
+        "fc_hz": 28000000000.0,
+        "extra_eirp_db": 25.741131020929974,
+        "ci95_db": [
+          24.999497767889427,
+          26.540388041347395
+        ],
+        "note": "paired over placements (same resample across carriers)"
+      },
+      {
+        "regime": "F1",
+        "detector": "Dfix",
+        "fc_hz": 12000000000.0,
+        "extra_eirp_db": 10.58709043856146,
+        "ci95_db": [
+          10.239382883174216,
+          10.921576867856492
+        ],
+        "note": "paired over placements (same resample across carriers)"
+      },
+      {
+        "regime": "F1",
+        "detector": "Dfix",
+        "fc_hz": 15000000000.0,
+        "extra_eirp_db": 12.90806599249553,
+        "ci95_db": [
+          12.428017944507722,
+          13.708864635087536
+        ],
+        "note": "paired over placements (same resample across carriers)"
+      },
+      {
+        "regime": "F1",
+        "detector": "Dfix",
+        "fc_hz": 28000000000.0,
+        "extra_eirp_db": 17.924332038433818,
+        "ci95_db": [
+          17.611436715353733,
+          18.250765047000105
+        ],
+        "note": "paired over placements (same resample across carriers)"
+      },
+      {
+        "regime": "F2",
+        "detector": "D0",
+        "fc_hz": 12000000000.0,
+        "extra_eirp_db": 3.392050079908799,
+        "ci95_db": [
+          2.5902582268399863,
+          4.310913179176397
+        ],
+        "note": "paired over placements (same resample across carriers)"
+      },
+      {
+        "regime": "F2",
+        "detector": "D0",
+        "fc_hz": 15000000000.0,
+        "extra_eirp_db": 4.7200792207743305,
+        "ci95_db": [
+          3.780899836778653,
+          5.783977050130114
+        ],
+        "note": "paired over placements (same resample across carriers)"
+      },
+      {
+        "regime": "F2",
+        "detector": "D0",
+        "fc_hz": 28000000000.0,
+        "extra_eirp_db": 10.952920624954409,
+        "ci95_db": [
+          10.211287371913855,
+          11.752177645371823
+        ],
+        "note": "paired over placements (same resample across carriers)"
+      },
+      {
+        "regime": "F2",
+        "detector": "Dfix",
+        "fc_hz": 12000000000.0,
+        "extra_eirp_db": -0.1241455952185504,
+        "ci95_db": [
+          -0.4718531506057964,
+          0.21034083407648207
+        ],
+        "note": "paired over placements (same resample across carriers)"
+      },
+      {
+        "regime": "F2",
+        "detector": "Dfix",
+        "fc_hz": 15000000000.0,
+        "extra_eirp_db": 0.258846580115474,
+        "ci95_db": [
+          -0.22120146787233352,
+          1.0596452227074813
+        ],
+        "note": "paired over placements (same resample across carriers)"
+      },
+      {
+        "regime": "F2",
+        "detector": "Dfix",
+        "fc_hz": 28000000000.0,
+        "extra_eirp_db": 3.1361216424582494,
+        "ci95_db": [
+          2.823226319378164,
+          3.462554651024536
+        ],
+        "note": "paired over placements (same resample across carriers)"
+      }
+    ]
+  },
+  "primary_estimand": "operational required EIRP (mean visible-onset miss <= 0.10)",
+  "raw_summary": {
+    "excluded_logged": 42,
+    "n_cells": 2400,
+    "n_eligible": 50
+  },
+  "release": "v1.0-commag",
+  "secondary_estimand": "noise-free threshold-crossing P90 (required_eirp_dbm_visible_secondary)"
+}

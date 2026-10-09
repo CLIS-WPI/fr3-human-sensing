@@ -1,0 +1,14 @@
+{
+  "git_sha": "da73f6869dca2d11aec53f2c4df470af91073a11",
+  "container_image": "fr3isac/sionna:2.2.0-dev",
+  "container_id": "<redacted>",
+  "gpu": "<redacted: one NVIDIA H100>",
+  "start_time": "2026-10-07T20:35:11.684041+00:00",
+  "end_time": "2026-10-07T20:46:24.380351+00:00",
+  "gpu_wall_seconds": 672.6707472801208,
+  "n_scenarios": 50,
+  "n_cells": 2400,
+  "n_onsets": 1600,
+  "n_eligible": 50,
+  "seed": 0
+}

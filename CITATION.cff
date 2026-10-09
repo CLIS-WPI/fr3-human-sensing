@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper (citation to be added)."
+title: "FR3 ISAC human-motion sensing (ComMag release)"
+authors:
+  - family-names: "Natanzi"
+    given-names: "Milad"
+  - name: "TBD coauthors"
+version: "1.0-commag"
+repository-code: "https://github.com/CLIS-WPI/fr3-human-sensing"
+license: "TBD"

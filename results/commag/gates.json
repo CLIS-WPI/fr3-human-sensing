@@ -1,0 +1,298 @@
+{
+  "release": "v1.0-commag",
+  "gates": {
+    "G1": {
+      "status": "PASS",
+      "measured": [
+        {
+          "fc_hz": 3500000000.0,
+          "delay_err_s": -2.1058390901201274e-15,
+          "delay_err_over_res": 1.617284421212258e-08,
+          "dphase_rad": -0.12570836125780713,
+          "dphase_pred_rad": -0.12566370614359174,
+          "dphase_err_rad": 4.46551142153917e-05
+        },
+        {
+          "fc_hz": 12000000000.0,
+          "delay_err_s": -2.105839063650348e-15,
+          "delay_err_over_res": 1.617284400883467e-08,
+          "dphase_rad": -0.1258981013043012,
+          "dphase_pred_rad": -0.12566370614359174,
+          "dphase_err_rad": 0.00023439516070947186
+        },
+        {
+          "fc_hz": 15000000000.0,
+          "delay_err_s": -2.1058401952334258e-15,
+          "delay_err_over_res": 1.617285269939271e-08,
+          "dphase_rad": -0.12589810130384643,
+          "dphase_pred_rad": -0.1256637061435917,
+          "dphase_err_rad": 0.0002343951602547245
+        },
+        {
+          "fc_hz": 28000000000.0,
+          "delay_err_s": -2.1058386202815395e-15,
+          "delay_err_over_res": 1.6172840603762223e-08,
+          "dphase_rad": -0.12625525903786186,
+          "dphase_pred_rad": -0.12566370614359174,
+          "dphase_err_rad": 0.0005915528942701254
+        }
+      ],
+      "expected": "delay_err<=0.1 bin; dphase_err<=0.05 rad",
+      "plot": "results/pilot_rt_v1/plots/g1_phase_delay.png"
+    },
+    "G2": {
+      "status": "PASS",
+      "measured": [
+        {
+          "fc_hz": 3500000000.0,
+          "received": 5.9155600418137055e-09,
+          "radar_eq": 5.91555787633609e-09,
+          "gain_err_db": 1.5897990119093508e-06
+        },
+        {
+          "fc_hz": 12000000000.0,
+          "received": 5.032334549071038e-10,
+          "radar_eq": 5.032332221188688e-10,
+          "gain_err_db": 2.0089814835231928e-06
+        },
+        {
+          "fc_hz": 15000000000.0,
+          "received": 3.2206937117251755e-10,
+          "radar_eq": 3.22069262156076e-10,
+          "gain_err_db": 1.4700325847056968e-06
+        },
+        {
+          "fc_hz": 28000000000.0,
+          "received": 9.243062565333915e-11,
+          "radar_eq": 9.243059181775141e-11,
+          "gain_err_db": 1.5897990119093508e-06
+        }
+      ],
+      "expected": "|gain_err|<=0.5 dB",
+      "plot": "results/pilot_rt_v1/plots/g2_radar_equation.png"
+    },
+    "G3": {
+      "status": "PASS",
+      "measured": {
+        "slope_db_per_decade": -39.9999987692482
+      },
+      "expected": "-40 +/- 1 dB/decade",
+      "plot": "results/pilot_rt_v1/plots/g3_r4_slope.png"
+    },
+    "G4": {
+      "status": "PASS",
+      "measured": {
+        "var_meas": 2.4137833484262072e-15,
+        "var_model": 2.408033512162504e-15,
+        "var_rel_err": 0.0023877725266953243,
+        "bandwidth_x2_db": 3.010299956639812
+      },
+      "expected": "var within 2%; 2x bandwidth = 3.01 +/- 0.1 dB",
+      "plot": "results/pilot_rt_v1/plots/g4_noise.png"
+    },
+    "G5": {
+      "status": "PASS",
+      "measured": [
+        {
+          "fc_hz": 3500000000.0,
+          "sigma_x10_db": 9.999999934793834
+        },
+        {
+          "fc_hz": 28000000000.0,
+          "sigma_x10_db": 9.999999934793834
+        }
+      ],
+      "expected": "sigma x10 = +10.0 +/- 0.2 dB",
+      "plot": "results/pilot_rt_v1/plots/g5_rcs.png"
+    },
+    "G6": {
+      "status": "PASS",
+      "measured": [
+        {
+          "fc_hz": 3500000000.0,
+          "doppler_hz": -23.349489212036133,
+          "analytic_hz": -23.349486663870643,
+          "abs_err_hz": 2.5481654901682305e-06
+        },
+        {
+          "fc_hz": 12000000000.0,
+          "doppler_hz": -80.05538940429688,
+          "analytic_hz": -80.05538284755649,
+          "abs_err_hz": 6.556740387964055e-06
+        },
+        {
+          "fc_hz": 15000000000.0,
+          "doppler_hz": -100.0692367553711,
+          "analytic_hz": -100.06922855944562,
+          "abs_err_hz": 8.195925474296928e-06
+        },
+        {
+          "fc_hz": 28000000000.0,
+          "doppler_hz": -186.79591369628906,
+          "analytic_hz": -186.79589331096514,
+          "abs_err_hz": 2.0385323921345844e-05
+        }
+      ],
+      "expected": "within 1 bin; negative (receding)",
+      "plot": "results/pilot_rt_v1/plots/g6_doppler.png"
+    },
+    "G6-e2e": {
+      "status": "PASS",
+      "measured": [
+        {
+          "fc_hz": 3500000000.0,
+          "doppler_hz": -23.75,
+          "analytic_hz": -23.349486663870643,
+          "abs_err_hz": 0.40051333612935736,
+          "bin_hz": 10.0
+        },
+        {
+          "fc_hz": 12000000000.0,
+          "doppler_hz": -80.0,
+          "analytic_hz": -80.05538284755649,
+          "abs_err_hz": 0.055382847556487036,
+          "bin_hz": 10.0
+        },
+        {
+          "fc_hz": 15000000000.0,
+          "doppler_hz": -100.0,
+          "analytic_hz": -100.06922855944562,
+          "abs_err_hz": 0.06922855944561945,
+          "bin_hz": 10.0
+        },
+        {
+          "fc_hz": 28000000000.0,
+          "doppler_hz": -186.25,
+          "analytic_hz": -186.79589331096514,
+          "abs_err_hz": 0.5458933109651412,
+          "bin_hz": 10.0
+        }
+      ],
+      "expected": "peak = -2v/lambda within 1 bin; negative",
+      "plot": "results/pilot_rt_v1/plots/g6e2e_doppler.png"
+    },
+    "G6b": {
+      "status": "PASS",
+      "measured": {
+        "phase_nmse": 1.2732883392088842e-10,
+        "doppler_corr": 0.9997805116818803,
+        "static_cancel_nmse": {
+          "R0": 0.0,
+          "R1-P": 0.0
+        },
+        "n_tracks": 2,
+        "events": [
+          [
+            "birth",
+            0,
+            [
+              [
+                16
+              ],
+              [
+                0
+              ]
+            ]
+          ],
+          [
+            "birth",
+            0,
+            [
+              [
+                16
+              ],
+              [
+                1
+              ]
+            ]
+          ]
+        ]
+      },
+      "expected": "phase NMSE<=0.02; corr>0.99; static cancel NMSE<=1e-6",
+      "plot": "results/pilot_rt_v1/plots/g6b_forearm_phase.png"
+    },
+    "G6c": {
+      "status": "PASS",
+      "measured": {
+        "prf_hz": 1280.0,
+        "nslow": 128,
+        "bin_hz": 10.0,
+        "velocity_mps": 3.3,
+        "doppler_peak_hz": -616.25,
+        "truth_hz": -616.4264479261849,
+        "abs_err_hz": 0.1764479261848919,
+        "nyquist_hz": 640.0,
+        "legacy_480hz_peak_hz": -136.40625,
+        "legacy_aliases": true
+      },
+      "expected": "peak within 1 bin of -2v/lambda at PRF 1280 Hz",
+      "plot": "results/pilot_rt_v1/plots/g6c_no_aliasing.png"
+    },
+    "G7": {
+      "status": "PASS",
+      "measured": {
+        "p_free": 5.9155600418137055e-09,
+        "p_blocked": 0.0,
+        "drop_db": Infinity,
+        "blocked_paths": 0
+      },
+      "expected": "target path drops >=20 dB or disappears",
+      "plot": "results/pilot_rt_v1/plots/g7_blockage.png"
+    },
+    "G8": {
+      "status": "PASS",
+      "measured": {
+        "tau_meas_ns": 13.115475816505295,
+        "tau_image_ns": 13.115475540974082,
+        "abs_err_ns": 2.755312134090921e-07,
+        "n_paths": 2,
+        "cfr_power": 0.014818115836994326
+      },
+      "expected": "specular wall path delay matches image method <=0.01 ns",
+      "plot": "results/pilot_rt_v1/plots/g8_wall_image.png"
+    },
+    "G9": {
+      "status": "PASS",
+      "measured": {
+        "reconstruction_nmse": 0.00011855813398047468,
+        "doppler_peaks_hz": [
+          -25.0,
+          -25.0,
+          -25.0
+        ],
+        "doppler_spread_hz": 0.0,
+        "bin_hz": 40.0,
+        "n_tracks": 1,
+        "events": [
+          [
+            "birth",
+            0,
+            [
+              [
+                16
+              ],
+              [
+                0
+              ]
+            ]
+          ]
+        ]
+      },
+      "expected": "NMSE<=0.01; Doppler stable across dt,dt/2,dt/4 within 1 bin",
+      "plot": "results/pilot_rt_v1/plots/g9_fast_reference.png"
+    },
+    "G10": {
+      "cp95_lower": 0.9725897517057522,
+      "hits_within_1_bin": 96,
+      "n": 96,
+      "phat": 1.0,
+      "status": "PASS"
+    },
+    "G11": {
+      "keys_match": true,
+      "max_abs_diff": 0.0,
+      "row_counts_match": true,
+      "status": "PASS"
+    }
+  }
+}

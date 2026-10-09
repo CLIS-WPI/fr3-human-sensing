@@ -1,0 +1,7560 @@
+{
+  "capture": [
+    {
+      "capture_db": -0.8285173358682414,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -0.7107044305225125,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -0.7303097414991476,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -0.6429763692177732,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -0.8314671968715094,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -0.7469342150916478,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -0.7192970322852149,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -0.6457280607251864,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -1.2794457730243387,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -1.123476047970001,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -0.689052809491773,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -0.6095452848156195,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -2.8969182873742616,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -4.143678596800246,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -1.9111969160550628,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.7732320421234316,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -2.1329346040508246,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.0342851982485386,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.31039243589615,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.494625435091195,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -1.8748380877006077,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -1.8035735162058386,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.6239337966288696,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.9992299503547057,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -1.984940723117876,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.090045572463833,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.7361835681681708,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -4.358488813606252,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.684224658839518,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.5363291261753016,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.3260565352246547,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -4.195362110439368,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -0.8285173358682414,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -0.710704430522512,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -0.7303097414991471,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -0.6429763692177721,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -0.8314671968715076,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -0.7469342150916483,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -0.7192970322852144,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -0.6457280607251858,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -1.2794457730243374,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -1.1234760479699997,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -0.6890528094917748,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -0.609545284815619,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -2.89691828737426,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -4.143678596800248,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -1.9111969160550666,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.7732320421234316,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -2.132934604050826,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.0342851982485377,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.310392435896152,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.4946254350911983,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -1.8748380877006081,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -1.80357351620584,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.6239337966288683,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.9992299503547075,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -1.9849407231178766,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.090045572463833,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.7361835681681708,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -4.358488813606252,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.6842246588395158,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.5363291261753007,
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.326056535224656,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -4.195362110439371,
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -8.097208609671371,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.0506662447549964,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -6.40646740413538,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -2.6162355861365016,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -8.041227498193587,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.2301365560729636,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -6.601435206129562,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -2.7689148902649747,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -6.1421881465994215,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -2.694459477812416,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -6.6569977455229825,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.0052476294245185,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.6990201571610983,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -2.842108775452661,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.3572764808035864,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -2.824067773812748,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -6.047779925835341,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.460016554076355,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.095371274959313,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.73994170445905,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -5.357197781713956,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.1362536684214133,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.3787892475343186,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.9817234888901893,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.3637844539574417,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -7.149713019697751,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.7241725877853256,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.997061421452459,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.3602249337517294,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -6.767764640237477,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.0730558527319123,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.909087736860264,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -8.097208609671373,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.0506662447549955,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -6.406467404135386,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -2.6162355861365034,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -8.041227498193587,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.23013655607296,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -6.601435206129564,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -2.768914890264975,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -6.142188146599425,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -2.694459477812416,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -6.656997745522986,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.0052476294245185,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.6990201571610952,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -2.8421087754526617,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.357276480803584,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -2.824067773812749,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -6.047779925835343,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.460016554076355,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.095371274959311,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.739941704459052,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -5.357197781713959,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.1362536684214115,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.3787892475343178,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.9817234888901885,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.363784453957444,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -7.149713019697749,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.724172587785327,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.9970614214524542,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.3602249337517245,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -6.767764640237473,
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.073055852731916,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.9090877368602635,
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -6.566639148928606,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.0708899168545,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -7.161572108709971,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.1340858674284755,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -6.370834108813302,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.2674118234218352,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -6.925882066330517,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.2462724805506737,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -6.68404538410857,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -2.875358453850368,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -8.836333476186917,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -2.8336691231666777,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -4.288269096524864,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.1483799783080153,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.3188510537238747,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.022327390918859,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -7.179940692860939,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.3767883112830184,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.0938675028364497,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.8910441632280786,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -6.28067429984972,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.092955488179971,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.359684340496692,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.158174870992422,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.3344072725266347,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -9.116325879501222,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.8955599137494885,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.099579176473018,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.2632924000708163,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -8.716966849026637,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.115933004561942,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.043146940096238,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -6.566639148928605,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.070889916854502,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -7.161572108709972,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.134085867428473,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -6.370834108813299,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.267411823421834,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -6.925882066330518,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.2462724805506706,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -6.68404538410857,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -2.875358453850359,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -8.836333476186917,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -2.8336691231666777,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -4.288269096524864,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.148379978308013,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.3188510537238742,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.0223273909188597,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -7.179940692860941,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.3767883112830175,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.0938675028364466,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.891044163228076,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -6.28067429984972,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.092955488179971,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.3596843404966914,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.158174870992425,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.3344072725266383,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -9.11632587950122,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -2.895559913749487,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.0995791764730143,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.263292400070818,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -8.716966849026637,
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.1159330045619438,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.0431469400962365,
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -9.115632780907697,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.885110596795618,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -8.344595717021248,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -4.204322012645026,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -10.051224660675661,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.8102127456609827,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -8.737743927188664,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -4.079753869419956,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -9.455021650570243,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.9710835031686087,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -11.35210791911116,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -4.07471441907238,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -6.318766401026598,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -4.2065683652049355,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -4.0262891167101,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -4.054817142189943,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "dev"
+    },
+    {
+      "capture_db": -10.141497673558742,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.706730400952545,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.9168472369998026,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.928755545697733,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -10.77977858051501,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -4.114515049106014,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.7944215247759012,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.79130587463353,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -4.01221943404918,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -12.851803103922002,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.924458367698419,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.960658661919165,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.5252686503630137,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -14.047759036457265,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -4.034137186767117,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -4.148907725087137,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F1",
+      "split": "test"
+    },
+    {
+      "capture_db": -9.115632780907701,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.885110596795618,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -8.344595717021248,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -4.204322012645024,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -10.05122466067566,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.8102127456609853,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -8.737743927188664,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -4.079753869419956,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -9.455021650570245,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -3.971083503168607,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -11.352107919111162,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -4.07471441907238,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -6.318766401026599,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -4.206568365204937,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -4.0262891167101,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -4.054817142189942,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "dev"
+    },
+    {
+      "capture_db": -10.141497673558742,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.706730400952541,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.9168472369998053,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.928755545697737,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -10.77977858051501,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -4.1145150491060125,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.7944215247759012,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.791305874633532,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -4.01221943404918,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -12.851803103922002,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.924458367698416,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.9606586619191626,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -3.525268650363018,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -14.047759036457265,
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -4.034137186767117,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "test"
+    },
+    {
+      "capture_db": -4.148907725087137,
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "regime": "F2",
+      "split": "test"
+    }
+  ],
+  "capture_table": [
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "mean_capture_db": -1.2357756365586936,
+      "n": 16,
+      "p10_capture_db": -2.4040576017146633,
+      "split": "dev"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "mean_capture_db": -1.5495343809083022,
+      "n": 16,
+      "p10_capture_db": -3.958455319461839,
+      "split": "dev"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "mean_capture_db": -2.2676464358502924,
+      "n": 16,
+      "p10_capture_db": -3.110276892507409,
+      "split": "test"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "mean_capture_db": -3.5055340806761714,
+      "n": 16,
+      "p10_capture_db": -4.276925462022811,
+      "split": "test"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "mean_capture_db": -6.125227656027125,
+      "n": 16,
+      "p10_capture_db": -8.06921805393248,
+      "split": "dev"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "mean_capture_db": -2.8789796167164727,
+      "n": 16,
+      "p10_capture_db": -3.140401400413978,
+      "split": "dev"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "mean_capture_db": -4.830341872211433,
+      "n": 16,
+      "p10_capture_db": -6.958738829967613,
+      "split": "test"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "mean_capture_db": -2.987400414334104,
+      "n": 16,
+      "p10_capture_db": -3.2370802612468155,
+      "split": "test"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "mean_capture_db": -6.269053305415827,
+      "n": 16,
+      "p10_capture_db": -7.998952792448445,
+      "split": "dev"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "mean_capture_db": -3.0747993793124246,
+      "n": 16,
+      "p10_capture_db": -3.2568421519862536,
+      "split": "dev"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "mean_capture_db": -5.54516889916237,
+      "n": 16,
+      "p10_capture_db": -8.91664636426393,
+      "split": "test"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "mean_capture_db": -3.082123739054291,
+      "n": 16,
+      "p10_capture_db": -3.2589296057445583,
+      "split": "test"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "mean_capture_db": -8.425172771651422,
+      "n": 16,
+      "p10_capture_db": -10.70166628989341,
+      "split": "dev"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "mean_capture_db": -4.035822831769682,
+      "n": 16,
+      "p10_capture_db": -4.205445188924981,
+      "split": "dev"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "mean_capture_db": -7.897446491115471,
+      "n": 16,
+      "p10_capture_db": -13.449781070189633,
+      "split": "test"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "mean_capture_db": -3.9374365154473505,
+      "n": 16,
+      "p10_capture_db": -4.091522455927127,
+      "split": "test"
+    }
+  ],
+  "config": {
+    "carriers_hz": [
+      3500000000.0,
+      12000000000.0,
+      15000000000.0,
+      28000000000.0
+    ],
+    "cpi_s": 0.1,
+    "dev_motions": [
+      [
+        0.18,
+        0.7
+      ],
+      [
+        0.2,
+        0.5
+      ]
+    ],
+    "k_anchors": 8,
+    "nsc": 816,
+    "nslow": 128,
+    "pfa": 0.001,
+    "prf_slow_hz": 1280.0,
+    "regimes": [
+      "F1",
+      "F2"
+    ],
+    "scenarios": [
+      [
+        2.0,
+        1.5
+      ],
+      [
+        3.0,
+        3.5
+      ],
+      [
+        4.0,
+        4.5
+      ],
+      [
+        7.0,
+        2.5
+      ]
+    ],
+    "scs": 120000.0,
+    "test_motions": [
+      [
+        0.18,
+        0.9
+      ],
+      [
+        0.25,
+        0.7
+      ]
+    ]
+  },
+  "d0_d1_eirp_diff": [
+    {
+      "fc_hz": 3500000000.0,
+      "max_diff_db": 0.7087980832723701,
+      "median_diff_db": 0.11336384370409291,
+      "min_diff_db": -0.6331879515846737,
+      "n": 4,
+      "regime": "F1"
+    },
+    {
+      "fc_hz": 3500000000.0,
+      "max_diff_db": 0.3405939114965406,
+      "median_diff_db": -0.09569923499623201,
+      "min_diff_db": -1.004053642152698,
+      "n": 4,
+      "regime": "F2"
+    },
+    {
+      "fc_hz": 12000000000.0,
+      "max_diff_db": -3.536075212465917,
+      "median_diff_db": -4.401696825168713,
+      "min_diff_db": -5.325966300986707,
+      "n": 4,
+      "regime": "F1"
+    },
+    {
+      "fc_hz": 12000000000.0,
+      "max_diff_db": -3.233490294741017,
+      "median_diff_db": -4.614417437190433,
+      "min_diff_db": -5.2130178979206505,
+      "n": 4,
+      "regime": "F2"
+    },
+    {
+      "fc_hz": 15000000000.0,
+      "max_diff_db": -3.5253334142702357,
+      "median_diff_db": -5.203829085095812,
+      "min_diff_db": -6.081459890413939,
+      "n": 4,
+      "regime": "F1"
+    },
+    {
+      "fc_hz": 15000000000.0,
+      "max_diff_db": -3.9765301433673557,
+      "median_diff_db": -5.436068193386731,
+      "min_diff_db": -6.510767647698302,
+      "n": 4,
+      "regime": "F2"
+    },
+    {
+      "fc_hz": 28000000000.0,
+      "max_diff_db": -5.84677073511385,
+      "median_diff_db": -7.254798178834612,
+      "min_diff_db": -8.256989120332037,
+      "n": 4,
+      "regime": "F1"
+    },
+    {
+      "fc_hz": 28000000000.0,
+      "max_diff_db": -6.468750171243656,
+      "median_diff_db": -7.1947002186391344,
+      "min_diff_db": -7.975430542979524,
+      "n": 4,
+      "regime": "F2"
+    }
+  ],
+  "detector": [
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 10.156271161666044
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 6.863164789946177
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 10.135441046936629
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 6.753539115942908
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        685273473151.7191,
+        707246999524.7772
+      ],
+      "threshold": 10.071074375872428
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        657836758818.6973,
+        505285795921.55133
+      ],
+      "threshold": 6.591095245604296
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 9.649838774801799
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 6.421751067856472
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 10.409464754566727
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 7.230841007870106
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        179121075986.885,
+        186024218716.1349
+      ],
+      "threshold": 9.560021570749724
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        150742987646.59634,
+        112202839014.42606
+      ],
+      "threshold": 7.264274970820716
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 9.54465213977017
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 7.645804245383104
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 10.583487943865263
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 7.238843529973681
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        14659511309.481503,
+        15497379223.79213
+      ],
+      "threshold": 10.07748538258283
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        9794791786.210386,
+        9192082982.174526
+      ],
+      "threshold": 7.288671160901715
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 9.900212689973676
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 7.697539273014407
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 10.01759270932995
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 7.131541729447238
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        14767682933.941698,
+        11557709204.257315
+      ],
+      "threshold": 9.50342315367269
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        12738819139.60618,
+        9930439385.332891
+      ],
+      "threshold": 7.468358579129064
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 10.324833776563175
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 6.647633258761625
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 9.698594109850115
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 7.095887301519646
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        6213146156575.583,
+        6412372795691.313
+      ],
+      "threshold": 10.019978568954624
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        5964386613289.519,
+        4581257883022.062
+      ],
+      "threshold": 7.064395628932208
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 9.361551642009069
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 8.164153034528313
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 9.430353235530665
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 6.305719074400896
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        1624031088947.7563,
+        1686619583026.2886
+      ],
+      "threshold": 9.556232080509831
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        1366736421329.14,
+        1017305740397.4624
+      ],
+      "threshold": 6.3385919494230745
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 9.164394773241956
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 7.121852960444929
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 9.732941371181107
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 7.711806309063883
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        132912902539.29892,
+        140509571629.0486
+      ],
+      "threshold": 9.376339124580811
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        88806112194.97417,
+        83341552371.7157
+      ],
+      "threshold": 6.364294753988394
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 9.772904772800104
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 6.9418031224030825
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 9.653039585351872
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 6.707156374068621
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        133893658601.07137,
+        104789896785.2663
+      ],
+      "threshold": 10.163480936077953
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        115498626865.76259,
+        90035983760.35146
+      ],
+      "threshold": 6.933428330768228
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 9.206193485241974
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 7.057713455217702
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 10.707696071128947
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 6.359903754991355
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        26901201121.289707,
+        48508047486.03602
+      ],
+      "threshold": 10.396083519907675
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        53089976914.23324,
+        57256036228.556305
+      ],
+      "threshold": 6.822907263572692
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 10.00199674018652
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 6.530702677868854
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 10.30235992311238
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 6.407284912548105
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        7795679974.3500805,
+        13163646524.291634
+      ],
+      "threshold": 10.160454962524703
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        12294046621.427135,
+        13640466705.920782
+      ],
+      "threshold": 6.713621262402678
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 9.494077636257451
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 6.862282289072786
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 10.933267460709216
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 6.48750657085303
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        1024525132.8758079,
+        432885426.317588
+      ],
+      "threshold": 9.811411755689525
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        1187090428.4502883,
+        1126258611.757603
+      ],
+      "threshold": 6.623746530818115
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 10.28523589951103
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 6.088042652561805
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 11.161019039450574
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 7.171002539163834
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        1100320832.8848274,
+        512414836.19448066
+      ],
+      "threshold": 9.690492807465555
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        1175536839.6322246,
+        1245917786.9193661
+      ],
+      "threshold": 7.41355565978139
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 10.495590699571746
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 7.026981367106977
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 10.720607623020957
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 6.6311946807206095
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        2873048279753.74,
+        5180659471508.648
+      ],
+      "threshold": 10.502161790142
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        5670009534440.114,
+        6114944669209.8125
+      ],
+      "threshold": 6.927520430073011
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 10.777402785868857
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 6.33263733939696
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 11.320042576300414
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 6.619854712436399
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        832578621260.5881,
+        1405877448794.3464
+      ],
+      "threshold": 10.454010758081408
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        1313004179168.418,
+        1456801844192.3394
+      ],
+      "threshold": 7.406024031719522
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 10.152846137345005
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 8.464989064821026
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 10.045639758980295
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 7.975264594072213
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        109419284191.13622,
+        46232163530.71838
+      ],
+      "threshold": 9.309765920220155
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        126781257758.49072,
+        120284419735.71207
+      ],
+      "threshold": 7.141812120749286
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 10.64810000567
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 7.983682749183084
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 11.785529038966615
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 6.977163114209504
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        117514264952.09966,
+        54725904505.57053
+      ],
+      "threshold": 10.38356153060418
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        125547334472.72144,
+        133064019642.98827
+      ],
+      "threshold": 6.4726315941760735
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 10.504398421817427
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 8.212924153992752
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 10.274916449162701
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 7.385795040417724
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        13272060378.669918,
+        32334173170.190414
+      ],
+      "threshold": 10.293966592608335
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        34005226174.830044,
+        36160645524.745186
+      ],
+      "threshold": 7.843738551830406
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 10.170202639670451
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 7.253233315376515
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 10.359810490490151
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 8.555693483950952
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        4034648813.039726,
+        8696006581.983715
+      ],
+      "threshold": 10.733172077709874
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        7905052060.996541,
+        8566391557.891956
+      ],
+      "threshold": 8.441691298966555
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 9.710713950009486
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 7.415956107419429
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 10.117810944647369
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 7.945446993618896
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        674745767.3466066,
+        170272216.17771262
+      ],
+      "threshold": 10.83240622444726
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        746491565.0606916,
+        680484847.1997772
+      ],
+      "threshold": 8.312830026662429
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 9.936978320949759
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 6.905441761910589
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 10.191983399699007
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 7.399550962615175
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        737659260.5789958,
+        208484563.7710281
+      ],
+      "threshold": 9.768369957105437
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        763118071.8674616,
+        769938250.9729433
+      ],
+      "threshold": 7.6887210138781805
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 9.76057869834923
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 7.0232885355561825
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 10.384704609613749
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 6.837999897869909
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        2214664475187.383,
+        5395495696332.437
+      ],
+      "threshold": 10.175577618084498
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        5674338741039.971,
+        6034006383229.1455
+      ],
+      "threshold": 7.508676167932105
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 10.542426938541368
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 7.731788891934409
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 10.603812204060747
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 8.809900992212562
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        673248398602.5616,
+        1451073631647.0154
+      ],
+      "threshold": 10.322002693753092
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        1319089687244.9553,
+        1429445204626.9028
+      ],
+      "threshold": 7.317212532708968
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 9.969503729173807
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 7.742160462800464
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 10.6999802889806
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 7.349412012369026
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        112592577044.57033,
+        28412757139.52098
+      ],
+      "threshold": 10.203825093602607
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        124564559156.46075,
+        113550238169.40294
+      ],
+      "threshold": 7.093428448946495
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 10.2398311196056
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 7.599749608718606
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 10.953229991498256
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 7.9541714487597375
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        123090741948.61496,
+        34789124207.92552
+      ],
+      "threshold": 9.882889729606175
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        127338968925.61693,
+        128477029479.01839
+      ],
+      "threshold": 7.217789017597945
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 10.840524606422944
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 8.362236693611223
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 10.956275581331465
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 7.95195479539264
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        1921306873.0572352,
+        8424510470.734179
+      ],
+      "threshold": 9.836378676585019
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        8054930174.305266,
+        8004646546.081595
+      ],
+      "threshold": 7.971958690460865
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 10.590328408568666
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 8.10328170579864
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 9.787605929800502
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 9.288154419106018
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        34411844.353300564,
+        158428672.0434035
+      ],
+      "threshold": 10.025845569904968
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        171887246.85163704,
+        170669021.8333338
+      ],
+      "threshold": 8.491961534137879
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 10.330810220973943
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 6.979572064750184
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 9.761813496994764
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 8.404502885295358
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        162038666.51668712,
+        21227326.900372356
+      ],
+      "threshold": 10.987397684608013
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        165346408.9410317,
+        164440864.87621552
+      ],
+      "threshold": 7.648318928553078
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 10.457187361481962
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F1",
+      "threshold": 7.672985239689063
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 11.047032465430236
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F1",
+      "threshold": 7.490228928397448
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        194804256.90102208,
+        17153738.102536038
+      ],
+      "threshold": 11.12147338567529
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "stats": [
+        173265297.77587384,
+        167588381.3162063
+      ],
+      "threshold": 8.166994739149548
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 9.346039446883706
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 7.437269637346216
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 11.24048801273367
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 7.406019006967782
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        524644863469.4952,
+        2300452992541.813
+      ],
+      "threshold": 10.138336781526736
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        2199532932930.2886,
+        2185802150183.3438
+      ],
+      "threshold": 7.120304556464742
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 9.684294581516092
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 7.814432797463891
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 9.47006126690789
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 8.129618476297454
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        9396727631.407927,
+        43261589379.318695
+      ],
+      "threshold": 9.967360947718388
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        46936677540.28695,
+        46604020895.28894
+      ],
+      "threshold": 7.783295355431762
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 11.455731374609684
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 7.349493340059059
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 9.959790780566166
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 7.784771592020922
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        44247358536.82335,
+        5796475398.928342
+      ],
+      "threshold": 10.655953386704274
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        45150592734.83107,
+        44903318835.53191
+      ],
+      "threshold": 7.914424039981436
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 10.243165467205902
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "regime": "F2",
+      "threshold": 7.394186818811264
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 9.850602216397641
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "regime": "F2",
+      "threshold": 6.9938963178387334
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        53194549084.43902,
+        4684114084.532504
+      ],
+      "threshold": 10.176060677207673
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "stats": [
+        47312977312.66526,
+        45762800658.07871
+      ],
+      "threshold": 8.33302933921872
+    }
+  ],
+  "gate_G10": {
+    "cp95_lower": 0.9725897517057522,
+    "hits_within_1_bin": 96,
+    "n": 96,
+    "phat": 1.0,
+    "status": "PASS"
+  },
+  "gate_G11": {
+    "keys_match": true,
+    "max_abs_diff": 0.0,
+    "row_counts_match": true,
+    "status": "PASS"
+  },
+  "link_budget": [
+    {
+      "bs_rx_gain_db": 20.0,
+      "bs_tx_gain_db": 10.211892990699381,
+      "conducted_power_dbm": 30.0,
+      "eirp_dbm": 40.0,
+      "fc_hz": 3500000000.0,
+      "forearm_rcs_m2": 0.3,
+      "noise_figure_db": 7.0,
+      "noise_var_per_sc": 2.408033512162504e-15,
+      "processing_gain_db": 21.072099696478684,
+      "radar_eq_gain": 3.419889764214907e-09,
+      "regime": "F1",
+      "rt_path_gain": 3.590882688702221e-06,
+      "rt_vs_radar_db": 30.211891099475498,
+      "snr_db_after_processing": 112.80748660323594,
+      "target_range_m": 5.73410847473258,
+      "torso_rcs_m2": 0.7
+    },
+    {
+      "bs_rx_gain_db": 20.0,
+      "bs_tx_gain_db": 19.786369483844744,
+      "conducted_power_dbm": 30.0,
+      "eirp_dbm": 49.786369483844744,
+      "fc_hz": 3500000000.0,
+      "forearm_rcs_m2": 0.3,
+      "noise_figure_db": 7.0,
+      "noise_var_per_sc": 2.408033512162504e-15,
+      "processing_gain_db": 21.072099696478684,
+      "radar_eq_gain": 3.419889764214907e-09,
+      "regime": "F2",
+      "rt_path_gain": 3.2557336377566806e-05,
+      "rt_vs_radar_db": 39.78636759262086,
+      "snr_db_after_processing": 122.3819630963813,
+      "target_range_m": 5.73410847473258,
+      "torso_rcs_m2": 0.7
+    },
+    {
+      "bs_rx_gain_db": 20.0,
+      "bs_tx_gain_db": 10.211892990699381,
+      "conducted_power_dbm": 30.0,
+      "eirp_dbm": 40.0,
+      "fc_hz": 12000000000.0,
+      "forearm_rcs_m2": 0.3,
+      "noise_figure_db": 7.0,
+      "noise_var_per_sc": 2.408033512162504e-15,
+      "processing_gain_db": 21.072099696478684,
+      "radar_eq_gain": 2.9092812230300426e-10,
+      "regime": "F1",
+      "rt_path_gain": 3.054744388291863e-07,
+      "rt_vs_radar_db": 30.21189171700889,
+      "snr_db_after_processing": 102.10522318682236,
+      "target_range_m": 5.73410847473258,
+      "torso_rcs_m2": 0.7
+    },
+    {
+      "bs_rx_gain_db": 20.0,
+      "bs_tx_gain_db": 30.497605517624756,
+      "conducted_power_dbm": 30.0,
+      "eirp_dbm": 60.497605517624756,
+      "fc_hz": 12000000000.0,
+      "forearm_rcs_m2": 0.3,
+      "noise_figure_db": 7.0,
+      "noise_var_per_sc": 2.408033512162504e-15,
+      "processing_gain_db": 21.072099696478684,
+      "radar_eq_gain": 2.9092812230300426e-10,
+      "regime": "F2",
+      "rt_path_gain": 3.2624670066957085e-05,
+      "rt_vs_radar_db": 50.49760424393426,
+      "snr_db_after_processing": 122.39093571374772,
+      "target_range_m": 5.73410847473258,
+      "torso_rcs_m2": 0.7
+    },
+    {
+      "bs_rx_gain_db": 20.0,
+      "bs_tx_gain_db": 10.211892990699381,
+      "conducted_power_dbm": 30.0,
+      "eirp_dbm": 40.0,
+      "fc_hz": 15000000000.0,
+      "forearm_rcs_m2": 0.3,
+      "noise_figure_db": 7.0,
+      "noise_var_per_sc": 2.408033512162504e-15,
+      "processing_gain_db": 21.072099696478684,
+      "radar_eq_gain": 1.8619399827392272e-10,
+      "regime": "F1",
+      "rt_path_gain": 1.9550360957667632e-07,
+      "rt_vs_radar_db": 30.211891022283822,
+      "snr_db_after_processing": 100.16702223193616,
+      "target_range_m": 5.73410847473258,
+      "torso_rcs_m2": 0.7
+    },
+    {
+      "bs_rx_gain_db": 20.0,
+      "bs_tx_gain_db": 32.4355888962248,
+      "conducted_power_dbm": 30.0,
+      "eirp_dbm": 62.4355888962248,
+      "fc_hz": 15000000000.0,
+      "forearm_rcs_m2": 0.3,
+      "noise_figure_db": 7.0,
+      "noise_var_per_sc": 2.408033512162504e-15,
+      "processing_gain_db": 21.072099696478684,
+      "radar_eq_gain": 1.8619399827392272e-10,
+      "regime": "F2",
+      "rt_path_gain": 3.262303565136136e-05,
+      "rt_vs_radar_db": 52.43558692780924,
+      "snr_db_after_processing": 122.39071813746158,
+      "target_range_m": 5.73410847473258,
+      "torso_rcs_m2": 0.7
+    },
+    {
+      "bs_rx_gain_db": 20.0,
+      "bs_tx_gain_db": 10.211892990699381,
+      "conducted_power_dbm": 30.0,
+      "eirp_dbm": 40.0,
+      "fc_hz": 28000000000.0,
+      "forearm_rcs_m2": 0.3,
+      "noise_figure_db": 7.0,
+      "noise_var_per_sc": 2.408033512162504e-15,
+      "processing_gain_db": 21.072099696478684,
+      "radar_eq_gain": 5.3435777565857924e-11,
+      "regime": "F1",
+      "rt_path_gain": 5.610754201097219e-08,
+      "rt_vs_radar_db": 30.211891099475498,
+      "snr_db_after_processing": 94.74568686339707,
+      "target_range_m": 5.73410847473258,
+      "torso_rcs_m2": 0.7
+    },
+    {
+      "bs_rx_gain_db": 20.0,
+      "bs_tx_gain_db": 34.57457987982031,
+      "conducted_power_dbm": 30.0,
+      "eirp_dbm": 64.5745798798203,
+      "fc_hz": 28000000000.0,
+      "forearm_rcs_m2": 0.3,
+      "noise_figure_db": 7.0,
+      "noise_var_per_sc": 2.408033512162504e-15,
+      "processing_gain_db": 21.072099696478684,
+      "radar_eq_gain": 5.3435777565857924e-11,
+      "regime": "F2",
+      "rt_path_gain": 1.5321099471796137e-05,
+      "rt_vs_radar_db": 54.57457798859643,
+      "snr_db_after_processing": 119.108373752518,
+      "target_range_m": 5.73410847473258,
+      "torso_rcs_m2": 0.7
+    }
+  ],
+  "localization": [
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R0",
+      "r_hat": 1,
+      "regime": "F1",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R1-P",
+      "r_hat": 1,
+      "regime": "F1",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R1-A",
+      "r_hat": 1,
+      "regime": "F1",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R0",
+      "r_hat": 3,
+      "regime": "F1",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R1-P",
+      "r_hat": 3,
+      "regime": "F1",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R1-A",
+      "r_hat": 3,
+      "regime": "F1",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 1,
+      "fc_hz": 3500000000.0,
+      "model": "R0",
+      "r_hat": 3,
+      "regime": "F1",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R1-P",
+      "r_hat": 4,
+      "regime": "F1",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 1,
+      "fc_hz": 3500000000.0,
+      "model": "R1-A",
+      "r_hat": 3,
+      "regime": "F1",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R0",
+      "r_hat": 4,
+      "regime": "F1",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R1-P",
+      "r_hat": 4,
+      "regime": "F1",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R1-A",
+      "r_hat": 4,
+      "regime": "F1",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R0",
+      "r_hat": 1,
+      "regime": "F2",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R1-P",
+      "r_hat": 1,
+      "regime": "F2",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R1-A",
+      "r_hat": 1,
+      "regime": "F2",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R0",
+      "r_hat": 3,
+      "regime": "F2",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R1-P",
+      "r_hat": 3,
+      "regime": "F2",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R1-A",
+      "r_hat": 3,
+      "regime": "F2",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 1,
+      "fc_hz": 3500000000.0,
+      "model": "R0",
+      "r_hat": 3,
+      "regime": "F2",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R1-P",
+      "r_hat": 4,
+      "regime": "F2",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 1,
+      "fc_hz": 3500000000.0,
+      "model": "R1-A",
+      "r_hat": 3,
+      "regime": "F2",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R0",
+      "r_hat": 4,
+      "regime": "F2",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R1-P",
+      "r_hat": 4,
+      "regime": "F2",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 3500000000.0,
+      "model": "R1-A",
+      "r_hat": 4,
+      "regime": "F2",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R0",
+      "r_hat": 1,
+      "regime": "F1",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R1-P",
+      "r_hat": 1,
+      "regime": "F1",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R1-A",
+      "r_hat": 1,
+      "regime": "F1",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R0",
+      "r_hat": 3,
+      "regime": "F1",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R1-P",
+      "r_hat": 3,
+      "regime": "F1",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R1-A",
+      "r_hat": 3,
+      "regime": "F1",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 1,
+      "fc_hz": 12000000000.0,
+      "model": "R0",
+      "r_hat": 3,
+      "regime": "F1",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R1-P",
+      "r_hat": 4,
+      "regime": "F1",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 1,
+      "fc_hz": 12000000000.0,
+      "model": "R1-A",
+      "r_hat": 3,
+      "regime": "F1",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R0",
+      "r_hat": 4,
+      "regime": "F1",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R1-P",
+      "r_hat": 4,
+      "regime": "F1",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R1-A",
+      "r_hat": 4,
+      "regime": "F1",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R0",
+      "r_hat": 1,
+      "regime": "F2",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R1-P",
+      "r_hat": 1,
+      "regime": "F2",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R1-A",
+      "r_hat": 1,
+      "regime": "F2",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R0",
+      "r_hat": 3,
+      "regime": "F2",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R1-P",
+      "r_hat": 3,
+      "regime": "F2",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R1-A",
+      "r_hat": 3,
+      "regime": "F2",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 1,
+      "fc_hz": 12000000000.0,
+      "model": "R0",
+      "r_hat": 3,
+      "regime": "F2",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R1-P",
+      "r_hat": 4,
+      "regime": "F2",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 1,
+      "fc_hz": 12000000000.0,
+      "model": "R1-A",
+      "r_hat": 3,
+      "regime": "F2",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R0",
+      "r_hat": 4,
+      "regime": "F2",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R1-P",
+      "r_hat": 4,
+      "regime": "F2",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 12000000000.0,
+      "model": "R1-A",
+      "r_hat": 4,
+      "regime": "F2",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R0",
+      "r_hat": 1,
+      "regime": "F1",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R1-P",
+      "r_hat": 1,
+      "regime": "F1",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R1-A",
+      "r_hat": 1,
+      "regime": "F1",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R0",
+      "r_hat": 3,
+      "regime": "F1",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R1-P",
+      "r_hat": 3,
+      "regime": "F1",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R1-A",
+      "r_hat": 3,
+      "regime": "F1",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 1,
+      "fc_hz": 15000000000.0,
+      "model": "R0",
+      "r_hat": 3,
+      "regime": "F1",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R1-P",
+      "r_hat": 4,
+      "regime": "F1",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 1,
+      "fc_hz": 15000000000.0,
+      "model": "R1-A",
+      "r_hat": 3,
+      "regime": "F1",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R0",
+      "r_hat": 4,
+      "regime": "F1",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R1-P",
+      "r_hat": 4,
+      "regime": "F1",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R1-A",
+      "r_hat": 4,
+      "regime": "F1",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R0",
+      "r_hat": 1,
+      "regime": "F2",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R1-P",
+      "r_hat": 1,
+      "regime": "F2",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R1-A",
+      "r_hat": 1,
+      "regime": "F2",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R0",
+      "r_hat": 3,
+      "regime": "F2",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R1-P",
+      "r_hat": 3,
+      "regime": "F2",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R1-A",
+      "r_hat": 3,
+      "regime": "F2",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 1,
+      "fc_hz": 15000000000.0,
+      "model": "R0",
+      "r_hat": 3,
+      "regime": "F2",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R1-P",
+      "r_hat": 4,
+      "regime": "F2",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 1,
+      "fc_hz": 15000000000.0,
+      "model": "R1-A",
+      "r_hat": 3,
+      "regime": "F2",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R0",
+      "r_hat": 4,
+      "regime": "F2",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R1-P",
+      "r_hat": 4,
+      "regime": "F2",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 15000000000.0,
+      "model": "R1-A",
+      "r_hat": 4,
+      "regime": "F2",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 28000000000.0,
+      "model": "R0",
+      "r_hat": 1,
+      "regime": "F1",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 28000000000.0,
+      "model": "R1-P",
+      "r_hat": 1,
+      "regime": "F1",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 28000000000.0,
+      "model": "R1-A",
+      "r_hat": 1,
+      "regime": "F1",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 28000000000.0,
+      "model": "R0",
+      "r_hat": 3,
+      "regime": "F1",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 28000000000.0,
+      "model": "R1-P",
+      "r_hat": 3,
+      "regime": "F1",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 1,
+      "fc_hz": 28000000000.0,
+      "model": "R1-A",
+      "r_hat": 2,
+      "regime": "F1",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 1,
+      "fc_hz": 28000000000.0,
+      "model": "R0",
+      "r_hat": 3,
+      "regime": "F1",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 28000000000.0,
+      "model": "R1-P",
+      "r_hat": 4,
+      "regime": "F1",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 1,
+      "fc_hz": 28000000000.0,
+      "model": "R1-A",
+      "r_hat": 3,
+      "regime": "F1",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 28000000000.0,
+      "model": "R0",
+      "r_hat": 4,
+      "regime": "F1",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 28000000000.0,
+      "model": "R1-P",
+      "r_hat": 4,
+      "regime": "F1",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 28000000000.0,
+      "model": "R1-A",
+      "r_hat": 4,
+      "regime": "F1",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 28000000000.0,
+      "model": "R0",
+      "r_hat": 1,
+      "regime": "F2",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 28000000000.0,
+      "model": "R1-P",
+      "r_hat": 1,
+      "regime": "F2",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 28000000000.0,
+      "model": "R1-A",
+      "r_hat": 1,
+      "regime": "F2",
+      "root": [
+        2.0,
+        1.5,
+        1.4
+      ],
+      "true_bin": 1
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 28000000000.0,
+      "model": "R0",
+      "r_hat": 3,
+      "regime": "F2",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 28000000000.0,
+      "model": "R1-P",
+      "r_hat": 3,
+      "regime": "F2",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 1,
+      "fc_hz": 28000000000.0,
+      "model": "R1-A",
+      "r_hat": 2,
+      "regime": "F2",
+      "root": [
+        3.0,
+        3.5,
+        1.4
+      ],
+      "true_bin": 3
+    },
+    {
+      "abs_bin_err": 1,
+      "fc_hz": 28000000000.0,
+      "model": "R0",
+      "r_hat": 3,
+      "regime": "F2",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 28000000000.0,
+      "model": "R1-P",
+      "r_hat": 4,
+      "regime": "F2",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 1,
+      "fc_hz": 28000000000.0,
+      "model": "R1-A",
+      "r_hat": 3,
+      "regime": "F2",
+      "root": [
+        4.0,
+        4.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 28000000000.0,
+      "model": "R0",
+      "r_hat": 4,
+      "regime": "F2",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 28000000000.0,
+      "model": "R1-P",
+      "r_hat": 4,
+      "regime": "F2",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    },
+    {
+      "abs_bin_err": 0,
+      "fc_hz": 28000000000.0,
+      "model": "R1-A",
+      "r_hat": 4,
+      "regime": "F2",
+      "root": [
+        7.0,
+        2.5,
+        1.4
+      ],
+      "true_bin": 4
+    }
+  ],
+  "margin": [
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -68.34178469444251,
+      "required_tx_dbm": -78.34178469444251
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -68.97497264602718,
+      "required_tx_dbm": -78.97497264602718
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -62.74358326714351,
+      "required_tx_dbm": -72.7435832671435
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -62.034785183871136,
+      "required_tx_dbm": -72.03478518387114
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -51.65242469926676,
+      "required_tx_dbm": -61.65242469926676
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -51.03603877467074,
+      "required_tx_dbm": -61.03603877467074
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -50.968890874205385,
+      "required_tx_dbm": -60.968890874205385
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -51.358549111393216,
+      "required_tx_dbm": -61.358549111393216
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -68.15198181011672,
+      "required_tx_dbm": -87.93835129396146
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -68.46190539913616,
+      "required_tx_dbm": -88.24827488298091
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -62.533412114574126,
+      "required_tx_dbm": -82.31978159841887
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -62.41488699554716,
+      "required_tx_dbm": -82.2012564793919
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -51.75372041163032,
+      "required_tx_dbm": -71.54008989547506
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -51.41312650013378,
+      "required_tx_dbm": -71.19949598397852
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -50.46537378749651,
+      "required_tx_dbm": -70.25174327134125
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -51.46942742964921,
+      "required_tx_dbm": -71.25579691349395
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -54.46454031357226,
+      "required_tx_dbm": -64.46454031357226
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -58.94437747573464,
+      "required_tx_dbm": -68.94437747573464
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -49.13860949117306,
+      "required_tx_dbm": -59.13860949117306
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -52.674684703638974,
+      "required_tx_dbm": -62.674684703638974
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -37.00277201757969,
+      "required_tx_dbm": -47.00277201757969
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -42.328738318566394,
+      "required_tx_dbm": -52.328738318566394
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -37.70446468197187,
+      "required_tx_dbm": -47.70446468197187
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -42.028021170146914,
+      "required_tx_dbm": -52.028021170146914
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -54.20855787670576,
+      "required_tx_dbm": -84.70616339433052
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -58.66640101684877,
+      "required_tx_dbm": -89.16400653447353
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -48.80301862480939,
+      "required_tx_dbm": -79.30062414243415
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -52.03650891955041,
+      "required_tx_dbm": -82.53411443717516
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -37.018806433775076,
+      "required_tx_dbm": -67.51641195139983
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -41.78979816801293,
+      "required_tx_dbm": -72.28740368563768
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -37.19256691895716,
+      "required_tx_dbm": -67.69017243658192
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -42.40558481687781,
+      "required_tx_dbm": -72.90319033450257
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -51.686395669956426,
+      "required_tx_dbm": -61.686395669956426
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -56.39766644071473,
+      "required_tx_dbm": -66.39766644071473
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -46.225601356924116,
+      "required_tx_dbm": -56.225601356924116
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -49.75093477119435,
+      "required_tx_dbm": -59.75093477119435
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -33.09115905879355,
+      "required_tx_dbm": -43.09115905879355
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -39.17261894920749,
+      "required_tx_dbm": -49.17261894920749
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -34.274868623766565,
+      "required_tx_dbm": -44.274868623766565
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -39.971256023199885,
+      "required_tx_dbm": -49.971256023199885
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -51.52473951026241,
+      "required_tx_dbm": -83.9603284064872
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -56.375370796955735,
+      "required_tx_dbm": -88.81095969318054
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -46.183349607166846,
+      "required_tx_dbm": -78.61893850339165
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -50.1598797505342,
+      "required_tx_dbm": -82.595468646759
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -33.138885392205054,
+      "required_tx_dbm": -65.57447428842985
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -39.649653039903356,
+      "required_tx_dbm": -72.08524193612816
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -34.0123571291238,
+      "required_tx_dbm": -66.4479460253486
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -40.03386222920393,
+      "required_tx_dbm": -72.46945112542873
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -44.17372776506207,
+      "required_tx_dbm": -54.17372776506207
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -50.02049850017592,
+      "required_tx_dbm": -60.02049850017592
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -26.69250353075833,
+      "required_tx_dbm": -36.69250353075833
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -33.03456567265458,
+      "required_tx_dbm": -43.03456567265458
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -25.06983942639333,
+      "required_tx_dbm": -35.06983942639333
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -33.326828546725366,
+      "required_tx_dbm": -43.326828546725366
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F1",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -24.968968590827544,
+      "required_tx_dbm": -34.968968590827544
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F1",
+      "required_eirp_dbm": -33.13650280660052,
+      "required_tx_dbm": -43.13650280660052
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -43.83052003313881,
+      "required_tx_dbm": -78.40509991295912
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -50.299270204382466,
+      "required_tx_dbm": -84.87385008420277
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -26.506018791724102,
+      "required_tx_dbm": -61.08059867154441
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -33.20111775393116,
+      "required_tx_dbm": -67.77569763375146
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -24.990971754334495,
+      "required_tx_dbm": -59.5655516341548
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -32.96640229731402,
+      "required_tx_dbm": -67.54098217713432
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R0",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 1.0,
+      "model": "R1-P",
+      "note": "no independent limb motion",
+      "regime": "F2",
+      "required_eirp_dbm": null,
+      "required_tx_dbm": null
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -25.142901990090778,
+      "required_tx_dbm": -59.71748186991108
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "miss": 0.0,
+      "model": "R1-A",
+      "regime": "F2",
+      "required_eirp_dbm": -32.83720346516199,
+      "required_tx_dbm": -67.4117833449823
+    }
+  ],
+  "max_inr": [
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "max_tolerable_inr_db": 108.34178469437889,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "max_tolerable_inr_db": 108.97497264597219,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "max_tolerable_inr_db": 102.74358326691262,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "max_tolerable_inr_db": 102.0347851835993,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "max_tolerable_inr_db": 91.65242469629824,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "max_tolerable_inr_db": 91.03603877124954,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "max_tolerable_inr_db": 90.96889087073087,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "max_tolerable_inr_db": 91.35854910821686,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "max_tolerable_inr_db": 117.93835129395448,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "max_tolerable_inr_db": 118.24827488297441,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "max_tolerable_inr_db": 112.31978159839342,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "max_tolerable_inr_db": 112.20125647936572,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "max_tolerable_inr_db": 101.54008989517044,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "max_tolerable_inr_db": 101.19949598364904,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 3500000000.0,
+      "max_tolerable_inr_db": 100.25174327093141,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 3500000000.0,
+      "max_tolerable_inr_db": 101.25579691316872,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "max_tolerable_inr_db": 94.46454031201868,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "max_tolerable_inr_db": 98.94437747518084,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "max_tolerable_inr_db": 89.13860948587737,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "max_tolerable_inr_db": 92.67468470129305,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "max_tolerable_inr_db": 77.00277193098184,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "max_tolerable_inr_db": 82.3287382931619,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "max_tolerable_inr_db": 77.70446460829388,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "max_tolerable_inr_db": 82.028021142921,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "max_tolerable_inr_db": 114.70616339431584,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "max_tolerable_inr_db": 119.16400653446827,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "max_tolerable_inr_db": 109.30062414238313,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "max_tolerable_inr_db": 112.53411443715093,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "max_tolerable_inr_db": 97.51641195063044,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "max_tolerable_inr_db": 102.28740368538121,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 12000000000.0,
+      "max_tolerable_inr_db": 97.69017243584271,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 12000000000.0,
+      "max_tolerable_inr_db": 102.90319033427998,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "max_tolerable_inr_db": 91.68639566701103,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "max_tolerable_inr_db": 96.39766643971927,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "max_tolerable_inr_db": 86.22560134656736,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "max_tolerable_inr_db": 89.75093476659507,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "max_tolerable_inr_db": 73.09115884565186,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "max_tolerable_inr_db": 79.17261889666358,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "max_tolerable_inr_db": 74.27486846147444,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "max_tolerable_inr_db": 79.97125597948205,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "max_tolerable_inr_db": 113.96032840646976,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "max_tolerable_inr_db": 118.81095969317484,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "max_tolerable_inr_db": 108.61893850333196,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "max_tolerable_inr_db": 112.59546864673511,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "max_tolerable_inr_db": 95.57447428722666,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "max_tolerable_inr_db": 102.08524193585946,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 15000000000.0,
+      "max_tolerable_inr_db": 96.44794602436463,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 15000000000.0,
+      "max_tolerable_inr_db": 102.46945112518279,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "max_tolerable_inr_db": 84.17372774845047,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "max_tolerable_inr_db": 90.02049849585345,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "max_tolerable_inr_db": 66.69250260064898,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "max_tolerable_inr_db": 73.03456545671725,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "max_tolerable_inr_db": 65.06983807494191,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "max_tolerable_inr_db": 73.32682834484157,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "max_tolerable_inr_db": 64.96896720761944,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "max_tolerable_inr_db": 73.13650259567261,
+      "model": "R1-A",
+      "regime": "F1"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "max_tolerable_inr_db": 108.40509991289643,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "max_tolerable_inr_db": 114.87385008418863,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "max_tolerable_inr_db": 91.08059866815813,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "max_tolerable_inr_db": 97.77569763302667,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "max_tolerable_inr_db": 89.56555162935493,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "max_tolerable_inr_db": 97.54098217636928,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D0",
+      "fc_hz": 28000000000.0,
+      "max_tolerable_inr_db": 89.71748186527623,
+      "model": "R1-A",
+      "regime": "F2"
+    },
+    {
+      "detector": "D1",
+      "fc_hz": 28000000000.0,
+      "max_tolerable_inr_db": 97.41178334419415,
+      "model": "R1-A",
+      "regime": "F2"
+    }
+  ]
+}

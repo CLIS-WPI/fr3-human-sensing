@@ -1,0 +1,18 @@
+# Pinned runtime stack for the FR3 ISAC P0 environment.
+#
+# Only direct dependencies are pinned here. Sionna 2.2.0 pins its own
+# transitive requirements (e.g. h5py>=3.15.1, numpy); over-pinning them causes
+# resolution conflicts. The exact resolved environment is captured after build
+# with `pip freeze` and committed under docs/environment_lock.txt.
+sionna==2.2.0
+sionna-rt==2.2.0
+mitsuba==3.9.1
+drjit==1.5.0
+pydantic>=2.9
+PyYAML>=6.0
+numpy
+scipy
+pandas
+pyarrow
+matplotlib
+tqdm

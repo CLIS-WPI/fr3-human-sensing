@@ -1,0 +1,14 @@
+# commag: the only config needed for the paper.
+# The magazine pipeline is implemented with these fixed parameters (see docs/METHOD.md).
+carriers_hz: [3.5e9, 12e9, 15e9, 28e9]
+bandwidth_hz: 100e6
+subcarrier_spacing_hz: 120e3
+occupied_subcarriers: 816
+cpi_s: 0.10
+slow_time_rate_hz: 1280
+pfa: 1.0e-3
+miss_target: 0.10
+scenarios: 50
+regimes: [F1, F2]
+models: [R0, R1-P, R1-A]
+detectors: [D0, D1]

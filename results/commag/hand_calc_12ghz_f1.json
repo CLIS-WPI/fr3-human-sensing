@@ -1,0 +1,47 @@
+{
+  "cell": {
+    "scenario_root": [
+      2.0,
+      1.5,
+      1.4
+    ],
+    "fc_hz": 12000000000.0,
+    "regime": "F1",
+    "motion_amplitude_m": 0.18,
+    "motion_omega_hz": 0.9
+  },
+  "range_forearm_m": 2.358495283014151,
+  "forearm_rcs_m2": 0.3,
+  "lambda_m": 0.024982704833333334,
+  "conducted_power_dbm": 30.0,
+  "eirp_dbm": 40.0,
+  "tx_gain_db": 10.211892990699381,
+  "rx_gain_db": 20.0,
+  "receive_antenna_gain_db_by_regime": {
+    "F1": 20.0,
+    "F2": 20.0
+  },
+  "channel_gain_h2": 3.2019889401326844e-06,
+  "per_subcarrier_signal_w": 3.924006054084172e-09,
+  "per_subcarrier_noise_w": 2.408033512162504e-15,
+  "per_subcarrier_snr_db": 62.12067142127266,
+  "coherent_samples": 104448,
+  "coherent_gain_db": 50.189001284017294,
+  "predicted_postproc_snr_db": 112.30967270528996,
+  "predicted_statistic": 170203023449.17102,
+  "bank_statistic_db": 104.29771671403991,
+  "matched_statistic_db": 110.34549663987525,
+  "measured_statistic": 26901201121.289707,
+  "residual_db": 8.011955991250048,
+  "decomposition_db": {
+    "analytic_vs_matched": 1.964176065414705,
+    "template_capture_loss": 6.047779925835341,
+    "viewing_geometry_projection": 3.2609754238334094,
+    "capture_bank_vs_projection_remainder": 2.786804502001932,
+    "exact_geometric_capture_db": -3.338528957576484,
+    "combined_capture_bank_db": -6.047779925835341
+  },
+  "viewing_cos_theta": 0.5087989824030529,
+  "onset_fraction_of_cycle": 0.09000000000000001,
+  "note": "residual = analytic_vs_matched + template_capture_loss; capture loss is dominated by the viewing-geometry projection (cos_theta); no 64x factor"
+}
