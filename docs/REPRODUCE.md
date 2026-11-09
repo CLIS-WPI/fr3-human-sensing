@@ -12,7 +12,8 @@ within 1e-6.
 
 ## Tier 2 (GPU, about 1-1.5 h on one H100)
 `scripts/run_production.sh` re-runs the production (ray tracing, analysis, numbers)
-from `configs/rerun_v2.yaml`, then the controls (36-set bank, energy detector), and
+from `configs/rerun_v2.yaml`, then the controls (36-set bank, energy detector; review-2
+residual-matched bank and Pfa 1e-5), and
 compares every required EIRP, including the controls, with the shipped values
 (tolerance 0.05 dB; the pipeline is deterministic).
 

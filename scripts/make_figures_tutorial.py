@@ -66,7 +66,7 @@ def fig2(cfg, out: Path):
     a1.axhline(prf / 2, ls="--", lw=0.8, color="k")
     a1.text(2.5, prf / 2 * 1.12, f"Nyquist of {prf:g} Hz sensing rate", fontsize=6.3)
     a1.axhline(1 / cpi, ls=":", lw=0.8, color="k")
-    a1.text(16, 1 / cpi * 1.12, f"Doppler resolution ({1 / cpi:g} Hz)", fontsize=6.3)
+    a1.text(16, 1 / cpi * 1.12, f"Doppler-bin spacing ({1 / cpi:g} Hz)", fontsize=6.3)
     for fc in cfg["carriers_hz"]:
         a1.axvline(fc / 1e9, lw=0.5, color=COLORS.get(fc, "k"))
     a1.set_yscale("log")

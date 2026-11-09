@@ -53,6 +53,11 @@ bank coverage criterion and the hidden-onset status are in `manuscript_numbers.j
 The controls (36-set bank chosen by the redesigned-bank procedure; slow-time energy
 detector at the same per-window Pfa; F1, paired against the baseline bank) are in
 `results/rerun_v2/control/control.json` (`src/fr3isac/experiments/control_36_energy.py`).
+The review-2 controls (residual-matched bank built from the data's motion law and
+reference subtraction; per-window Pfa 1e-5 for the baseline and redesigned banks;
+averaged-reference false alarms with a constant reference error per window; per-event
+breakdown of the partial-path hidden onsets) are in `results/rerun_v2/review2/review2.json`
+(`src/fr3isac/experiments/review2_controls.py`).
 
 ## Installation and reproduction
 ```

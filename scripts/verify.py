@@ -66,13 +66,15 @@ def tier2(reference):
 
     a, b = req(RUN / "manuscript_numbers.json"), req(reference)
     worst = max(abs(a[k] - b[k]) for k in b if a.get(k) is not None and b[k] is not None)
-    ctl = ROOT / "results/rerun_v2/control"
-    if (ctl / "control_reference.json").exists():
-        def creq(path):
-            return {(r["detector"], r["carrier_ghz"]): r["required_eirp_dbm"]
-                    for r in json.loads(path.read_text())["rows"]}
-        ca, cb = creq(ctl / "control.json"), creq(ctl / "control_reference.json")
-        worst = max(worst, max(abs(ca[k] - cb[k]) for k in cb))
+    def creq(path):
+        return {(r["detector"], r["carrier_ghz"]): r["required_eirp_dbm"]
+                for r in json.loads(path.read_text())["rows"]}
+
+    for name in ("control", "review2"):
+        d = ROOT / "results/rerun_v2" / name
+        if (d / f"{name}_reference.json").exists():
+            ca, cb = creq(d / f"{name}.json"), creq(d / f"{name}_reference.json")
+            worst = max(worst, max(abs(ca[k] - cb[k]) for k in cb if cb[k] is not None))
     assert worst <= 0.05, f"max abs diff {worst} exceeds 0.05 dB"
     print(f"Tier 2: required EIRP reproduced; max abs diff {worst:.4g} dB")
 

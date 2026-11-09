@@ -100,10 +100,10 @@ def panel_b(ax):
     t = np.linspace(0, 1, 200)
     for k in range(3):
         ax.plot(1.45 + 2.0 * t, y + 0.85 - k * 0.38 + 0.09 * np.sin(2 * np.pi * (2 + k) * t), color=NAVY, lw=0.9)
-    ax.text(2.45, y - 0.2, "Baseline bank\n(coarse motion grid)", ha="center", va="top", fontsize=6.0)
+    ax.text(2.45, y - 0.2, "Baseline bank\n(coarse fixed grid)", ha="center", va="top", fontsize=6.0)
     for k in range(6):
         ax.plot(6.7 + 2.0 * t, y + 0.9 - k * 0.17 + 0.05 * np.sin(2 * np.pi * (3 + 0.5 * k) * t), color=ORANGE, lw=0.8)
-    ax.text(7.7, y - 0.2, "Redesigned bank\n(finer motion grid)", ha="center", va="top", fontsize=6.0)
+    ax.text(7.7, y - 0.2, "Redesigned bank\n(better-placed templates)", ha="center", va="top", fontsize=6.0)
 
 
 def panel_c(ax_txt, ax):

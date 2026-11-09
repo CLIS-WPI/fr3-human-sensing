@@ -5,9 +5,11 @@ export PYTHONPATH="${PYTHONPATH:-}:src"
 O=results/rerun_v2/full
 cp $O/manuscript_numbers.json $O/manuscript_numbers_reference.json
 cp results/rerun_v2/control/control.json results/rerun_v2/control/control_reference.json
+cp results/rerun_v2/review2/review2.json results/rerun_v2/review2/review2_reference.json
 python -m fr3isac.experiments.rerun_v2 rt --out $O
 python -m fr3isac.experiments.rerun_v2 analyze --out $O
 python -m fr3isac.experiments.rerun_v2 numbers --out $O
 python -m fr3isac.experiments.control_36_energy --run $O --out results/rerun_v2/control
+python -m fr3isac.experiments.review2_controls --run $O --control results/rerun_v2/control --out results/rerun_v2/review2
 python scripts/verify.py --tier 2 --reference $O/manuscript_numbers_reference.json
 echo "Tier 2 OK: required EIRP reproduced."
