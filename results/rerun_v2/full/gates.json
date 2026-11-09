@@ -1,5 +1,30 @@
 {
-  "release": "v1.0-commag",
+  "release": "rerun-v2",
+  "manifest": {
+    "stage": "gates",
+    "utc": "2026-11-09T06:34:17.688716+00:00",
+    "config_version": "rerun-v2.0",
+    "config_hash": "e2bc84f9b93428a7d293d4b6ce8327b6fed70da911dc2945cb10935529d2c221",
+    "git_sha": "1b8f8b8b7306a6af936ad5b028f57abca1bb6fb4",
+    "git_dirty_src_configs_tools": true,
+    "container_image": "fr3isac/sionna:2.2.0-dev",
+    "container_digest": "sha256:e3d5d3e322a03bd6d23bd4eed017edaf65dba692a6d93d24bf4de8da0348f9e2",
+    "master_seed": 20261108,
+    "scene_hash": "2b815493137dbdcc99afa71dd26ef09259e22509623c71ad0d409a966ef954dc",
+    "target_model": "R1-A torso+right_forearm (geometry.SEGMENT_OFFSETS), onset_arm_trajectory",
+    "rcs_model": {
+      "torso_m2": 0.7,
+      "forearm_m2": 0.3
+    },
+    "solver": {
+      "target_paths": "direct_only",
+      "clutter_max_depth": 1,
+      "validation_onsets_per_carrier": 2,
+      "forearm_rcs_m2": 0.3,
+      "torso_rcs_m2": 0.7
+    },
+    "dry_run": false
+  },
   "gates": {
     "G1": {
       "status": "PASS",
@@ -38,7 +63,7 @@
         }
       ],
       "expected": "delay_err<=0.1 bin; dphase_err<=0.05 rad",
-      "plot": "results/pilot_rt_v1/plots/g1_phase_delay.png"
+      "plot": "results/rerun_v2/full/gates_rt/plots/g1_phase_delay.png"
     },
     "G2": {
       "status": "PASS",
@@ -69,7 +94,7 @@
         }
       ],
       "expected": "|gain_err|<=0.5 dB",
-      "plot": "results/pilot_rt_v1/plots/g2_radar_equation.png"
+      "plot": "results/rerun_v2/full/gates_rt/plots/g2_radar_equation.png"
     },
     "G3": {
       "status": "PASS",
@@ -77,7 +102,7 @@
         "slope_db_per_decade": -39.9999987692482
       },
       "expected": "-40 +/- 1 dB/decade",
-      "plot": "results/pilot_rt_v1/plots/g3_r4_slope.png"
+      "plot": "results/rerun_v2/full/gates_rt/plots/g3_r4_slope.png"
     },
     "G4": {
       "status": "PASS",
@@ -88,7 +113,7 @@
         "bandwidth_x2_db": 3.010299956639812
       },
       "expected": "var within 2%; 2x bandwidth = 3.01 +/- 0.1 dB",
-      "plot": "results/pilot_rt_v1/plots/g4_noise.png"
+      "plot": "results/rerun_v2/full/gates_rt/plots/g4_noise.png"
     },
     "G5": {
       "status": "PASS",
@@ -103,7 +128,7 @@
         }
       ],
       "expected": "sigma x10 = +10.0 +/- 0.2 dB",
-      "plot": "results/pilot_rt_v1/plots/g5_rcs.png"
+      "plot": "results/rerun_v2/full/gates_rt/plots/g5_rcs.png"
     },
     "G6": {
       "status": "PASS",
@@ -134,7 +159,7 @@
         }
       ],
       "expected": "within 1 bin; negative (receding)",
-      "plot": "results/pilot_rt_v1/plots/g6_doppler.png"
+      "plot": "results/rerun_v2/full/gates_rt/plots/g6_doppler.png"
     },
     "G6-e2e": {
       "status": "PASS",
@@ -169,7 +194,7 @@
         }
       ],
       "expected": "peak = -2v/lambda within 1 bin; negative",
-      "plot": "results/pilot_rt_v1/plots/g6e2e_doppler.png"
+      "plot": "results/rerun_v2/full/gates_rt/plots/g6e2e_doppler.png"
     },
     "G6b": {
       "status": "PASS",
@@ -209,7 +234,7 @@
         ]
       },
       "expected": "phase NMSE<=0.02; corr>0.99; static cancel NMSE<=1e-6",
-      "plot": "results/pilot_rt_v1/plots/g6b_forearm_phase.png"
+      "plot": "results/rerun_v2/full/gates_rt/plots/g6b_forearm_phase.png"
     },
     "G6c": {
       "status": "PASS",
@@ -226,7 +251,7 @@
         "legacy_aliases": true
       },
       "expected": "peak within 1 bin of -2v/lambda at PRF 1280 Hz",
-      "plot": "results/pilot_rt_v1/plots/g6c_no_aliasing.png"
+      "plot": "results/rerun_v2/full/gates_rt/plots/g6c_no_aliasing.png"
     },
     "G7": {
       "status": "PASS",
@@ -237,7 +262,7 @@
         "blocked_paths": 0
       },
       "expected": "target path drops >=20 dB or disappears",
-      "plot": "results/pilot_rt_v1/plots/g7_blockage.png"
+      "plot": "results/rerun_v2/full/gates_rt/plots/g7_blockage.png"
     },
     "G8": {
       "status": "PASS",
@@ -249,7 +274,7 @@
         "cfr_power": 0.014818115836994326
       },
       "expected": "specular wall path delay matches image method <=0.01 ns",
-      "plot": "results/pilot_rt_v1/plots/g8_wall_image.png"
+      "plot": "results/rerun_v2/full/gates_rt/plots/g8_wall_image.png"
     },
     "G9": {
       "status": "PASS",
@@ -279,20 +304,71 @@
         ]
       },
       "expected": "NMSE<=0.01; Doppler stable across dt,dt/2,dt/4 within 1 bin",
-      "plot": "results/pilot_rt_v1/plots/g9_fast_reference.png"
+      "plot": "results/rerun_v2/full/gates_rt/plots/g9_fast_reference.png"
     },
     "G10": {
-      "cp95_lower": 0.9725897517057522,
-      "hits_within_1_bin": 96,
-      "n": 96,
+      "status": "PASS",
+      "n": 600,
+      "hits_within_1_bin": 600,
+      "exact_bin": 566,
       "phat": 1.0,
-      "status": "PASS"
+      "lower95_one_sided": 0.9955110028711697,
+      "expected": "one-sided 95% lower bound of P(|bin err|<=1) >= 0.90 (noise-free static return)"
     },
     "G11": {
-      "keys_match": true,
-      "max_abs_diff": 0.0,
-      "row_counts_match": true,
-      "status": "PASS"
+      "status": "PASS",
+      "rt_resimulation": [
+        {
+          "fc_hz": 3500000000.0,
+          "onset": 0,
+          "bit_identical": true,
+          "max_abs_diff": 0.0
+        },
+        {
+          "fc_hz": 3500000000.0,
+          "onset": 1,
+          "bit_identical": true,
+          "max_abs_diff": 0.0
+        },
+        {
+          "fc_hz": 12000000000.0,
+          "onset": 0,
+          "bit_identical": true,
+          "max_abs_diff": 0.0
+        },
+        {
+          "fc_hz": 12000000000.0,
+          "onset": 1,
+          "bit_identical": true,
+          "max_abs_diff": 0.0
+        },
+        {
+          "fc_hz": 15000000000.0,
+          "onset": 0,
+          "bit_identical": true,
+          "max_abs_diff": 0.0
+        },
+        {
+          "fc_hz": 15000000000.0,
+          "onset": 1,
+          "bit_identical": true,
+          "max_abs_diff": 0.0
+        },
+        {
+          "fc_hz": 28000000000.0,
+          "onset": 0,
+          "bit_identical": true,
+          "max_abs_diff": 0.0
+        },
+        {
+          "fc_hz": 28000000000.0,
+          "onset": 1,
+          "bit_identical": true,
+          "max_abs_diff": 0.0
+        }
+      ],
+      "numbers_stage_repeat_identical": true,
+      "expected": "re-simulated records bit-identical; repeated numbers stage identical"
     }
   }
 }

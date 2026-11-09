@@ -1,0 +1,2138 @@
+{
+  "release": "rerun-v2",
+  "primary_estimand": "operational required EIRP (mean visible-onset deadline miss <= 0.10; 200 noise trials; 1 dB grid refined to 0.25 dB at the crossing)",
+  "sources": {
+    "analysis_sha256": "38fc474e4d8c4f3d72274c2cf63d4aecf9f8afba4e24119a89952ed13c497696",
+    "miss_curves_sha256": "c0b774b12c92f7462894aa99a577bb2bf3496702690aaedf6bd09ef525d1af9e"
+  },
+  "numbers": {
+    "required_eirp_dbm_operational": [
+      {
+        "regime": "F1",
+        "detector": "D0",
+        "bank": "baseline",
+        "fc_hz": 3500000000.0,
+        "carrier_ghz": 3.5,
+        "required_eirp_dbm": -53.767197796176276,
+        "ci95_db": [
+          -55.59672737408306,
+          -52.48360814909294
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10"
+      },
+      {
+        "regime": "F2",
+        "detector": "D0",
+        "bank": "baseline",
+        "fc_hz": 3500000000.0,
+        "carrier_ghz": 3.5,
+        "required_eirp_dbm": -53.55356728002102,
+        "ci95_db": [
+          -55.383096857927804,
+          -52.26997763293768
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10; F2 = F1 + (G_rx,F1 - G_F2)"
+      },
+      {
+        "regime": "F1",
+        "detector": "Dfix",
+        "bank": "redesigned",
+        "fc_hz": 3500000000.0,
+        "carrier_ghz": 3.5,
+        "required_eirp_dbm": -54.13931880465721,
+        "ci95_db": [
+          -56.01233792623586,
+          -52.853316628813864
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10"
+      },
+      {
+        "regime": "F2",
+        "detector": "Dfix",
+        "bank": "redesigned",
+        "fc_hz": 3500000000.0,
+        "carrier_ghz": 3.5,
+        "required_eirp_dbm": -53.92568828850195,
+        "ci95_db": [
+          -55.7987074100806,
+          -52.63968611265861
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10; F2 = F1 + (G_rx,F1 - G_F2)"
+      },
+      {
+        "regime": "F1",
+        "detector": "D1",
+        "bank": "per_carrier",
+        "fc_hz": 3500000000.0,
+        "carrier_ghz": 3.5,
+        "required_eirp_dbm": -54.22221882296655,
+        "ci95_db": [
+          -56.08629467198616,
+          -52.935010653913814
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10"
+      },
+      {
+        "regime": "F2",
+        "detector": "D1",
+        "bank": "per_carrier",
+        "fc_hz": 3500000000.0,
+        "carrier_ghz": 3.5,
+        "required_eirp_dbm": -54.0085883068113,
+        "ci95_db": [
+          -55.872664155830904,
+          -52.72138013775856
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10; F2 = F1 + (G_rx,F1 - G_F2)"
+      },
+      {
+        "regime": "F1",
+        "detector": "D0",
+        "bank": "baseline",
+        "fc_hz": 12000000000.0,
+        "carrier_ghz": 12.0,
+        "required_eirp_dbm": -39.86915835148896,
+        "ci95_db": [
+          -41.78964444409348,
+          -38.38454797666398
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10"
+      },
+      {
+        "regime": "F2",
+        "detector": "D0",
+        "bank": "baseline",
+        "fc_hz": 12000000000.0,
+        "carrier_ghz": 12.0,
+        "required_eirp_dbm": -50.36676386911372,
+        "ci95_db": [
+          -52.28724996171824,
+          -48.88215349428874
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10; F2 = F1 + (G_rx,F1 - G_F2)"
+      },
+      {
+        "regime": "F1",
+        "detector": "Dfix",
+        "bank": "redesigned",
+        "fc_hz": 12000000000.0,
+        "carrier_ghz": 12.0,
+        "required_eirp_dbm": -43.03585324750509,
+        "ci95_db": [
+          -44.850631956196565,
+          -41.766899562624545
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10"
+      },
+      {
+        "regime": "F2",
+        "detector": "Dfix",
+        "bank": "redesigned",
+        "fc_hz": 12000000000.0,
+        "carrier_ghz": 12.0,
+        "required_eirp_dbm": -53.53345876512984,
+        "ci95_db": [
+          -55.34823747382132,
+          -52.2645050802493
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10; F2 = F1 + (G_rx,F1 - G_F2)"
+      },
+      {
+        "regime": "F1",
+        "detector": "D1",
+        "bank": "per_carrier",
+        "fc_hz": 12000000000.0,
+        "carrier_ghz": 12.0,
+        "required_eirp_dbm": -42.99553629885719,
+        "ci95_db": [
+          -44.8204960295892,
+          -41.72539511429616
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10"
+      },
+      {
+        "regime": "F2",
+        "detector": "D1",
+        "bank": "per_carrier",
+        "fc_hz": 12000000000.0,
+        "carrier_ghz": 12.0,
+        "required_eirp_dbm": -53.493141816481945,
+        "ci95_db": [
+          -55.318101547213956,
+          -52.22300063192092
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10; F2 = F1 + (G_rx,F1 - G_F2)"
+      },
+      {
+        "regime": "F1",
+        "detector": "D0",
+        "bank": "baseline",
+        "fc_hz": 15000000000.0,
+        "carrier_ghz": 15.0,
+        "required_eirp_dbm": -36.728288489081194,
+        "ci95_db": [
+          -38.414619470130056,
+          -35.320904273758025
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10"
+      },
+      {
+        "regime": "F2",
+        "detector": "D0",
+        "bank": "baseline",
+        "fc_hz": 15000000000.0,
+        "carrier_ghz": 15.0,
+        "required_eirp_dbm": -49.163877385305994,
+        "ci95_db": [
+          -50.850208366354856,
+          -47.756493169982825
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10; F2 = F1 + (G_rx,F1 - G_F2)"
+      },
+      {
+        "regime": "F1",
+        "detector": "Dfix",
+        "bank": "redesigned",
+        "fc_hz": 15000000000.0,
+        "carrier_ghz": 15.0,
+        "required_eirp_dbm": -40.58462592884936,
+        "ci95_db": [
+          -42.18007392289255,
+          -39.44681808401833
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10"
+      },
+      {
+        "regime": "F2",
+        "detector": "Dfix",
+        "bank": "redesigned",
+        "fc_hz": 15000000000.0,
+        "carrier_ghz": 15.0,
+        "required_eirp_dbm": -53.02021482507416,
+        "ci95_db": [
+          -54.61566281911735,
+          -51.88240698024313
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10; F2 = F1 + (G_rx,F1 - G_F2)"
+      },
+      {
+        "regime": "F1",
+        "detector": "D1",
+        "bank": "per_carrier",
+        "fc_hz": 15000000000.0,
+        "carrier_ghz": 15.0,
+        "required_eirp_dbm": -40.550740969050935,
+        "ci95_db": [
+          -42.13508227413191,
+          -39.40584901305643
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10"
+      },
+      {
+        "regime": "F2",
+        "detector": "D1",
+        "bank": "per_carrier",
+        "fc_hz": 15000000000.0,
+        "carrier_ghz": 15.0,
+        "required_eirp_dbm": -52.986329865275735,
+        "ci95_db": [
+          -54.57067117035671,
+          -51.84143790928123
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10; F2 = F1 + (G_rx,F1 - G_F2)"
+      },
+      {
+        "regime": "F1",
+        "detector": "D0",
+        "bank": "baseline",
+        "fc_hz": 28000000000.0,
+        "carrier_ghz": 28.0,
+        "required_eirp_dbm": -29.161890134689003,
+        "ci95_db": [
+          -31.179210110245258,
+          -27.610538936674487
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10"
+      },
+      {
+        "regime": "F2",
+        "detector": "D0",
+        "bank": "baseline",
+        "fc_hz": 28000000000.0,
+        "carrier_ghz": 28.0,
+        "required_eirp_dbm": -43.736470014509315,
+        "ci95_db": [
+          -45.75378999006557,
+          -42.1851188164948
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10; F2 = F1 + (G_rx,F1 - G_F2)"
+      },
+      {
+        "regime": "F1",
+        "detector": "Dfix",
+        "bank": "redesigned",
+        "fc_hz": 28000000000.0,
+        "carrier_ghz": 28.0,
+        "required_eirp_dbm": -35.06962078631548,
+        "ci95_db": [
+          -36.883315043052185,
+          -33.70020401788213
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10"
+      },
+      {
+        "regime": "F2",
+        "detector": "Dfix",
+        "bank": "redesigned",
+        "fc_hz": 28000000000.0,
+        "carrier_ghz": 28.0,
+        "required_eirp_dbm": -49.644200666135795,
+        "ci95_db": [
+          -51.4578949228725,
+          -48.27478389770244
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10; F2 = F1 + (G_rx,F1 - G_F2)"
+      },
+      {
+        "regime": "F1",
+        "detector": "D1",
+        "bank": "per_carrier",
+        "fc_hz": 28000000000.0,
+        "carrier_ghz": 28.0,
+        "required_eirp_dbm": -35.10517376189277,
+        "ci95_db": [
+          -36.86431368444076,
+          -33.75215109598751
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10"
+      },
+      {
+        "regime": "F2",
+        "detector": "D1",
+        "bank": "per_carrier",
+        "fc_hz": 28000000000.0,
+        "carrier_ghz": 28.0,
+        "required_eirp_dbm": -49.679753641713084,
+        "ci95_db": [
+          -51.43889356426107,
+          -48.32673097580782
+        ],
+        "n_resamples_without_crossing": 0,
+        "estimand": "min EIRP with mean visible-onset deadline miss <= 0.10; F2 = F1 + (G_rx,F1 - G_F2)"
+      }
+    ],
+    "detector_savings_db": [
+      {
+        "regime": "F1",
+        "comparison": "Dfix-D0",
+        "bank": "redesigned",
+        "fc_hz": 3500000000.0,
+        "carrier_ghz": 3.5,
+        "saving_db": 0.37212100848093144,
+        "ci95_db": [
+          0.29124582096944496,
+          0.48259554313591657
+        ],
+        "note": "positive = bank needs less EIRP than baseline"
+      },
+      {
+        "regime": "F1",
+        "comparison": "D1-D0",
+        "bank": "per_carrier",
+        "fc_hz": 3500000000.0,
+        "carrier_ghz": 3.5,
+        "saving_db": 0.455021026790277,
+        "ci95_db": [
+          0.3741711291307201,
+          0.5539481188929727
+        ],
+        "note": "positive = bank needs less EIRP than baseline"
+      },
+      {
+        "regime": "F2",
+        "comparison": "Dfix-D0",
+        "bank": "redesigned",
+        "fc_hz": 3500000000.0,
+        "carrier_ghz": 3.5,
+        "saving_db": 0.37212100848093144,
+        "ci95_db": [
+          0.29124582096944496,
+          0.48259554313591657
+        ],
+        "note": "positive = bank needs less EIRP than baseline"
+      },
+      {
+        "regime": "F2",
+        "comparison": "D1-D0",
+        "bank": "per_carrier",
+        "fc_hz": 3500000000.0,
+        "carrier_ghz": 3.5,
+        "saving_db": 0.455021026790277,
+        "ci95_db": [
+          0.3741711291307201,
+          0.5539481188929727
+        ],
+        "note": "positive = bank needs less EIRP than baseline"
+      },
+      {
+        "regime": "F1",
+        "comparison": "Dfix-D0",
+        "bank": "redesigned",
+        "fc_hz": 12000000000.0,
+        "carrier_ghz": 12.0,
+        "saving_db": 3.166694896016125,
+        "ci95_db": [
+          2.860148196310484,
+          3.59563327256718
+        ],
+        "note": "positive = bank needs less EIRP than baseline"
+      },
+      {
+        "regime": "F1",
+        "comparison": "D1-D0",
+        "bank": "per_carrier",
+        "fc_hz": 12000000000.0,
+        "carrier_ghz": 12.0,
+        "saving_db": 3.1263779473682263,
+        "ci95_db": [
+          2.802366254892637,
+          3.5649216698136152
+        ],
+        "note": "positive = bank needs less EIRP than baseline"
+      },
+      {
+        "regime": "F2",
+        "comparison": "Dfix-D0",
+        "bank": "redesigned",
+        "fc_hz": 12000000000.0,
+        "carrier_ghz": 12.0,
+        "saving_db": 3.166694896016125,
+        "ci95_db": [
+          2.860148196310484,
+          3.59563327256718
+        ],
+        "note": "positive = bank needs less EIRP than baseline"
+      },
+      {
+        "regime": "F2",
+        "comparison": "D1-D0",
+        "bank": "per_carrier",
+        "fc_hz": 12000000000.0,
+        "carrier_ghz": 12.0,
+        "saving_db": 3.1263779473682263,
+        "ci95_db": [
+          2.802366254892637,
+          3.5649216698136152
+        ],
+        "note": "positive = bank needs less EIRP than baseline"
+      },
+      {
+        "regime": "F1",
+        "comparison": "Dfix-D0",
+        "bank": "redesigned",
+        "fc_hz": 15000000000.0,
+        "carrier_ghz": 15.0,
+        "saving_db": 3.8563374397681685,
+        "ci95_db": [
+          3.5058412086243367,
+          4.298277685551698
+        ],
+        "note": "positive = bank needs less EIRP than baseline"
+      },
+      {
+        "regime": "F1",
+        "comparison": "D1-D0",
+        "bank": "per_carrier",
+        "fc_hz": 15000000000.0,
+        "carrier_ghz": 15.0,
+        "saving_db": 3.8224524799697406,
+        "ci95_db": [
+          3.4871964863051064,
+          4.267613338162374
+        ],
+        "note": "positive = bank needs less EIRP than baseline"
+      },
+      {
+        "regime": "F2",
+        "comparison": "Dfix-D0",
+        "bank": "redesigned",
+        "fc_hz": 15000000000.0,
+        "carrier_ghz": 15.0,
+        "saving_db": 3.8563374397681685,
+        "ci95_db": [
+          3.5058412086243367,
+          4.298277685551698
+        ],
+        "note": "positive = bank needs less EIRP than baseline"
+      },
+      {
+        "regime": "F2",
+        "comparison": "D1-D0",
+        "bank": "per_carrier",
+        "fc_hz": 15000000000.0,
+        "carrier_ghz": 15.0,
+        "saving_db": 3.8224524799697406,
+        "ci95_db": [
+          3.4871964863051064,
+          4.267613338162374
+        ],
+        "note": "positive = bank needs less EIRP than baseline"
+      },
+      {
+        "regime": "F1",
+        "comparison": "Dfix-D0",
+        "bank": "redesigned",
+        "fc_hz": 28000000000.0,
+        "carrier_ghz": 28.0,
+        "saving_db": 5.90773065162648,
+        "ci95_db": [
+          5.42116831912047,
+          6.425887035678264
+        ],
+        "note": "positive = bank needs less EIRP than baseline"
+      },
+      {
+        "regime": "F1",
+        "comparison": "D1-D0",
+        "bank": "per_carrier",
+        "fc_hz": 28000000000.0,
+        "carrier_ghz": 28.0,
+        "saving_db": 5.943283627203769,
+        "ci95_db": [
+          5.448524114511497,
+          6.473463123276712
+        ],
+        "note": "positive = bank needs less EIRP than baseline"
+      },
+      {
+        "regime": "F2",
+        "comparison": "Dfix-D0",
+        "bank": "redesigned",
+        "fc_hz": 28000000000.0,
+        "carrier_ghz": 28.0,
+        "saving_db": 5.90773065162648,
+        "ci95_db": [
+          5.42116831912047,
+          6.425887035678264
+        ],
+        "note": "positive = bank needs less EIRP than baseline"
+      },
+      {
+        "regime": "F2",
+        "comparison": "D1-D0",
+        "bank": "per_carrier",
+        "fc_hz": 28000000000.0,
+        "carrier_ghz": 28.0,
+        "saving_db": 5.943283627203769,
+        "ci95_db": [
+          5.448524114511497,
+          6.473463123276712
+        ],
+        "note": "positive = bank needs less EIRP than baseline"
+      }
+    ],
+    "extra_eirp_vs_3p5_db": [
+      {
+        "regime": "F1",
+        "detector": "D0",
+        "bank": "baseline",
+        "fc_hz": 12000000000.0,
+        "extra_eirp_db": 13.898039444687313,
+        "ci95_db": [
+          13.141781513247281,
+          14.520636622796294
+        ],
+        "lambda2_term_db": 10.702264033946982,
+        "note": "paired over placements vs 3.5 GHz"
+      },
+      {
+        "regime": "F1",
+        "detector": "D0",
+        "bank": "baseline",
+        "fc_hz": 15000000000.0,
+        "extra_eirp_db": 17.038909307095082,
+        "ci95_db": [
+          16.354361339199848,
+          17.862678448861384
+        ],
+        "lambda2_term_db": 12.640464294108112,
+        "note": "paired over placements vs 3.5 GHz"
+      },
+      {
+        "regime": "F1",
+        "detector": "D0",
+        "bank": "baseline",
+        "fc_hz": 28000000000.0,
+        "extra_eirp_db": 24.605307661487274,
+        "ci95_db": [
+          23.71156975724492,
+          25.26638890995559
+        ],
+        "lambda2_term_db": 18.06179973983887,
+        "note": "paired over placements vs 3.5 GHz"
+      },
+      {
+        "regime": "F1",
+        "detector": "Dfix",
+        "bank": "redesigned",
+        "fc_hz": 12000000000.0,
+        "extra_eirp_db": 11.10346555715212,
+        "ci95_db": [
+          10.383432972798621,
+          11.666653730923853
+        ],
+        "lambda2_term_db": 10.702264033946982,
+        "note": "paired over placements vs 3.5 GHz"
+      },
+      {
+        "regime": "F1",
+        "detector": "Dfix",
+        "bank": "redesigned",
+        "fc_hz": 15000000000.0,
+        "extra_eirp_db": 13.554692875807845,
+        "ci95_db": [
+          12.951227493069341,
+          14.34895083885202
+        ],
+        "lambda2_term_db": 12.640464294108112,
+        "note": "paired over placements vs 3.5 GHz"
+      },
+      {
+        "regime": "F1",
+        "detector": "Dfix",
+        "bank": "redesigned",
+        "fc_hz": 28000000000.0,
+        "extra_eirp_db": 19.069698018341725,
+        "ci95_db": [
+          18.395702232435877,
+          19.604575540212963
+        ],
+        "lambda2_term_db": 18.06179973983887,
+        "note": "paired over placements vs 3.5 GHz"
+      },
+      {
+        "regime": "F1",
+        "detector": "D1",
+        "bank": "per_carrier",
+        "fc_hz": 12000000000.0,
+        "extra_eirp_db": 11.226682524109364,
+        "ci95_db": [
+          10.497987930109574,
+          11.795303582365067
+        ],
+        "lambda2_term_db": 10.702264033946982,
+        "note": "paired over placements vs 3.5 GHz"
+      },
+      {
+        "regime": "F1",
+        "detector": "D1",
+        "bank": "per_carrier",
+        "fc_hz": 15000000000.0,
+        "extra_eirp_db": 13.671477853915619,
+        "ci95_db": [
+          13.058861418118438,
+          14.488977334680053
+        ],
+        "lambda2_term_db": 12.640464294108112,
+        "note": "paired over placements vs 3.5 GHz"
+      },
+      {
+        "regime": "F1",
+        "detector": "D1",
+        "bank": "per_carrier",
+        "fc_hz": 28000000000.0,
+        "extra_eirp_db": 19.11704506107378,
+        "ci95_db": [
+          18.458912630352398,
+          19.64576834301212
+        ],
+        "lambda2_term_db": 18.06179973983887,
+        "note": "paired over placements vs 3.5 GHz"
+      },
+      {
+        "regime": "F2",
+        "detector": "D0",
+        "bank": "baseline",
+        "fc_hz": 12000000000.0,
+        "extra_eirp_db": 3.1868034109073022,
+        "ci95_db": [
+          2.430545479467269,
+          3.809400589016284
+        ],
+        "lambda2_term_db": 10.702264033946982,
+        "note": "paired over placements vs 3.5 GHz"
+      },
+      {
+        "regime": "F2",
+        "detector": "D0",
+        "bank": "baseline",
+        "fc_hz": 15000000000.0,
+        "extra_eirp_db": 4.389689894715026,
+        "ci95_db": [
+          3.705141926819792,
+          5.213459036481329
+        ],
+        "lambda2_term_db": 12.640464294108112,
+        "note": "paired over placements vs 3.5 GHz"
+      },
+      {
+        "regime": "F2",
+        "detector": "D0",
+        "bank": "baseline",
+        "fc_hz": 28000000000.0,
+        "extra_eirp_db": 9.817097265511705,
+        "ci95_db": [
+          8.923359361269352,
+          10.478178513980023
+        ],
+        "lambda2_term_db": 18.06179973983887,
+        "note": "paired over placements vs 3.5 GHz"
+      },
+      {
+        "regime": "F2",
+        "detector": "Dfix",
+        "bank": "redesigned",
+        "fc_hz": 12000000000.0,
+        "extra_eirp_db": 0.3922295233721087,
+        "ci95_db": [
+          -0.32780306098139,
+          0.9554176971438418
+        ],
+        "lambda2_term_db": 10.702264033946982,
+        "note": "paired over placements vs 3.5 GHz"
+      },
+      {
+        "regime": "F2",
+        "detector": "Dfix",
+        "bank": "redesigned",
+        "fc_hz": 15000000000.0,
+        "extra_eirp_db": 0.9054734634277892,
+        "ci95_db": [
+          0.3020080806892846,
+          1.6997314264719638
+        ],
+        "lambda2_term_db": 12.640464294108112,
+        "note": "paired over placements vs 3.5 GHz"
+      },
+      {
+        "regime": "F2",
+        "detector": "Dfix",
+        "bank": "redesigned",
+        "fc_hz": 28000000000.0,
+        "extra_eirp_db": 4.281487622366157,
+        "ci95_db": [
+          3.607491836460308,
+          4.816365144237395
+        ],
+        "lambda2_term_db": 18.06179973983887,
+        "note": "paired over placements vs 3.5 GHz"
+      },
+      {
+        "regime": "F2",
+        "detector": "D1",
+        "bank": "per_carrier",
+        "fc_hz": 12000000000.0,
+        "extra_eirp_db": 0.515446490329353,
+        "ci95_db": [
+          -0.21324810367043767,
+          1.0840675485850566
+        ],
+        "lambda2_term_db": 10.702264033946982,
+        "note": "paired over placements vs 3.5 GHz"
+      },
+      {
+        "regime": "F2",
+        "detector": "D1",
+        "bank": "per_carrier",
+        "fc_hz": 15000000000.0,
+        "extra_eirp_db": 1.0222584415355627,
+        "ci95_db": [
+          0.40964200573838205,
+          1.8397579222999965
+        ],
+        "lambda2_term_db": 12.640464294108112,
+        "note": "paired over placements vs 3.5 GHz"
+      },
+      {
+        "regime": "F2",
+        "detector": "D1",
+        "bank": "per_carrier",
+        "fc_hz": 28000000000.0,
+        "extra_eirp_db": 4.3288346650982135,
+        "ci95_db": [
+          3.6707022343768285,
+          4.8575579470365495
+        ],
+        "lambda2_term_db": 18.06179973983887,
+        "note": "paired over placements vs 3.5 GHz"
+      }
+    ],
+    "f2_spot_check": {
+      "baseline": {
+        "direct_f2_dbm": -50.36676386911373,
+        "shifted_f2_dbm": -50.36676386911372,
+        "difference_db": -1.4210854715202004e-14
+      },
+      "redesigned": {
+        "direct_f2_dbm": -53.53345876512986,
+        "shifted_f2_dbm": -53.53345876512984,
+        "difference_db": -1.4210854715202004e-14
+      },
+      "per_carrier": {
+        "direct_f2_dbm": -53.49314181648196,
+        "shifted_f2_dbm": -53.493141816481945,
+        "difference_db": -1.4210854715202004e-14
+      }
+    },
+    "false_alarm_calibration": {
+      "cells": [
+        {
+          "carrier_ghz": 3.5,
+          "bank": "baseline",
+          "detector": "D0",
+          "threshold": 9.938876730509419,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 1010,
+          "empirical_pfa": 0.00101,
+          "wilson_ci95": [
+            0.0009496302936143068,
+            0.0010742033907326291
+          ],
+          "accept": true
+        },
+        {
+          "carrier_ghz": 3.5,
+          "bank": "redesigned",
+          "detector": "Dfix",
+          "threshold": 9.915064423279352,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 958,
+          "empirical_pfa": 0.000958,
+          "wilson_ci95": [
+            0.0008992519537480811,
+            0.0010205821301090376
+          ],
+          "accept": true
+        },
+        {
+          "carrier_ghz": 3.5,
+          "bank": "per_carrier",
+          "detector": "D1",
+          "threshold": 10.118897123049855,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 1026,
+          "empirical_pfa": 0.001026,
+          "wilson_ci95": [
+            0.0009651397796516339,
+            0.0010906937817690922
+          ],
+          "accept": true
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "baseline",
+          "detector": "D0",
+          "threshold": 10.363725302598251,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 1045,
+          "empirical_pfa": 0.001045,
+          "wilson_ci95": [
+            0.0009835622456672531,
+            0.0011102711697785982
+          ],
+          "accept": true
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "redesigned",
+          "detector": "Dfix",
+          "threshold": 10.716289433588607,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 1005,
+          "empirical_pfa": 0.001005,
+          "wilson_ci95": [
+            0.0009447843764209126,
+            0.001069049346340464
+          ],
+          "accept": true
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "per_carrier",
+          "detector": "D1",
+          "threshold": 10.746976573980938,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 921,
+          "empirical_pfa": 0.000921,
+          "wilson_ci95": [
+            0.0008634328406826887,
+            0.0009824015274412907
+          ],
+          "accept": false
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "baseline",
+          "detector": "D0",
+          "threshold": 10.398210541604126,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 1006,
+          "empirical_pfa": 0.001006,
+          "wilson_ci95": [
+            0.0009457535291898897,
+            0.0010700801858885987
+          ],
+          "accept": true
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "redesigned",
+          "detector": "Dfix",
+          "threshold": 10.799162800248439,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 992,
+          "empirical_pfa": 0.000992,
+          "wilson_ci95": [
+            0.0009321867984601061,
+            0.0010556470241788163
+          ],
+          "accept": true
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "per_carrier",
+          "detector": "D1",
+          "threshold": 10.739621760024175,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 979,
+          "empirical_pfa": 0.000979,
+          "wilson_ci95": [
+            0.0009195918711109088,
+            0.0010422420514055594
+          ],
+          "accept": true
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "baseline",
+          "detector": "D0",
+          "threshold": 10.456588173600094,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 997,
+          "empirical_pfa": 0.000997,
+          "wilson_ci95": [
+            0.0009370317099023571,
+            0.0010608020743221246
+          ],
+          "accept": true
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "redesigned",
+          "detector": "Dfix",
+          "threshold": 10.93037899554847,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 1031,
+          "empirical_pfa": 0.001031,
+          "wilson_ci95": [
+            0.0009699872811353254,
+            0.00109584624187096
+          ],
+          "accept": true
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "per_carrier",
+          "detector": "D1",
+          "threshold": 10.836625656318027,
+          "calibration_N": 10000000,
+          "validation_N": 1000000,
+          "false_alarm_count": 974,
+          "empirical_pfa": 0.000974,
+          "wilson_ci95": [
+            0.0009147483852012299,
+            0.0010370855757296789
+          ],
+          "accept": true
+        }
+      ],
+      "all_accept": false
+    },
+    "event_false_alarms": [
+      {
+        "carrier_ghz": 3.5,
+        "bank": "baseline",
+        "hours": 20.0,
+        "windows": 1440000,
+        "window_crossings": 1434,
+        "events": 1394,
+        "crossings_per_hour": 71.7,
+        "events_per_hour": 69.7,
+        "window_pfa": 0.0009958333333333334
+      },
+      {
+        "carrier_ghz": 3.5,
+        "bank": "redesigned",
+        "hours": 20.0,
+        "windows": 1440000,
+        "window_crossings": 1443,
+        "events": 1401,
+        "crossings_per_hour": 72.15,
+        "events_per_hour": 70.05,
+        "window_pfa": 0.0010020833333333333
+      },
+      {
+        "carrier_ghz": 3.5,
+        "bank": "per_carrier",
+        "hours": 20.0,
+        "windows": 1440000,
+        "window_crossings": 1476,
+        "events": 1424,
+        "crossings_per_hour": 73.8,
+        "events_per_hour": 71.2,
+        "window_pfa": 0.001025
+      },
+      {
+        "carrier_ghz": 12.0,
+        "bank": "baseline",
+        "hours": 20.0,
+        "windows": 1440000,
+        "window_crossings": 1409,
+        "events": 1393,
+        "crossings_per_hour": 70.45,
+        "events_per_hour": 69.65,
+        "window_pfa": 0.0009784722222222222
+      },
+      {
+        "carrier_ghz": 12.0,
+        "bank": "redesigned",
+        "hours": 20.0,
+        "windows": 1440000,
+        "window_crossings": 1460,
+        "events": 1420,
+        "crossings_per_hour": 73.0,
+        "events_per_hour": 71.0,
+        "window_pfa": 0.0010138888888888888
+      },
+      {
+        "carrier_ghz": 12.0,
+        "bank": "per_carrier",
+        "hours": 20.0,
+        "windows": 1440000,
+        "window_crossings": 1428,
+        "events": 1396,
+        "crossings_per_hour": 71.4,
+        "events_per_hour": 69.8,
+        "window_pfa": 0.0009916666666666667
+      },
+      {
+        "carrier_ghz": 15.0,
+        "bank": "baseline",
+        "hours": 20.0,
+        "windows": 1440000,
+        "window_crossings": 1392,
+        "events": 1376,
+        "crossings_per_hour": 69.6,
+        "events_per_hour": 68.8,
+        "window_pfa": 0.0009666666666666667
+      },
+      {
+        "carrier_ghz": 15.0,
+        "bank": "redesigned",
+        "hours": 20.0,
+        "windows": 1440000,
+        "window_crossings": 1392,
+        "events": 1369,
+        "crossings_per_hour": 69.6,
+        "events_per_hour": 68.45,
+        "window_pfa": 0.0009666666666666667
+      },
+      {
+        "carrier_ghz": 15.0,
+        "bank": "per_carrier",
+        "hours": 20.0,
+        "windows": 1440000,
+        "window_crossings": 1404,
+        "events": 1375,
+        "crossings_per_hour": 70.2,
+        "events_per_hour": 68.75,
+        "window_pfa": 0.000975
+      },
+      {
+        "carrier_ghz": 28.0,
+        "bank": "baseline",
+        "hours": 20.0,
+        "windows": 1440000,
+        "window_crossings": 1437,
+        "events": 1429,
+        "crossings_per_hour": 71.85,
+        "events_per_hour": 71.45,
+        "window_pfa": 0.0009979166666666667
+      },
+      {
+        "carrier_ghz": 28.0,
+        "bank": "redesigned",
+        "hours": 20.0,
+        "windows": 1440000,
+        "window_crossings": 1368,
+        "events": 1350,
+        "crossings_per_hour": 68.4,
+        "events_per_hour": 67.5,
+        "window_pfa": 0.00095
+      },
+      {
+        "carrier_ghz": 28.0,
+        "bank": "per_carrier",
+        "hours": 20.0,
+        "windows": 1440000,
+        "window_crossings": 1417,
+        "events": 1400,
+        "crossings_per_hour": 70.85,
+        "events_per_hour": 70.0,
+        "window_pfa": 0.0009840277777777777
+      }
+    ],
+    "reference_averaging": {
+      "rows": [
+        {
+          "carrier_ghz": 3.5,
+          "bank": "baseline",
+          "K_reference_frames": 16,
+          "pfa": 0.001735,
+          "wilson_ci95": [
+            0.0016553235830828524,
+            0.001818504531170191
+          ]
+        },
+        {
+          "carrier_ghz": 3.5,
+          "bank": "baseline",
+          "K_reference_frames": 64,
+          "pfa": 0.001167,
+          "wilson_ci95": [
+            0.0011019729378755935,
+            0.0012358595402579065
+          ]
+        },
+        {
+          "carrier_ghz": 3.5,
+          "bank": "redesigned",
+          "K_reference_frames": 16,
+          "pfa": 0.00168,
+          "wilson_ci95": [
+            0.0016016244909792304,
+            0.0017622040458326602
+          ]
+        },
+        {
+          "carrier_ghz": 3.5,
+          "bank": "redesigned",
+          "K_reference_frames": 64,
+          "pfa": 0.001113,
+          "wilson_ci95": [
+            0.001049537234605575,
+            0.0011802956584038842
+          ]
+        },
+        {
+          "carrier_ghz": 3.5,
+          "bank": "per_carrier",
+          "K_reference_frames": 16,
+          "pfa": 0.001833,
+          "wilson_ci95": [
+            0.0017510559301749974,
+            0.0019187714311550096
+          ]
+        },
+        {
+          "carrier_ghz": 3.5,
+          "bank": "per_carrier",
+          "K_reference_frames": 64,
+          "pfa": 0.001202,
+          "wilson_ci95": [
+            0.0011359783604086415,
+            0.001271853848823774
+          ]
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "baseline",
+          "K_reference_frames": 16,
+          "pfa": 0.001878,
+          "wilson_ci95": [
+            0.0017950350939565506,
+            0.0019647919216434903
+          ]
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "baseline",
+          "K_reference_frames": 64,
+          "pfa": 0.00121,
+          "wilson_ci95": [
+            0.0011437530751371616,
+            0.0012800790726321487
+          ]
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "redesigned",
+          "K_reference_frames": 16,
+          "pfa": 0.001839,
+          "wilson_ci95": [
+            0.0017569190967286414,
+            0.0019249082185040366
+          ]
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "redesigned",
+          "K_reference_frames": 64,
+          "pfa": 0.001168,
+          "wilson_ci95": [
+            0.001102944315483225,
+            0.0012368881549673868
+          ]
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "per_carrier",
+          "K_reference_frames": 16,
+          "pfa": 0.001741,
+          "wilson_ci95": [
+            0.0016611829266972244,
+            0.00182464514145849
+          ]
+        },
+        {
+          "carrier_ghz": 12.0,
+          "bank": "per_carrier",
+          "K_reference_frames": 64,
+          "pfa": 0.001099,
+          "wilson_ci95": [
+            0.0010359489676271961,
+            0.0011658840329426964
+          ]
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "baseline",
+          "K_reference_frames": 16,
+          "pfa": 0.00182,
+          "wilson_ci95": [
+            0.0017383531767408069,
+            0.0019054742844667456
+          ]
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "baseline",
+          "K_reference_frames": 64,
+          "pfa": 0.001158,
+          "wilson_ci95": [
+            0.0010932310946828532,
+            0.0012266014525966398
+          ]
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "redesigned",
+          "K_reference_frames": 16,
+          "pfa": 0.001842,
+          "wilson_ci95": [
+            0.0017598507641182425,
+            0.0019279765280657715
+          ]
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "redesigned",
+          "K_reference_frames": 64,
+          "pfa": 0.001178,
+          "wilson_ci95": [
+            0.0011126587644551718,
+            0.0012471736291665588
+          ]
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "per_carrier",
+          "K_reference_frames": 16,
+          "pfa": 0.001835,
+          "wilson_ci95": [
+            0.0017530102940565128,
+            0.001920817051907718
+          ]
+        },
+        {
+          "carrier_ghz": 15.0,
+          "bank": "per_carrier",
+          "K_reference_frames": 64,
+          "pfa": 0.001133,
+          "wilson_ci95": [
+            0.0010689535212102523,
+            0.0012008792181414437
+          ]
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "baseline",
+          "K_reference_frames": 16,
+          "pfa": 0.001807,
+          "wilson_ci95": [
+            0.0017256514919112296,
+            0.0018921760691738689
+          ]
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "baseline",
+          "K_reference_frames": 64,
+          "pfa": 0.001172,
+          "wilson_ci95": [
+            0.0011068299485710582,
+            0.0012410024911480013
+          ]
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "redesigned",
+          "K_reference_frames": 16,
+          "pfa": 0.001874,
+          "wilson_ci95": [
+            0.0017911253337080347,
+            0.001960701712623559
+          ]
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "redesigned",
+          "K_reference_frames": 64,
+          "pfa": 0.001192,
+          "wilson_ci95": [
+            0.001126261026751406,
+            0.0012615712593098908
+          ]
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "per_carrier",
+          "K_reference_frames": 16,
+          "pfa": 0.001843,
+          "wilson_ci95": [
+            0.001760827999008834,
+            0.001928999285492292
+          ]
+        },
+        {
+          "carrier_ghz": 28.0,
+          "bank": "per_carrier",
+          "K_reference_frames": 64,
+          "pfa": 0.001164,
+          "wilson_ci95": [
+            0.0010990588788990746,
+            0.00123277362228309
+          ]
+        }
+      ]
+    },
+    "test_capture_loss_db": [
+      {
+        "carrier_ghz": 3.5,
+        "bank": "baseline",
+        "mean": 1.5927343368530273,
+        "p90": 3.0144009590148926,
+        "max": 4.670285701751709
+      },
+      {
+        "carrier_ghz": 3.5,
+        "bank": "redesigned",
+        "mean": 1.2570419311523438,
+        "p90": 2.5774881839752197,
+        "max": 3.7078967094421387
+      },
+      {
+        "carrier_ghz": 3.5,
+        "bank": "per_carrier",
+        "mean": 1.2399803400039673,
+        "p90": 2.5532166957855225,
+        "max": 3.789250373840332
+      },
+      {
+        "carrier_ghz": 12.0,
+        "bank": "baseline",
+        "mean": 5.047822952270508,
+        "p90": 7.5589094161987305,
+        "max": 12.84697151184082
+      },
+      {
+        "carrier_ghz": 12.0,
+        "bank": "redesigned",
+        "mean": 2.3514277935028076,
+        "p90": 3.111745834350586,
+        "max": 4.535696983337402
+      },
+      {
+        "carrier_ghz": 12.0,
+        "bank": "per_carrier",
+        "mean": 2.34810209274292,
+        "p90": 3.1125266551971436,
+        "max": 4.54055643081665
+      },
+      {
+        "carrier_ghz": 15.0,
+        "bank": "baseline",
+        "mean": 5.870398044586182,
+        "p90": 8.840506553649902,
+        "max": 13.98415470123291
+      },
+      {
+        "carrier_ghz": 15.0,
+        "bank": "redesigned",
+        "mean": 2.4068405628204346,
+        "p90": 3.1699581146240234,
+        "max": 4.494457244873047
+      },
+      {
+        "carrier_ghz": 15.0,
+        "bank": "per_carrier",
+        "mean": 2.4062061309814453,
+        "p90": 3.167099714279175,
+        "max": 4.494365215301514
+      },
+      {
+        "carrier_ghz": 28.0,
+        "bank": "baseline",
+        "mean": 8.177249908447266,
+        "p90": 11.05307674407959,
+        "max": 17.444299697875977
+      },
+      {
+        "carrier_ghz": 28.0,
+        "bank": "redesigned",
+        "mean": 2.709744691848755,
+        "p90": 3.299729108810425,
+        "max": 4.463588714599609
+      },
+      {
+        "carrier_ghz": 28.0,
+        "bank": "per_carrier",
+        "mean": 2.697824239730835,
+        "p90": 3.240957260131836,
+        "max": 4.462915420532227
+      }
+    ],
+    "constant_term_floor": [
+      {
+        "carrier_ghz": 3.5,
+        "median_share": 0.5925123931968661,
+        "p90_floor_db": 11.76619989816989,
+        "median_floor_db": 3.8988559521568305
+      },
+      {
+        "carrier_ghz": 12.0,
+        "median_share": 0.5249925335166663,
+        "p90_floor_db": 4.832044771584779,
+        "median_floor_db": 3.2329956379192115
+      },
+      {
+        "carrier_ghz": 15.0,
+        "median_share": 0.5243986734828276,
+        "p90_floor_db": 5.014281051818203,
+        "median_floor_db": 3.2275694274492572
+      },
+      {
+        "carrier_ghz": 28.0,
+        "median_share": 0.5123583667591343,
+        "p90_floor_db": 4.040107005466867,
+        "median_floor_db": 3.1189922283442293
+      }
+    ],
+    "coverage": {
+      "criterion": "P90 capture loss on development onsets within 0.5 dB of the full candidate pool, at every carrier",
+      "n_candidates": 20000,
+      "n_templates": 64,
+      "per_carrier": {
+        "3.5": {
+          "n_dev_onsets_visible": 390,
+          "pool_p90_loss_db": 2.3506217002868652,
+          "redesigned_p90_loss_db": 2.454169273376465,
+          "baseline_p90_loss_db": 3.0635123252868652,
+          "meets": true
+        },
+        "12": {
+          "n_dev_onsets_visible": 390,
+          "pool_p90_loss_db": 2.833610773086548,
+          "redesigned_p90_loss_db": 2.999122142791748,
+          "baseline_p90_loss_db": 7.93721342086792,
+          "meets": true
+        },
+        "15": {
+          "n_dev_onsets_visible": 390,
+          "pool_p90_loss_db": 2.8884780406951904,
+          "redesigned_p90_loss_db": 3.0673491954803467,
+          "baseline_p90_loss_db": 8.875825881958008,
+          "meets": true
+        },
+        "28": {
+          "n_dev_onsets_visible": 390,
+          "pool_p90_loss_db": 2.9698030948638916,
+          "redesigned_p90_loss_db": 3.1726791858673096,
+          "baseline_p90_loss_db": 11.480761528015137,
+          "meets": true
+        }
+      },
+      "smallest_size_meeting": 9,
+      "searched_up_to": 64,
+      "per_carrier_variant": {
+        "3.5": {
+          "pool_p90_loss_db": [
+            2.3506217002868652
+          ],
+          "bank_p90_loss_db": [
+            2.427318572998047
+          ],
+          "smallest_size_meeting": 7,
+          "searched_up_to": 64
+        },
+        "12": {
+          "pool_p90_loss_db": [
+            2.833610773086548
+          ],
+          "bank_p90_loss_db": [
+            2.944406747817993
+          ],
+          "smallest_size_meeting": 1,
+          "searched_up_to": 64
+        },
+        "15": {
+          "pool_p90_loss_db": [
+            2.8884780406951904
+          ],
+          "bank_p90_loss_db": [
+            2.9901506900787354
+          ],
+          "smallest_size_meeting": 1,
+          "searched_up_to": 64
+        },
+        "28": {
+          "pool_p90_loss_db": [
+            2.9698030948638916
+          ],
+          "bank_p90_loss_db": [
+            3.0869221687316895
+          ],
+          "smallest_size_meeting": 1,
+          "searched_up_to": 64
+        }
+      },
+      "meets_all": true
+    },
+    "point_targets": [
+      {
+        "carrier_ghz": 3.5,
+        "model": "R0",
+        "max_tested_eirp_dbm": 70.21189299069938,
+        "min_tested_eirp_dbm": -72.27084653434326,
+        "miss_min": 0.9960700000000026,
+        "miss_max": 0.9960700000000026,
+        "max_residual_signal_energy": 0.0
+      },
+      {
+        "carrier_ghz": 3.5,
+        "model": "R1-P",
+        "max_tested_eirp_dbm": 70.21189299069938,
+        "min_tested_eirp_dbm": -72.27084653434326,
+        "miss_min": 0.9960700000000026,
+        "miss_max": 0.9960700000000026,
+        "max_residual_signal_energy": 0.0
+      },
+      {
+        "carrier_ghz": 12.0,
+        "model": "R0",
+        "max_tested_eirp_dbm": 70.21189299069938,
+        "min_tested_eirp_dbm": -58.39264229426682,
+        "miss_min": 0.9958800000000025,
+        "miss_max": 0.9958800000000025,
+        "max_residual_signal_energy": 0.0
+      },
+      {
+        "carrier_ghz": 12.0,
+        "model": "R1-P",
+        "max_tested_eirp_dbm": 70.21189299069938,
+        "min_tested_eirp_dbm": -58.39264229426682,
+        "miss_min": 0.9958800000000025,
+        "miss_max": 0.9958800000000025,
+        "max_residual_signal_energy": 0.0
+      },
+      {
+        "carrier_ghz": 15.0,
+        "model": "R0",
+        "max_tested_eirp_dbm": 70.21189299069938,
+        "min_tested_eirp_dbm": -54.88186197671551,
+        "miss_min": 0.9955400000000032,
+        "miss_max": 0.9955400000000032,
+        "max_residual_signal_energy": 0.0
+      },
+      {
+        "carrier_ghz": 15.0,
+        "model": "R1-P",
+        "max_tested_eirp_dbm": 70.21189299069938,
+        "min_tested_eirp_dbm": -54.88186197671551,
+        "miss_min": 0.9955400000000032,
+        "miss_max": 0.9955400000000032,
+        "max_residual_signal_energy": 0.0
+      },
+      {
+        "carrier_ghz": 28.0,
+        "model": "R0",
+        "max_tested_eirp_dbm": 70.21189299069938,
+        "min_tested_eirp_dbm": -47.41807723687005,
+        "miss_min": 0.9962100000000025,
+        "miss_max": 0.9962100000000025,
+        "max_residual_signal_energy": 0.0
+      },
+      {
+        "carrier_ghz": 28.0,
+        "model": "R1-P",
+        "max_tested_eirp_dbm": 70.21189299069938,
+        "min_tested_eirp_dbm": -47.41807723687005,
+        "miss_min": 0.9962100000000025,
+        "miss_max": 0.9962100000000025,
+        "max_residual_signal_energy": 0.0
+      }
+    ],
+    "hidden_forearm": {
+      "placements": 6,
+      "onsets": 43,
+      "n_onsets_total": 500,
+      "per_carrier": {
+        "3.5": {
+          "n_hidden": 43,
+          "placements": [
+            6,
+            12,
+            42,
+            44,
+            46,
+            49
+          ],
+          "no_target_path": 35,
+          "partial_or_weak_path": 8,
+          "forearm_path_anchor_fraction": [
+            1.0,
+            0.6666666666666666,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.8421052631578947,
+            0.0,
+            0.6470588235294118,
+            0.7,
+            0.7368421052631579,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.1111111111111111,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "baseline_noisefree_required_dbm": [
+            -71.26606521854121,
+            -69.52624914721923,
+            -68.85669017640652,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -55.47915217172482,
+            null,
+            -56.48491634297278,
+            -56.478545132381825,
+            -56.39562731988447,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "within_search_limit": 7,
+          "mean_miss_at_search_limit": {
+            "baseline": 0.8343023255813954,
+            "redesigned": 0.8341860465116279,
+            "per_carrier": 0.8340697674418603
+          },
+          "median_extra_noisefree_vs_visible_db": 3.4948356525310373
+        },
+        "12": {
+          "n_hidden": 43,
+          "placements": [
+            6,
+            12,
+            42,
+            44,
+            46,
+            49
+          ],
+          "no_target_path": 35,
+          "partial_or_weak_path": 8,
+          "forearm_path_anchor_fraction": [
+            1.0,
+            0.6666666666666666,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.8421052631578947,
+            0.0,
+            0.6470588235294118,
+            0.7,
+            0.7368421052631579,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.1111111111111111,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "baseline_noisefree_required_dbm": [
+            -55.25414491354273,
+            -56.420986602212665,
+            -57.5551899070894,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -41.25117797110639,
+            null,
+            -45.155464932472356,
+            -45.11587147000709,
+            -44.2181371842252,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "within_search_limit": 7,
+          "mean_miss_at_search_limit": {
+            "baseline": 0.8332558139534884,
+            "redesigned": 0.8344186046511627,
+            "per_carrier": 0.8345348837209302
+          },
+          "median_extra_noisefree_vs_visible_db": 0.17469807417609218
+        },
+        "15": {
+          "n_hidden": 43,
+          "placements": [
+            6,
+            12,
+            42,
+            44,
+            46,
+            49
+          ],
+          "no_target_path": 35,
+          "partial_or_weak_path": 8,
+          "forearm_path_anchor_fraction": [
+            1.0,
+            0.6666666666666666,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.8421052631578947,
+            0.0,
+            0.6470588235294118,
+            0.7,
+            0.7368421052631579,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.1111111111111111,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "baseline_noisefree_required_dbm": [
+            -51.541784379890046,
+            -54.16399121598681,
+            -55.00433207312871,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -37.77794910944685,
+            null,
+            -42.92751759588276,
+            -42.86950586300571,
+            -41.444607909780245,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "within_search_limit": 7,
+          "mean_miss_at_search_limit": {
+            "baseline": 0.833720930232558,
+            "redesigned": 0.8344186046511628,
+            "per_carrier": 0.8333720930232559
+          },
+          "median_extra_noisefree_vs_visible_db": -0.6904161051544122
+        },
+        "28": {
+          "n_hidden": 43,
+          "placements": [
+            6,
+            12,
+            42,
+            44,
+            46,
+            49
+          ],
+          "no_target_path": 35,
+          "partial_or_weak_path": 8,
+          "forearm_path_anchor_fraction": [
+            1.0,
+            0.6666666666666666,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.8421052631578947,
+            0.0,
+            0.6470588235294118,
+            0.7,
+            0.7368421052631579,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.1111111111111111,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "baseline_noisefree_required_dbm": [
+            -46.140969347509795,
+            -48.11825577782268,
+            -48.623124221765494,
+            null,
+            null,
+            null,
+            null,
+            null,
+            -30.113339497520727,
+            null,
+            -35.5665899432404,
+            -35.435467238380966,
+            -32.036454958095064,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "within_search_limit": 7,
+          "mean_miss_at_search_limit": {
+            "baseline": 0.833720930232558,
+            "redesigned": 0.8346511627906975,
+            "per_carrier": 0.8336046511627905
+          },
+          "median_extra_noisefree_vs_visible_db": -0.9444369283562111
+        }
+      }
+    },
+    "placements": {
+      "n_selected": 50,
+      "k_test_motions": 10,
+      "n_visible_onsets": 457
+    },
+    "antennas": {
+      "f2_tx_gain_db": {
+        "3.5": 19.786369483844744,
+        "12": 30.497605517624756,
+        "15": 32.4355888962248,
+        "28": 34.57457987982031
+      },
+      "f2_receive_gain_shift_db": {
+        "3.5": 0.21363051615525563,
+        "12": -10.497605517624756,
+        "15": -12.4355888962248,
+        "28": -14.574579879820313
+      }
+    },
+    "bootstrap": {
+      "n_resamples": 2000,
+      "ci_percent": 95.0,
+      "unit": "placement",
+      "paired": "one resample index set shared by all cells"
+    },
+    "determinism_numbers_stage": true
+  },
+  "manifest": {
+    "stage": "numbers",
+    "utc": "2026-11-09T06:34:01.521273+00:00",
+    "config_version": "rerun-v2.0",
+    "config_hash": "e2bc84f9b93428a7d293d4b6ce8327b6fed70da911dc2945cb10935529d2c221",
+    "git_sha": "1b8f8b8b7306a6af936ad5b028f57abca1bb6fb4",
+    "git_dirty_src_configs_tools": true,
+    "container_image": "fr3isac/sionna:2.2.0-dev",
+    "container_digest": "sha256:e3d5d3e322a03bd6d23bd4eed017edaf65dba692a6d93d24bf4de8da0348f9e2",
+    "master_seed": 20261108,
+    "scene_hash": "2b815493137dbdcc99afa71dd26ef09259e22509623c71ad0d409a966ef954dc",
+    "target_model": "R1-A torso+right_forearm (geometry.SEGMENT_OFFSETS), onset_arm_trajectory",
+    "rcs_model": {
+      "torso_m2": 0.7,
+      "forearm_m2": 0.3
+    },
+    "solver": {
+      "target_paths": "direct_only",
+      "clutter_max_depth": 1,
+      "validation_onsets_per_carrier": 2,
+      "forearm_rcs_m2": 0.3,
+      "torso_rcs_m2": 0.7
+    },
+    "dry_run": false
+  }
+}

@@ -102,6 +102,32 @@ def analytic_arm_trajectory(
     return samples
 
 
+def onset_arm_trajectory(root_position, times_s, amplitude_m: float, rate_hz: float,
+                         phase_rad: float, onset_s: float) -> list[ArmTrajectorySample]:
+    """Forearm at rest until ``onset_s``, then ``d(t)=A[sin(w(t-t0)+phi)-sin(phi)]`` along x.
+
+    The position is continuous at the onset (d=0, the static pose of ``static_sample``);
+    the random initial phase ``phi`` sets where in the swing cycle the motion starts.
+    """
+    w = 2.0 * np.pi * rate_hz
+    torso_off = SEGMENT_OFFSETS["torso"]
+    fa_off = SEGMENT_OFFSETS["right_forearm"]
+    torso_pos = tuple(root_position[i] + torso_off[i] for i in range(3))
+    out: list[ArmTrajectorySample] = []
+    for t in np.asarray(times_s, dtype=float):
+        tau = t - onset_s
+        if tau > 0.0:
+            dx = amplitude_m * (np.sin(w * tau + phase_rad) - np.sin(phase_rad))
+            dvx = amplitude_m * w * np.cos(w * tau + phase_rad)
+        else:
+            dx, dvx = 0.0, 0.0
+        fa_pos = (root_position[0] + fa_off[0] + dx, root_position[1] + fa_off[1],
+                  root_position[2] + fa_off[2])
+        out.append(ArmTrajectorySample(float(t), torso_pos, (0.0, 0.0, 0.0), fa_pos,
+                                       (float(dvx), 0.0, 0.0)))
+    return out
+
+
 def static_sample(root_position, amplitude_m: float = 0.1, omega_rad_s: float = 2 * np.pi * 0.5):
     return analytic_arm_trajectory(root_position, np.array([0.0]), amplitude_m, omega_rad_s)[0]
 
@@ -110,5 +136,5 @@ __all__ = [
     "SCENE_JSON", "SEGMENT_OFFSETS", "DEFAULT_SEGMENT_WEIGHTS", "TARGET_HEIGHT_M",
     "ROI_X", "ROI_Y", "NSLOW", "CPI_S", "PRF_SLOW_HZ", "DEV_MOTIONS", "TEST_MOTIONS",
     "load_descriptor", "blockers", "bs_position", "segment_aabb_intersect",
-    "ArmTrajectorySample", "analytic_arm_trajectory", "static_sample",
+    "ArmTrajectorySample", "analytic_arm_trajectory", "onset_arm_trajectory", "static_sample",
 ]

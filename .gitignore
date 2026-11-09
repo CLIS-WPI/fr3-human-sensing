@@ -5,6 +5,6 @@ __pycache__/
 *.egg-info/
 build/
 dist/
-results/commag/_tier0_numbers.json
-results/commag/gates_reference.json
-results/commag/manuscript_numbers_reference.json
+results/rerun_v2/full/rt_cache.npz
+results/rerun_v2/full/gates_rt/
+results/rerun_v2/full/*_reference.json

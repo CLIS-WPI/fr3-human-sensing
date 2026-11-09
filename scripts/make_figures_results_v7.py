@@ -49,7 +49,8 @@ def fig3(eirp, out):
     ax.set_xticks(range(4)); ax.set_xticklabels([f"{f:g} GHz" for f in FC])
     ax.set_ylabel("required EIRP (dBm)")
     ax.grid(axis="y", lw=0.4, alpha=0.5)
-    ax.set_ylim(-58, -18)
+    allv = [v for v in eirp.values() if v[0] is not None]
+    ax.set_ylim(min(v[1] for v in allv) - 3, max(v[2] for v in allv) + 8)
     ax.legend(loc="upper left", frameon=False)
     fig.tight_layout()
     fig.savefig(out / "fig3_required_eirp.pdf", bbox_inches="tight")

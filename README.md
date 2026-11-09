@@ -1,88 +1,66 @@
 # FR3 ISAC human-motion sensing
 
-Human-target modelling choices can decide whether upper-mid-band (FR3) sensing is
-affordable. This repository accompanies a ray-traced study (Sionna 2.2) of cross-band
-integrated sensing and communication at **3.5, 12, 15 and 28 GHz** under a fixed
-100 MHz bandwidth, two antenna regimes and two limb-motion detectors. The headline
-finding is that the **human model, the antenna regime and the detector - not the
-carrier - set the FR3 cost**: with a fixed physical aperture and a carrier-adapted
-detector, **12 GHz and 15 GHz need the same transmit power as 3.5 GHz** to detect
-transient arm motion (within 0.3 dB), while a fixed-gain regime or a single-point
-human model makes FR3 look far more expensive.
+Ray-traced study (Sionna 2.2) of monostatic human-motion sensing at **3.5, 12, 15 and
+28 GHz** with a fixed 100 MHz bandwidth. A base station must detect the onset of a
+forearm motion within 200 ms. The study compares target models (stationary point targets
+vs. a torso with a moving forearm), two antenna regimes (fixed gain; idealized
+aperture-based gain) and three template banks (baseline; redesigned once on development
+data for all carriers; re-designed per carrier).
+
+This is a controlled simulation in a synthetic room, not a measurement; the articulated
+target is a reference model, not ground truth.
 
 ## Paper
-Title: *Human-Motion Sensing in FR3: How Target, Antenna, and Detector Choices Shape
-Cross-Band Comparisons.* Submitted to IEEE Communications Magazine.
-Citation to be added.
+*Human-Motion Sensing in FR3: How Target, Antenna, and Detector Choices Shape
+Cross-Band Comparisons.* Submitted to IEEE Communications Magazine. Citation to be added.
 
 ## Definitions
-- **F1, fixed antenna gain:** the same antenna gain at every carrier, so the
-  aperture grows at lower carriers.
-- **F2, fixed aperture:** the same physical aperture at every carrier, so the array
-  gain grows with carrier.
-- **R0 / R1-P / R1-A:** 3GPP-style single-point human / aggregate-RCS-matched point
-  target / aggregate-RCS-matched articulated target (torso plus one moving forearm).
-- **D0 / Dfix / D1:** baseline 36-template bank / shared redesigned 64-template bank
-  (designed once at 12 GHz, applied unchanged at every carrier) / per-carrier
-  redesigned 64-template bank.
-- **Required EIRP:** the transmit power at which the mean visible-onset deadline-miss
-  rate reaches 0.10 (200 noise realisations per onset; 95% bootstrap interval over
-  placements, 2000 resamples). Values are quoted in dBm; the F2 rows use the
-  receive-gain shift.
+- **F1 (fixed gain):** 10.21 dBi transmit, 20 dBi receive at every carrier.
+- **F2 (idealized aperture-based gain):** one 0.25 m^2 half-wavelength array transmits
+  and receives; F2 values follow from F1 by the receive-gain difference (checked by a
+  direct simulation at 12 GHz).
+- **Banks:** baseline = 36-template grid rebuilt per carrier; redesigned = 64 motion
+  parameter sets chosen on development placements/motions to cover all four carriers;
+  per-carrier = the same procedure per carrier.
+- **Required EIRP:** the lowest EIRP at which the mean deadline-miss probability over
+  onsets with the forearm in view is <= 0.10 (200 noise trials per onset, continuous
+  slow time shared by overlapping 100 ms windows with a 50 ms hop, per-window
+  false-alarm probability 1e-3). Intervals: 95% placement bootstrap, 2000 resamples,
+  one resample set shared by all cells (paired).
 
 ## Results
+Test set: 50 placements x 10 random motions. The forearm was hidden by the scene
+in 43 of 500 onsets (6 placements); they are excluded from the
+required EIRP and reported separately in `results/rerun_v2/full/manuscript_numbers.json`.
 
-### Required EIRP (dBm), operational mean-miss <= 0.10 over onsets with the forearm in view
-| carrier | F1 D0 | F1 Dfix | F1 D1 | F2 D0 | F2 Dfix | F2 D1 |
+### Required EIRP (dBm) [95% interval]
+| carrier | F1 baseline | F1 redesigned | F1 per_carrier | F2 baseline | F2 redesigned | F2 per_carrier |
 | --- | --- | --- | --- | --- | --- | --- |
-| 3.5 GHz | -53.3 | -53.1 | -53.0 | -53.1 | -52.9 | -52.8 |
-| 12 GHz | -39.2 | -42.5 | -42.5 | -49.7 | -53.0 | -53.0 |
-| 15 GHz | -35.9 | -40.2 | -40.3 | -48.3 | -52.7 | -52.7 |
-| 28 GHz | -27.5 | -35.2 | -34.5 | -42.1 | -49.8 | -49.1 |
+| 3.5 GHz | -53.8 [-55.6, -52.5] | -54.1 [-56.0, -52.9] | -54.2 [-56.1, -52.9] | -53.6 [-55.4, -52.3] | -53.9 [-55.8, -52.6] | -54.0 [-55.9, -52.7] |
+| 12 GHz | -39.9 [-41.8, -38.4] | -43.0 [-44.9, -41.8] | -43.0 [-44.8, -41.7] | -50.4 [-52.3, -48.9] | -53.5 [-55.3, -52.3] | -53.5 [-55.3, -52.2] |
+| 15 GHz | -36.7 [-38.4, -35.3] | -40.6 [-42.2, -39.4] | -40.6 [-42.1, -39.4] | -49.2 [-50.9, -47.8] | -53.0 [-54.6, -51.9] | -53.0 [-54.6, -51.8] |
+| 28 GHz | -29.2 [-31.2, -27.6] | -35.1 [-36.9, -33.7] | -35.1 [-36.9, -33.8] | -43.7 [-45.8, -42.2] | -49.6 [-51.5, -48.3] | -49.7 [-51.4, -48.3] |
 
-Extra EIRP relative to 3.5 GHz (dB), for the four design choices (paired over placements):
-| carrier | F1 D0 | F1 Dfix | F2 D0 | F2 Dfix |
-| --- | --- | --- | --- | --- |
-| 12 GHz | 14.1 | 10.6 | 3.4 | -0.1 |
-| 15 GHz | 17.4 | 12.9 | 4.7 | 0.3 |
-| 28 GHz | 25.7 | 17.9 | 11.0 | 3.1 |
+### Extra EIRP relative to 3.5 GHz (dB) [95% paired interval]
+| carrier | F1 baseline | F1 redesigned | F2 baseline | F2 redesigned | lambda^2 term |
+| --- | --- | --- | --- | --- | --- |
+| 12 GHz | 13.9 [13.1, 14.5] | 11.1 [10.4, 11.7] | 3.2 [2.4, 3.8] | 0.4 [-0.3, 1.0] | 10.7 |
+| 15 GHz | 17.0 [16.4, 17.9] | 13.6 [13.0, 14.3] | 4.4 [3.7, 5.2] | 0.9 [0.3, 1.7] | 12.6 |
+| 28 GHz | 24.6 [23.7, 25.3] | 19.1 [18.4, 19.6] | 9.8 [8.9, 10.5] | 4.3 [3.6, 4.8] | 18.1 |
 
-8% of onsets have the forearm occluded by the scene (identical at every carrier);
-they are excluded from the visible estimate above and reported separately in
-`results/commag/manuscript_numbers.json`. R0 and R1-P (single-point models) never
-detect the transient limb motion at any tested power.
+Point targets, event-level false alarms, capture loss, the constant-term floor, the
+bank coverage criterion and the hidden-onset status are in `manuscript_numbers.json`.
 
-## Installation
-CPU-only (Tier 0):
+## Installation and reproduction
 ```
 python -m venv .venv && . .venv/bin/activate
-pip install numpy pandas matplotlib pyarrow pydantic pyyaml
-bash scripts/reproduce_figures.sh
-```
-Docker (GPU, for Tiers 1-2; image builds from `docker/`):
-```
+pip install -e ".[dev]"
+bash scripts/reproduce_figures.sh          # Tier 0, CPU
 docker build -t fr3isac docker/
-# Tier 1: re-run the validation gates G1-G11
-docker run --gpus all -v "$PWD":/work -w /work fr3isac bash scripts/run_gates.sh
-# Tier 2: re-run the production and regenerate the numbers
-docker run --gpus all -v "$PWD":/work -w /work fr3isac bash scripts/run_production.sh
-# Tier 0 (figures and numbers only) also runs in Docker:
-docker run -v "$PWD":/work -w /work fr3isac bash scripts/reproduce_figures.sh
+docker run --gpus all -v "$PWD":/work -w /work fr3isac bash scripts/run_gates.sh       # Tier 1
+docker run --gpus all -v "$PWD":/work -w /work fr3isac bash scripts/run_production.sh  # Tier 2
 ```
-
-## Reproduction tiers
-| Tier | Hardware | Command | Time |
-| --- | --- | --- | --- |
-| 0 | CPU | `scripts/reproduce_figures.sh` | < 1 min |
-| 1 | GPU | `scripts/run_gates.sh` | ~2.5 min |
-| 2 | GPU (H100) | `scripts/run_production.sh` | ~12 min |
-
-See `docs/REPRODUCE.md` for hardware, runtimes and tolerances, `docs/METHOD.md`
-for the sensing chain, and `docs/VALIDATION.md` for the validation gates.
-
-## Layout
-`src/fr3isac/` (pipeline), `results/commag/` (numbers and per-onset data),
-`figures/` (Figs. 1-4), `scripts/`, `tests/`.
+See `docs/REPRODUCE.md`, `docs/METHOD.md` and `docs/VALIDATION.md`.
 
 ## License
 To be decided (see `LICENSE-TBD`).

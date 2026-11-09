@@ -1,0 +1,81 @@
+# Rerun v2: the study as the ComMag text describes it (deadline detection with
+# sliding windows, random motions, disjoint development/test data).
+# Every scientific constant used by fr3isac.experiments.rerun_v2 lives here.
+version: rerun-v2.0
+master_seed: 20261108
+
+scene: scenes/tier1_primary/scene.json
+grid_step_m: 0.5            # placement grid; eligibility = BS->torso LoS
+n_test_placements: 50       # deterministic evenly spaced subset (as in the paper run)
+
+carriers_hz: [3500000000.0, 12000000000.0, 15000000000.0, 28000000000.0]
+antenna_regime: F1          # F2 follows by the receive-gain shift (Stage 2)
+
+motion_class:               # forearm displacement d(t)=A[sin(w(t-t0)+phi)-sin(phi)], t>=t0
+  amplitude_m: [0.10, 0.35]
+  rate_hz: [0.5, 1.5]
+  phase_rad: [0.0, 6.283185307179586]
+k_test_motions_per_placement: 10
+k_dev_motions_per_placement: 10
+
+slow_time:
+  prf_hz: 1280.0
+  window_samples: 128       # 100 ms
+  hop_samples: 64           # 50 ms
+  record_start_s: 0.05      # first sample of the simulated record
+  record_samples: 384       # 0.05 .. 0.35 s -> 5 windows; any onset in onset_window has 4 in-deadline windows
+  onset_window_s: [0.10, 0.15]   # onset uniform within one 50 ms hop
+  deadline_s: 0.20
+  anchors_per_window: 8     # RT anchor spacing = 100 ms / 8 = 12.5 ms
+
+detector:
+  pfa_per_window: 1.0e-3
+  n_calibration_windows: 10000000
+  n_validation_windows: 1000000
+  n_noise_trials: 200
+  eirp_grid_step_db: 1.0
+  eirp_grid_span_db: [-20.0, 12.0]   # relative to the baseline-bank noise-free P90 at each carrier
+  eirp_fine_step_db: 0.25            # refined grid around each coarse 0.10 crossing
+  eirp_fine_halfwidth_db: 1.0
+  reference_averaging_frames: [16, 64]   # Pfa with a K-frame averaged reference at the same thresholds
+  fa_stream_hours: 20.0              # continuous no-motion stream per cell (event-level FA)
+
+banks:
+  baseline:                 # current 36-template grid, rebuilt per carrier
+    amplitudes_m: [0.15, 0.22, 0.28]
+    rates_hz: [0.6, 0.8, 1.0]
+    phases_rad: [0.0, 1.5707963267948966, 3.141592653589793, 4.71238898038469]
+  redesigned:
+    n_templates: 64
+    n_candidates: 20000     # random (A, f, phi) parameter sets, drawn from the design seed
+    candidate_amplitude_m: [0.0, 0.35]   # includes small effective (radial) excursions
+    candidate_rate_hz: [0.5, 1.5]
+    # criterion (owner decision 2026-11-09, fixed before the full run): at each carrier the
+    # bank's P90 capture loss on development onsets is within this tolerance of the P90 loss
+    # of the best template in the full candidate pool
+    coverage_tolerance_db: 0.5
+    max_templates_search: 2048           # search for the smallest size meeting the criterion
+    # selection: greedy facility location maximising the summed best-template capture
+    # over development onsets at all four carriers (per-carrier variant: one carrier)
+
+rt:
+  target_paths: direct_only   # RCSSolver: los=True, specular_reflection=False, refraction=False
+  clutter_max_depth: 1        # PathSolver background: LoS + single specular reflections
+  validation_onsets_per_carrier: 2   # fast method vs direct RT at every sample (visible onsets)
+  forearm_rcs_m2: 0.3
+  torso_rcs_m2: 0.7
+
+bootstrap:
+  n_resamples: 2000         # placement bootstrap, one resample index set shared by every cell (paired)
+  ci_percent: 95.0
+
+f2_spot_check_carrier_hz: 12000000000.0   # direct F2 simulation (gain 2*G_F2) vs the receive-gain shift
+g11_onsets_per_carrier: 2                 # determinism: re-simulate and compare bit-for-bit
+
+point_targets:
+  models: [R0, R1-P]
+  max_eirp_above_nominal_db: 30.0   # tested up to eirp0 + 30 dB (70.2 dBm under F1)
+
+dry_run:
+  n_test_placements: 5
+  carriers_hz: [3500000000.0, 28000000000.0]
