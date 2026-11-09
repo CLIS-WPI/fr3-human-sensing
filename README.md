@@ -50,6 +50,9 @@ required EIRP and reported separately in `results/rerun_v2/full/manuscript_numbe
 
 Point targets, event-level false alarms, capture loss, the constant-term floor, the
 bank coverage criterion and the hidden-onset status are in `manuscript_numbers.json`.
+The controls (36-set bank chosen by the redesigned-bank procedure; slow-time energy
+detector at the same per-window Pfa; F1, paired against the baseline bank) are in
+`results/rerun_v2/control/control.json` (`src/fr3isac/experiments/control_36_energy.py`).
 
 ## Installation and reproduction
 ```
