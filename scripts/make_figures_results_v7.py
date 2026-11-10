@@ -87,7 +87,7 @@ def fig4(eirp, saving, out):
             a2.text(x, max(v, 0) + (0.9 if v < 0.5 else 0.4), f"{v:.1f}", ha="center", fontsize=5.6)
     for i, f in enumerate(FC[1:]):
         a2.plot([i - 0.42, i + 0.42], [20 * math.log10(f / 3.5)] * 2, ls=":", lw=1.0, color="#444")
-    a2.plot([], [], ls=":", color="#444", lw=1.0, label=r"$\lambda^2$ term (fixed gain)")
+    a2.plot([], [], ls=":", color="#444", lw=1.0, label="wavelength-squared term (fixed gain)")
     a2.axhline(0, color="k", lw=0.6)
     a2.set_xticks(range(3)); a2.set_xticklabels([f"{f:g} GHz" for f in FC[1:]])
     a2.set_ylabel("extra EIRP vs. 3.5 GHz (dB)"); a2.set_ylim(-1.5, 30)

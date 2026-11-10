@@ -91,7 +91,7 @@ def fig2(cfg, out: Path):
     a2.set_xlim(2, 30)
     a2.set_xlabel("carrier frequency (GHz)")
     a2.set_ylabel("template capture (dB)")
-    a2.set_title("(b) Baseline 36-template bank: capture loss")
+    a2.set_title("(b) Baseline 36-template bank: template capture")
     a2.text(11.6, min(p10_db) + 0.3, "dark: WRC-27 candidates", fontsize=6.0, ha="center")
     a2.legend(loc="upper right", frameon=False)
     fig.tight_layout(w_pad=1.5)
