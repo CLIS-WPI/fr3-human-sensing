@@ -1,0 +1,7 @@
+# Development / CI only (never installed in the run target).
+pytest==8.3.3
+pytest-cov==6.0.0
+ruff==0.7.4
+mypy==1.13.0
+jupyterlab==4.3.0
+ipykernel==6.29.5

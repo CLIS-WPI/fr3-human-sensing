@@ -1,0 +1,27 @@
+{
+  "name": "tier1_primary",
+  "version": "v1",
+  "description": "Controlled synthetic Tier-1 indoor scene (representative indoor simulation scene): enclosed room with walls/floor/ceiling, ITU-material furniture and a glass partition for controlled partial blockage. NOT derived from measurements or a surveyed site; NOT a validated digital twin.",
+  "room": {"size_m": [10.0, 8.0, 3.2], "wall_thickness_m": 0.2},
+  "bs": {"position_m": [0.6, 0.6, 2.8], "orientation_deg": [0.0, 0.0, 0.0]},
+  "ue_roi": {"x_m": [2.0, 9.0], "y_m": [1.0, 7.0], "z_m": [1.1, 1.6]},
+  "human_roi": {"x_m": [2.0, 7.5], "y_m": [1.5, 6.5], "z_m": [1.2, 1.6]},
+  "comm_ue_position_m": [8.5, 5.0, 1.5],
+  "human_target_position_m": [4.5, 4.0, 1.4],
+  "range_search_min_m": 1.0,
+  "range_search_max_m": 12.0,
+  "materials": ["concrete", "plasterboard", "glass", "wood", "metal"],
+  "objects": [
+    {"name": "floor", "center_m": [5.0, 4.0, -0.1], "size_m": [10.0, 8.0, 0.2], "material": "concrete"},
+    {"name": "ceiling", "center_m": [5.0, 4.0, 3.3], "size_m": [10.0, 8.0, 0.2], "material": "plasterboard"},
+    {"name": "wall_x0", "center_m": [-0.1, 4.0, 1.6], "size_m": [0.2, 8.0, 3.2], "material": "concrete"},
+    {"name": "wall_x1", "center_m": [10.1, 4.0, 1.6], "size_m": [0.2, 8.0, 3.2], "material": "concrete"},
+    {"name": "wall_y0", "center_m": [5.0, -0.1, 1.6], "size_m": [10.0, 0.2, 3.2], "material": "concrete"},
+    {"name": "wall_y1", "center_m": [5.0, 8.1, 1.6], "size_m": [10.0, 0.2, 3.2], "material": "concrete"},
+    {"name": "desk", "center_m": [3.0, 2.0, 0.375], "size_m": [2.0, 0.8, 0.75], "material": "wood"},
+    {"name": "cabinet", "center_m": [8.5, 6.5, 1.0], "size_m": [1.0, 0.5, 2.0], "material": "metal"},
+    {"name": "partition", "center_m": [5.0, 4.0, 1.2], "size_m": [0.06, 3.0, 2.4], "material": "glass"},
+    {"name": "chair", "center_m": [4.5, 1.5, 0.45], "size_m": [0.5, 0.5, 0.9], "material": "wood"},
+    {"name": "monitor", "center_m": [2.5, 2.0, 1.1], "size_m": [0.05, 0.5, 0.35], "material": "metal"}
+  ]
+}
